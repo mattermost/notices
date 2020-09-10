@@ -1,0 +1,184 @@
+{
+  "$ref": "#/definitions/ProductNotices",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Action": {
+      "description": "Possible actions to execute on button press",
+      "enum": [
+        "url"
+      ],
+      "type": "string"
+    },
+    "Audience": {
+      "description": "User role, i.e. who will see the notice. Defaults to \"all\"",
+      "enum": [
+        "sysadmin",
+        "teamadmin",
+        "member",
+        "all"
+      ],
+      "type": "string"
+    },
+    "ClientType": {
+      "description": "Client type. Defaults to \"all\"",
+      "enum": [
+        "desktop",
+        "web",
+        "mobile",
+        "mobile-android",
+        "mobile-ios",
+        "all"
+      ],
+      "type": "string"
+    },
+    "Conditions": {
+      "additionalProperties": false,
+      "properties": {
+        "audience": {
+          "$ref": "#/definitions/Audience"
+        },
+        "clientType": {
+          "$ref": "#/definitions/ClientType",
+          "description": "Only show the notice on specific clients. Defaults to 'all'"
+        },
+        "desktopVersion": {
+          "description": "What desktop client versions does this notice apply to. \nFormat: semver ranges (https://devhints.io/semver) \nExample: [\">=1.2.3 < ~2.4.x\"]\nExample: [\"<v5.19\", \"v5.20-v5.22\"]",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "displayDate": {
+          "description": "When to display the notice.\nExamples:\n\"2020-03-01T00:00:00Z\" - show on specified date\n\">= 2020-03-01T00:00:00Z\" - show after specified date\n\"< 2020-03-01T00:00:00Z\" - show before the specified date\n\"> 2020-03-01T00:00:00Z <= 2020-04-01T00:00:00Z\" - show only between the specified dates",
+          "type": "string"
+        },
+        "instanceType": {
+          "$ref": "#/definitions/InstanceType"
+        },
+        "mobileVersion": {
+          "description": "What mobile client versions does this notice apply to. \nFormat: semver ranges (https://devhints.io/semver) \nExample: [\">=1.2.3 < ~2.4.x\"]\nExample: [\"<v5.19\", \"v5.20-v5.22\"]",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "numberOfPosts": {
+          "description": "Only show the notice when server has more than specified number of posts",
+          "type": "number"
+        },
+        "numberOfUsers": {
+          "description": "Only show the notice when server has more than specified number of users",
+          "type": "number"
+        },
+        "serverConfig": {
+          "description": "Map of mattermost server config paths and their values. Notice will be displayed only if the values match the target server config\nExample: serverConfig: { \"PluginSettings.Enable\": true, \"GuestAccountsSettings.Enable\": false }",
+          "type": "object"
+        },
+        "serverVersion": {
+          "description": "What server versions does this notice apply to. \nFormat: semver ranges (https://devhints.io/semver) \nExample: [\">=1.2.3 < ~2.4.x\"]\nExample: [\"<v5.19\", \"v5.20-v5.22\"]",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "sku": {
+          "$ref": "#/definitions/SKU"
+        },
+        "userConfig": {
+          "description": "Map of user's settings and their values. Notice will be displayed only if the values match the viewing users' config\nExample: userConfig: { \"new_sidebar.disabled\": true }",
+          "type": "object"
+        }
+      },
+      "type": "object"
+    },
+    "InstanceType": {
+      "description": "Instance type. Defaults to \"both\"",
+      "enum": [
+        "cloud",
+        "onprem",
+        "both"
+      ],
+      "type": "string"
+    },
+    "Message": {
+      "additionalProperties": false,
+      "properties": {
+        "action": {
+          "$ref": "#/definitions/Action",
+          "description": "Optional action to perform on action button click. (defaults to closing the notice)"
+        },
+        "actionParam": {
+          "description": "Optional action parameter. \nExample: {\"action\": \"url\", actionParam: \"/console/some-page\"}",
+          "type": "string"
+        },
+        "actionText": {
+          "description": "Optional override for the action button text (defaults to OK)",
+          "type": "string"
+        },
+        "description": {
+          "description": "Notice content. Use {{Mattermost}} instead of plain text to support white-labeling. Text supports Markdown.",
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "title": {
+          "description": "Notice title. Use {{Mattermost}} instead of plain text to support white-labeling. Text supports Markdown.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "description"
+      ],
+      "type": "object"
+    },
+    "ProductNotice": {
+      "additionalProperties": false,
+      "properties": {
+        "conditions": {
+          "$ref": "#/definitions/Conditions"
+        },
+        "id": {
+          "description": "Unique identifier for this notice. Can be a running number. Used for storing 'viewed' state on the server.",
+          "type": "string"
+        },
+        "localizedMessages": {
+          "additionalProperties": {
+            "$ref": "#/definitions/Message"
+          },
+          "description": "Notice message data, organized by locale.\nExample: \n\"localizedMessages\": { \n\"en-US\": { \"title\": \"English\", description: \"English description\"},\n\"fr-FR\": { \"title\": \"Frances\", description: \"French description\"}\n}",
+          "type": "object"
+        },
+        "repeatable": {
+          "description": "Configurable flag if the notice should reappear after it’s seen and dismissed",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "conditions",
+        "localizedMessages"
+      ],
+      "type": "object"
+    },
+    "ProductNotices": {
+      "description": "List of product notices. Order is important and is used to resolve priorities.\nEach notice will only be show if conditions are met.",
+      "items": {
+        "$ref": "#/definitions/ProductNotice"
+      },
+      "type": "array"
+    },
+    "SKU": {
+      "description": "SKU. Defaults to \"all\"",
+      "enum": [
+        "team",
+        "e0",
+        "e10",
+        "e20",
+        "all"
+      ],
+      "type": "string"
+    }
+  }
+}
