@@ -1,13 +1,12 @@
 [
   {
-    "id": "1237",
+    "id": "1238",
     "conditions": {
       "audience": "all",
       "displayDate": "> 2020-03-01T00:00:00Z",
       "serverConfig": {
-        "PluginSettings.Test": true
       },
-      "numberOfUsers": 2000
+      "numberOfUsers": 1
     },
     "localizedMessages": {
       "en-US": {
