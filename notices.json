@@ -1,36 +1,3 @@
 [
-  {
-    "id": "1238",
-    "conditions": {
-      "audience": "all",
-      "displayDate": "> 2020-03-01T00:00:00Z",
-      "serverConfig": {
-      },
-      "numberOfUsers": 1
-    },
-    "localizedMessages": {
-      "en-US": {
-        "title": "title",
-        "description": "descr",
-        "actionText": "Download",
-        "actionParam": "http://download.com/path"
-      }
-    }
-  },
-  {
-    "id": "124",
-    "conditions": {
-      "audience": "sysadmin",
-      "sku": "e10"
-    },
-    "localizedMessages": {
-      "en-US": {
-        "title": "for sysadmin",
-        "description": "your eyes only! [test](https://test.com)",
-        "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
-        "actionText": "Download",
-        "actionParam": "http://download.com/path"
-      }
-    }
-  }
+ 
 ]
