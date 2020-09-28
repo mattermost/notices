@@ -1,3 +1,66 @@
-[sdhfdh
- 
+[
+{
+    "id": "1",
+    "conditions": {
+      "audience": "all",
+      "clientType": "desktop",
+      "serverVersion": [">= 5.90.2 <= 5.90.4"]
+    },
+    "localizedMessages": {
+      "en": {
+        "title": ":robot: all, desktop only notice, server version",
+        "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
+        "actionText": "Download",
+        "actionParam": "http://download.com/path"
+      }
+    }
+  },
+  {
+    "id": "2",
+    "conditions": {
+      "audience": "all",
+      "clientType": "all",
+      "displayDate": "<= 2020-09-20T00:00:00Z"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "for all web client today sep 17 :smile:",
+        "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
+        "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
+        "actionText": "Download",
+        "actionParam": "http://download.com/path"
+      }
+    }
+  },
+  {
+    "id": "3",
+    "conditions": {
+      "audience": "teamadmin",
+      "sku": "team"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "TEST sku team :robot: and TEST ",
+        "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
+        "actionText": "Download",
+        "actionParam": "http://download.com/path"
+      }
+    }
+  },
+  {
+    "id": "4",
+    "conditions": {
+      "audience": "teamadmin",
+      "sku": "team"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "all sku-team ",
+        "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
+        "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
+        "actionText": "Download",
+        "actionParam": "http://download.com/path"
+      }
+    }
+  }
 ]
