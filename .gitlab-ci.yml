@@ -1,6 +1,5 @@
 stages:
   - deploy
-
 pre-release:
   image: amazon/aws-cli
   stage: deploy
