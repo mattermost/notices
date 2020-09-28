@@ -49,6 +49,6 @@ e2e:
   variables:
     BUCKET: notices.mattermost.com
     DISTRIBUTION: EHBBKR634JLB1
-   only:
+  only:
     refs:
       - e2etest
