@@ -1,0 +1,54 @@
+stages:
+  - deploy
+
+pre-release:
+  image: amazon/aws-cli
+  stage: deploy
+  script:
+    - pwd
+    - ls -al
+    - mkdir tmp
+    - aws s3 sync s3://$BUCKET/latest/ tmp/
+    - ls -al tmp
+    - ls -al notices
+    - if ! cmp -s "tmp/notices.json" "notices/notices.json"; then aws s3 cp notices/notices.json s3://$BUCKET/pre-release/notices.json && aws s3api put-object-acl --bucket $BUCKET --key pre-release/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/pre-release/notices.json"; fi
+  variables:
+    BUCKET: notices.mattermost.com
+    DISTRIBUTION: EHBBKR634JLB1
+  only:
+    refs:
+      - master
+release:
+  image: amazon/aws-cli
+  stage: deploy
+  script:
+    - pwd
+    - ls -al
+    - mkdir tmp
+    - aws s3 sync s3://$BUCKET/latest/ tmp/
+    - ls -al tmp
+    - ls -al notices
+    - if ! cmp -s "tmp/notices.json" "notices/notices.json"; then aws s3 cp notices/notices.json s3://$BUCKET/latest/notices.json && aws s3api put-object-acl --bucket $BUCKET --key latest/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/latest/notices.json"; fi
+  variables:
+    BUCKET: notices.mattermost.com
+    DISTRIBUTION: EHBBKR634JLB1
+  only:
+    refs:
+      - release
+e2e:
+  image: amazon/aws-cli
+  stage: deploy
+  script:
+    - pwd
+    - ls -al
+    - mkdir tmp
+    - aws s3 sync s3://$BUCKET/latest/ tmp/
+    - ls -al tmp
+    - ls -al notices
+    - if ! cmp -s "tmp/notices.json" "notices/notices.json"; then aws s3 cp notices/notices.json s3://$BUCKET/e2e/notices.json && aws s3api put-object-acl --bucket $BUCKET --key e2e/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/e2e/notices.json"; fi
+  variables:
+    BUCKET: notices.mattermost.com
+    DISTRIBUTION: EHBBKR634JLB1
+   only:
+    refs:
+      - e2etest
