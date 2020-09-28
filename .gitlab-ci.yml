@@ -10,8 +10,7 @@ pre-release:
     - mkdir tmp
     - aws s3 sync s3://$BUCKET/latest/ tmp/
     - ls -al tmp
-    - ls -al notices
-    - if ! cmp -s "tmp/notices.json" "notices/notices.json"; then aws s3 cp notices/notices.json s3://$BUCKET/pre-release/notices.json && aws s3api put-object-acl --bucket $BUCKET --key pre-release/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/pre-release/notices.json"; fi
+    - if ! cmp -s "tmp/notices.json" "notices.json"; then aws s3 cp nnotices.json s3://$BUCKET/pre-release/notices.json && aws s3api put-object-acl --bucket $BUCKET --key pre-release/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/pre-release/notices.json"; fi
   variables:
     BUCKET: notices.mattermost.com
     DISTRIBUTION: EHBBKR634JLB1
@@ -27,8 +26,7 @@ release:
     - mkdir tmp
     - aws s3 sync s3://$BUCKET/latest/ tmp/
     - ls -al tmp
-    - ls -al notices
-    - if ! cmp -s "tmp/notices.json" "notices/notices.json"; then aws s3 cp notices/notices.json s3://$BUCKET/latest/notices.json && aws s3api put-object-acl --bucket $BUCKET --key latest/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/latest/notices.json"; fi
+    - if ! cmp -s "tmp/notices.json" "notices.json"; then aws s3 cp notices.json s3://$BUCKET/latest/notices.json && aws s3api put-object-acl --bucket $BUCKET --key latest/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/latest/notices.json"; fi
   variables:
     BUCKET: notices.mattermost.com
     DISTRIBUTION: EHBBKR634JLB1
@@ -44,8 +42,7 @@ e2e:
     - mkdir tmp
     - aws s3 sync s3://$BUCKET/latest/ tmp/
     - ls -al tmp
-    - ls -al notices
-    - if ! cmp -s "tmp/notices.json" "notices/notices.json"; then aws s3 cp notices/notices.json s3://$BUCKET/e2e/notices.json && aws s3api put-object-acl --bucket $BUCKET --key e2e/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/e2e/notices.json"; fi
+    - if ! cmp -s "tmp/notices.json" "notices.json"; then aws s3 cp notices.json s3://$BUCKET/e2e/notices.json && aws s3api put-object-acl --bucket $BUCKET --key e2e/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/e2e/notices.json"; fi
   variables:
     BUCKET: notices.mattermost.com
     DISTRIBUTION: EHBBKR634JLB1
