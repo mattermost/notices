@@ -3,7 +3,6 @@
     "id": "10",
     "conditions": {
       "audience": "member",
-      "clientType": "web"
     },
     "localizedMessages": {
       "en": {
