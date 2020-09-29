@@ -7,7 +7,7 @@ validate-json:
   script:
     - npm install -g ajv-cli
     - ajv validate -s notices.schema.json -d notices.json
-   only:
+  only:
     - merge_requests
 pre-release:
   image: amazon/aws-cli
