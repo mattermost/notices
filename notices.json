@@ -1,9 +1,9 @@
 [
 {
-    "id": "9",
+    "id": "10",
     "conditions": {
       "audience": "all",
-      "clientType": "desktop"
+      "clientType": "web"
     },
     "localizedMessages": {
       "en": {
@@ -15,14 +15,15 @@
     }
   },
   {
-    "id": "8",
+    "id": "11",
+      "repeatable": "true",
     "conditions": {
       "audience": "all",
       "clientType": "all"
     },
     "localizedMessages": {
       "en": {
-        "title": "for all web client today sep 17 :smile:",
+        "title": "for all sep 29 :smile: should repeat, please do not edit this notice",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
