@@ -17,7 +17,7 @@
   {
     "id": "8",
     "conditions": {
-      "audience": "Member",
+      "audience": "member",
       "clientType": "web"
     },
     "localizedMessages": {
