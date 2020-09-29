@@ -19,7 +19,7 @@
     "id": "5",
     "conditions": {
       "audience": "all",
-      "clientType": "all",
+      "clientType": "all"
     },
     "localizedMessages": {
       "en": {
