@@ -1,10 +1,9 @@
 [
 {
-    "id": "7",
+    "id": "9",
     "conditions": {
       "audience": "all",
-      "clientType": "desktop",
-      "serverVersion": [">= 5.90.2 <= 5.90.4"]
+      "clientType": "desktop"
     },
     "localizedMessages": {
       "en": {
