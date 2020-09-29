@@ -15,7 +15,6 @@
   },
   {
     "id": "11",
-      "repeatable": "true",
     "conditions": {
       "audience": "all",
       "clientType": "all"
