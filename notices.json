@@ -33,13 +33,14 @@
     }
   },
   {
-    "id": "15",
+    "id": "16",
     "conditions": {
-      "audience": "teamadmin"
+      "audience": "all",
+      "desktopVersion": [">= 4.5.2 <= 4.5.4"]
     },
     "localizedMessages": {
       "en": {
-        "title": "TEST sku teamadmin :robot: and TEST",
+        "title": "TEST desktop version :robot: and TEST",
         "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
         "actionText": "Download",
         "actionParam": "http://download.com/path"
