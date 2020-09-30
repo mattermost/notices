@@ -16,14 +16,15 @@
     }
   },
   {
-    "id": "8",
+    "id": "12",
+    "repeatable": false,
     "conditions": {
       "audience": "member",
       "clientType": "web"
     },
     "localizedMessages": {
       "en": {
-        "title": "for members web client today sep 29",
+        "title": "for members web client today sep 30 no repeat",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
@@ -32,10 +33,10 @@
     }
   },
   {
-    "id": "3",
+    "id": "13",
     "conditions": {
       "audience": "teamadmin",
-      "sku": "team"
+      "sku": "e20"
     },
     "localizedMessages": {
       "en": {
@@ -47,14 +48,14 @@
     }
   },
   {
-    "id": "4",
+    "id": "14",
     "conditions": {
-      "audience": "teamadmin",
-      "sku": "team"
+      "audience": "all",
+      "displayDate": "= 2020-10-01T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "all sku-team ",
+        "title": "all specific date notice 10/01",
         "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
