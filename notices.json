@@ -33,14 +33,14 @@
     }
   },
   {
-    "id": "13",
+    "id": "15",
     "conditions": {
       "audience": "teamadmin",
       "sku": "e20"
     },
     "localizedMessages": {
       "en": {
-        "title": "TEST sku team :robot: and TEST ",
+        "title": "TEST sku teamadmin :robot: and TEST",
         "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
         "actionText": "Download",
         "actionParam": "http://download.com/path"
