@@ -1,7 +1,7 @@
 [
 {
     "id": "11",
-    "repeatable": "true",
+    "repeatable": true,
     "conditions": {
       "audience": "sysadmin",
       "clientType": "desktop"
