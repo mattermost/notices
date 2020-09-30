@@ -36,7 +36,6 @@
     "id": "15",
     "conditions": {
       "audience": "teamadmin",
-      "sku": "e20"
     },
     "localizedMessages": {
       "en": {
