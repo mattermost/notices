@@ -6,7 +6,7 @@
     },
     "localizedMessages": {
       "en": {
-        "title": ":robot: all, desktop only notice, server version",
+        "title": "for sysadmin, desktop only notice sep 29",
         "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
         "actionText": "Download",
         "actionParam": "http://download.com/path"
@@ -16,8 +16,8 @@
   {
     "id": "11",
     "conditions": {
-      "audience": "all",
-      "clientType": "all"
+      "audience": "member",
+      "clientType": "web"
     },
     "localizedMessages": {
       "en": {
