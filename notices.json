@@ -1,13 +1,14 @@
 [
 {
-    "id": "10",
+    "id": "11",
+    "repeatable": true,
     "conditions": {
       "audience": "sysadmin",
       "clientType": "desktop"
     },
     "localizedMessages": {
       "en": {
-        "title": "for sysadmin, desktop only notice sep 29",
+        "title": "for sysadmin, desktop only notice sep 30 repeatable",
         "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
         "actionText": "Download",
         "actionParam": "http://download.com/path"
