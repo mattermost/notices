@@ -35,7 +35,7 @@
   {
     "id": "15",
     "conditions": {
-      "audience": "teamadmin",
+      "audience": "teamadmin"
     },
     "localizedMessages": {
       "en": {
