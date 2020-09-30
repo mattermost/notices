@@ -40,7 +40,7 @@
     },
     "localizedMessages": {
       "en": {
-        "title": "TEST sku teamadmin :robot: and TEST ",
+        "title": "TEST sku teamadmin :robot: and TEST",
         "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
         "actionText": "Download",
         "actionParam": "http://download.com/path"
