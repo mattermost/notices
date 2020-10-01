@@ -9,7 +9,7 @@ validate-json:
     - npm install -g ajv-cli
     - ajv validate -s notices.schema.json -d notices.json | tee ajv-out.txt
   only:
-    - external_pull_requests
+    - pull_requests
 pre-release:
   image: amazon/aws-cli
   stage: deploy
