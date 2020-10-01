@@ -33,6 +33,21 @@
     }
   },
   {
+    "id": "21",
+    "conditions": {
+      "audience": "teamadmin"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "for teamadmins",
+        "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
+        "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
+        "actionText": "Download",
+        "actionParam": "http://download.com/path"
+      }
+    }
+  },
+  {
     "id": "18",
     "conditions": {
       "audience": "all",
