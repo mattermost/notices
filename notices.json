@@ -1,10 +1,10 @@
 [
 {
-    "id": "1",
+    "id": "11",
+    "repeatable": true,
     "conditions": {
-      "audience": "all",
-      "clientType": "desktop",
-      "serverVersion": [">= 5.90.2 <= 5.90.4"]
+      "audience": "sysadmin",
+      "clientType": "desktop"
     },
     "localizedMessages": {
       "en": {
@@ -16,14 +16,15 @@
     }
   },
   {
-    "id": "6",
+    "id": "12",
+    "repeatable": false,
     "conditions": {
-      "audience": "all",
-      "clientType": "all"
+      "audience": "member",
+      "clientType": "web"
     },
     "localizedMessages": {
       "en": {
-        "title": "for all web client today sep 17 :smile:",
+        "title": "for members web client today sep 30 no repeat",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
@@ -32,14 +33,14 @@
     }
   },
   {
-    "id": "3",
+    "id": "16",
     "conditions": {
-      "audience": "teamadmin",
-      "sku": "team"
+      "audience": "all",
+      "desktopVersion": [">= 4.5.2 <= 4.5.4"]
     },
     "localizedMessages": {
       "en": {
-        "title": "TEST sku team :robot: and TEST ",
+        "title": "TEST desktop version :robot: and TEST",
         "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
         "actionText": "Download",
         "actionParam": "http://download.com/path"
@@ -47,14 +48,14 @@
     }
   },
   {
-    "id": "4",
+    "id": "14",
     "conditions": {
-      "audience": "teamadmin",
-      "sku": "team"
+      "audience": "all",
+      "displayDate": "= 2020-10-01T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "all sku-team ",
+        "title": "all specific date notice 10/01",
         "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
