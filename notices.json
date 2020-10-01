@@ -33,14 +33,14 @@
     }
   },
   {
-    "id": "18",
+    "id": "21",
     "conditions": {
       "audience": "all",
-      "desktopVersion": ["<= 4.5.4"]
+      "displayDate": "<= 2020-10-02T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "TEST desktop version :robot: and TEST",
+        "title": "TEST date <= 10/02/20 :robot: and TEST",
         "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
         "actionText": "Download",
         "actionParam": "http://download.com/path"
