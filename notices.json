@@ -1,12 +1,14 @@
 [
 {
-    "id": "10",
+    "id": "11",
+    "repeatable": true,
     "conditions": {
-      "audience": "all",
+      "audience": "sysadmin",
+      "clientType": "desktop"
     },
     "localizedMessages": {
       "en": {
-        "title": "for sysadmin, desktop only notice sep 29",
+        "title": "for sysadmin, desktop only notice sep 30 repeatable",
         "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
         "actionText": "Download",
         "actionParam": "http://download.com/path"
@@ -14,7 +16,8 @@
     }
   },
   {
-    "id": "11",
+    "id": "12",
+    "repeatable": false,
     "conditions": {
       "audience": "member",
       "clientType": "web"
@@ -30,14 +33,14 @@
     }
   },
   {
-    "id": "3",
+    "id": "16",
     "conditions": {
-      "audience": "teamadmin",
-      "sku": "team"
+      "audience": "all",
+      "desktopVersion": [">= 4.5.2 <= 4.5.4"]
     },
     "localizedMessages": {
       "en": {
-        "title": "TEST sku team :robot: and TEST ",
+        "title": "TEST desktop version :robot: and TEST",
         "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
         "actionText": "Download",
         "actionParam": "http://download.com/path"
@@ -45,14 +48,14 @@
     }
   },
   {
-    "id": "4",
+    "id": "14",
     "conditions": {
-      "audience": "teamadmin",
-      "sku": "team"
+      "audience": "all",
+      "displayDate": "= 2020-10-01T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "all sku-team ",
+        "title": "all specific date notice 10/01",
         "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
