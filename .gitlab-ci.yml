@@ -1,9 +1,7 @@
 stages:
-  - verify-json
   - deploy
 validate-json:
   image: node:lts-alpine3.11
-  stage: verify-json
   script:
     - env
     - npm install -g ajv-cli
