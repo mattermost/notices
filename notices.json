@@ -48,6 +48,20 @@
     }
   },
   {
+    "id": "21",
+    "conditions": {
+      "audience": "teamadmin"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "TEST teamadmin :robot: and TEST",
+        "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
+        "actionText": "Download",
+        "actionParam": "http://download.com/path"
+      }
+    }
+  },
+  {
     "id": "17",
     "conditions": {
       "audience": "all",
