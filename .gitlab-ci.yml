@@ -1,5 +1,3 @@
-stages:
-  - deploy
 validate-json:
   image: node:lts-alpine3.11
   script:
@@ -10,7 +8,6 @@ validate-json:
     - external_pull_requests
 pre-release:
   image: amazon/aws-cli
-  stage: deploy
   script:
     - pwd
     - ls -al
@@ -26,7 +23,6 @@ pre-release:
       - master
 release:
   image: amazon/aws-cli
-  stage: deploy
   script:
     - pwd
     - ls -al
@@ -42,7 +38,6 @@ release:
       - release
 e2e:
   image: amazon/aws-cli
-  stage: deploy
   script:
     - pwd
     - ls -al
