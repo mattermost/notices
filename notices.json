@@ -9,7 +9,7 @@
     "localizedMessages": {
       "en": {
         "title": ":robot: all, desktop only notice, server version",
-        "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words. Random",
+        "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words. More randomness.",
         "actionText": "Download",
         "actionParam": "http://download.com/path"
       }
