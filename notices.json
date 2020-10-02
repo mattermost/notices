@@ -33,13 +33,13 @@
     }
   },
   {
-    "id": "24",
+    "id": "26",
     "conditions": {
-      "audience": "teamadmin"
+      "audience": "all"
     },
     "localizedMessages": {
       "en": {
-        "title": "for teamadmins",
+        "title": "for all",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
