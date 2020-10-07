@@ -63,14 +63,14 @@
     }
   },
   {
-    "id": "28",
+    "id": "30",
     "conditions": {
       "audience": "all",
-      "displayDate": "= 2020-10-06T00:00:00Z"
+      "displayDate": "= 2020-10-08T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "all specific date notice 10/06",
+        "title": "all specific date notice 10/08",
         "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
