@@ -77,5 +77,37 @@
         "actionParam": "http://download.com/path"
       }
     }
+  },
+     {
+    "id": "31",
+    "conditions": {
+      "audience": "all",
+      "serverVersion": [">= 5.27 <= 5.29"]
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "this one should go through on 5.28",
+        "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
+        "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
+        "actionText": "Download",
+        "actionParam": "http://download.com/path"
+      }
+    }
+  },
+         {
+    "id": "32",
+    "conditions": {
+      "audience": "all",
+      "serverVersion": [">= 5.29 <= 5.31"]
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "this one should not go through",
+        "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
+        "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
+        "actionText": "Download",
+        "actionParam": "http://download.com/path"
+      }
+    }
   }
 ]
