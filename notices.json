@@ -63,7 +63,7 @@
     }
   },
   {
-    "id": "30",
+    "id": "34",
     "conditions": {
       "audience": "all",
       "displayDate": "= 2020-10-08T00:00:00Z"
@@ -79,14 +79,14 @@
     }
   },
      {
-    "id": "33",
+    "id": "35",
     "conditions": {
       "audience": "all",
-      "serverVersion": [">= 5.27 <= 5.29"]
+      "instanceType": "onprem"
     },
     "localizedMessages": {
       "en": {
-        "title": "this one should go through on 5.28",
+        "title": "onprem notice",
         "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
@@ -95,14 +95,14 @@
     }
   },
          {
-    "id": "32",
+    "id": "36",
     "conditions": {
       "audience": "all",
-      "serverVersion": [">= 5.29 <= 5.31"]
+      "instanceType": "cloud"
     },
     "localizedMessages": {
       "en": {
-        "title": "this one should not go through",
+        "title": "cloud notice",
         "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
