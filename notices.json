@@ -10,7 +10,7 @@
       "en": {
         "title": "New desktop version available",
         "description": "Upgrade now for an improved file download experience, Polish spell check, and various bug fixes.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/desktop_upgrade.png",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download/#mattermostApps"
       }
