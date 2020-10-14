@@ -2,17 +2,17 @@
    {
     "id": "1",
     "conditions": {
-      "audience": "all"
+      "audience": "all",
       "clientType": "desktop",
       "desktopVersion": ["<4.5"]
     },
     "localizedMessages": {
       "en": {
-        "title": "Upgrade now to access custom desktop notification sounds, Russian language translation, and an improved user experience using multiple workspaces.",
-        "description": "",
-        "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
+        "title": "New desktop version available",
+        "description": "Upgrade now for an improved file download experience, polish spell check, and various bug fixes.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
         "actionText": "Download",
-        "actionParam": "http://download.com/path"
+        "actionParam": "https://mattermost.com/download/#mattermostApps"
       }
     }
   }
