@@ -1,17 +1,18 @@
 [
 {
-    "id": "20",
+    "id": "37",
     "repeatable": true,
     "conditions": {
-      "audience": "teamadmin",
-      "clientType": "web"
+      "audience": "all",
+      "clientType": "desktop",
+      "desktopVersion": ["<4.6"]
     },
     "localizedMessages": {
       "en": {
-        "title": "for teamadmin, web only notice, oct 01 repeatable",
-        "description": "long _description_ for If you're here, you're likely *looking* :eye: to find random words.",
+        "title": "v4.6 desktop app is available now",
+        "description": "Download and checkout the latest desktop app.",
         "actionText": "Download",
-        "actionParam": "http://download.com/path"
+        "actionParam": "https://github.com/mattermost/desktop/releases/tag/v4.6.0-rc1"
       }
     }
   },
@@ -48,10 +49,11 @@
     }
   },
   {
-    "id": "29",
+    "id": "39",
     "conditions": {
       "audience": "all",
-      "desktopVersion": ["<= 4.3.2"]
+      "clientType": "web",
+      "displayDate": ">= 2020-10-15T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
@@ -63,14 +65,14 @@
     }
   },
   {
-    "id": "34",
+    "id": "38",
     "conditions": {
       "audience": "all",
-      "displayDate": "= 2020-10-08T00:00:00Z"
+      "displayDate": "= 2020-10-14T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "all specific date notice 10/08",
+        "title": "all specific date notice 10/14",
         "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
