@@ -111,5 +111,22 @@
         "actionParam": "http://download.com/path"
       }
     }
+  },
+    {
+    "id": "40",
+    "conditions": {
+      "audience": "all",
+      "clientType": "desktop",
+      "desktopVersion": ["<4.6"]
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "New desktop version available",
+        "description": "Upgrade now for an improved file download experience, Polish spell check, and various bug fixes.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
+        "actionText": "Download",
+        "actionParam": "https://mattermost.com/download/#mattermostApps"
+      }
+    }
   }
 ]
