@@ -113,11 +113,11 @@
     }
   },
     {
-    "id": "40",
+    "id": "41",
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
-      "desktopVersion": ["<4.6"]
+      "desktopVersion": ["<4.5"]
     },
     "localizedMessages": {
       "en": {
