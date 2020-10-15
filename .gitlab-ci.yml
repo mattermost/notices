@@ -14,7 +14,7 @@ pre-release:
     - pwd
     - ls -al
     - mkdir tmp
-    - aws s3 sync s3://$BUCKET/latest/ tmp/
+    - aws s3 sync s3://$BUCKET/pre-release/ tmp/
     - ls -al tmp
     - if ! cmp -s "tmp/notices.json" "notices.json"; then aws s3 cp notices.json s3://$BUCKET/pre-release/notices.json && aws s3api put-object-acl --bucket $BUCKET --key pre-release/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/pre-release/notices.json"; fi
   variables:
@@ -46,7 +46,7 @@ e2e:
     - pwd
     - ls -al
     - mkdir tmp
-    - aws s3 sync s3://$BUCKET/latest/ tmp/
+    - aws s3 sync s3://$BUCKET/e2e/ tmp/
     - ls -al tmp
     - if ! cmp -s "tmp/notices.json" "notices.json"; then aws s3 cp notices.json s3://$BUCKET/e2e/notices.json && aws s3api put-object-acl --bucket $BUCKET --key e2e/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/e2e/notices.json"; fi
   variables:
