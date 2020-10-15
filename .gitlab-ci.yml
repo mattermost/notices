@@ -32,6 +32,7 @@ release:
     - mkdir tmp
     - aws s3 sync s3://$BUCKET/latest/ tmp/
     - ls -al tmp
+    - env
     - if ! cmp -s "tmp/notices.json" "notices.json"; then aws s3 cp notices.json s3://$BUCKET/latest/notices.json && aws s3api put-object-acl --bucket $BUCKET --key latest/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/latest/notices.json"; fi
   variables:
     BUCKET: notices.mattermost.com
