@@ -5,7 +5,6 @@ validate-json:
   image: node:lts-alpine3.11
   stage: verify-json
   script:
-    - env
     - npm install -g ajv-cli
     - ajv validate -s notices.schema.json -d notices.json | tee ajv-out.txt
 pre-release:
@@ -17,6 +16,7 @@ pre-release:
     - mkdir tmp
     - aws s3 sync s3://$BUCKET/latest/ tmp/
     - ls -al tmp
+    - env
     - if ! cmp -s "tmp/notices.json" "notices.json"; then aws s3 cp notices.json s3://$BUCKET/pre-release/notices.json && aws s3api put-object-acl --bucket $BUCKET --key pre-release/notices.json --acl public-read && aws cloudfront create-invalidation --distribution-id $DISTRIBUTION --paths "/pre-release/notices.json"; fi
   variables:
     BUCKET: notices.mattermost.com
