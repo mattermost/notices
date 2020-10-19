@@ -113,7 +113,7 @@
     }
   },
     {
-    "id": "44",
+    "id": "47",
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
@@ -122,7 +122,7 @@
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Upgrade now for an improved file download experience, Polish spell check, and various bug fixes.",
+        "description": "Upgrade now to access custom desktop notification sounds, Russian spell check, and an improved user experience using multiple workspaces.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download/#mattermostApps"
