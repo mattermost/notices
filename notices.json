@@ -17,13 +17,13 @@
     }
   },
   {
-    "id": "50",
+    "id": "51",
     "conditions": {
-        "numberOfUsers": 6
+        "numberOfUsers": 4
     },
     "localizedMessages": {
       "en": {
-        "title": "for members web client today oct 1st no repeat",
+        "title": "for servers with more than 4 users",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
