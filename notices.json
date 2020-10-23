@@ -65,7 +65,7 @@
   {
     "id": "57",
     "conditions": {
-     "serverConfig": {"GuestAccountsSettings.Enable": "true"}"
+    "GuestAccountsSettings.Enable": "true"
     },
     "localizedMessages": {
       "en": {
