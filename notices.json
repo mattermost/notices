@@ -17,11 +17,9 @@
     }
   },
   {
-    "id": "19",
-    "repeatable": false,
+    "id": "50",
     "conditions": {
-      "audience": "member",
-      "clientType": "web"
+        "numberOfUsers": 6
     },
     "localizedMessages": {
       "en": {
