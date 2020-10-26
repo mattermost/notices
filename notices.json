@@ -17,13 +17,13 @@
     }
   },
   {
-    "id": "56",
+    "id": "57",
     "conditions": {
         "numberOfPosts": 15
     },
     "localizedMessages": {
       "en": {
-        "title": "for servers with more than 15 posts",
+        "title": "for servers with more than 15 posts (2)",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
