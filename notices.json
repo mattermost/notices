@@ -127,11 +127,11 @@
     }
   },
     {
-    "id": "67",
+    "id": "70",
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
-      "desktopVersion": ["<4.6"]
+      "desktopVersion": ["<4.7"]
     },
     "localizedMessages": {
       "en": {
