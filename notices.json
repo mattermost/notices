@@ -33,9 +33,9 @@
     }
   },
       {
-    "id": "63",
+    "id": "65",
     "conditions": {
-        "numberOfPosts": 30
+        "serverConfig": {"GuestAccountsSettings.Enable": false}
     },
     "localizedMessages": {
       "en": {
