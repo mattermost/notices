@@ -33,9 +33,9 @@
     }
   },
       {
-    "id": "71",
+    "id": "74",
     "conditions": {
-        "serverConfig": {"ServiceSettings.ExperimentalChannelSidebarOrganization": true}
+        "serverConfig": {"ExperimentalChannelSidebarOrganization": true}
     },
     "localizedMessages": {
       "en": {
@@ -48,9 +48,9 @@
     }
   },
   {
-    "id": "72",
+    "id": "75",
     "conditions": {
-      "userConfig": {"new_sidebar.disabled": true}
+      "userConfig": {"new_sidebar.disabled": false}
     },
     "localizedMessages": {
       "en": {
