@@ -33,7 +33,7 @@
     }
   },
       {
-    "id": "69",
+    "id": "71",
     "conditions": {
         "serverConfig": {"ServiceSettings.ExperimentalChannelSidebarOrganization": true}
     },
