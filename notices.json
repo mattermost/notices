@@ -48,13 +48,13 @@
     }
   },
   {
-    "id": "27",
+    "id": "72",
     "conditions": {
-      "audience": "all"
+      "userConfig": {"new_sidebar.disabled": true}
     },
     "localizedMessages": {
       "en": {
-        "title": "for all",
+        "title": "disabled new sidebar",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
