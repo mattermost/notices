@@ -33,9 +33,9 @@
     }
   },
       {
-    "id": "66",
+    "id": "68",
     "conditions": {
-        "serverConfig": {"GuestAccountsSettings.Enable": true}
+        "serverConfig": {"ServiceSettings.ExperimentalChannelSidebarOrganization": true}
     },
     "localizedMessages": {
       "en": {
@@ -127,7 +127,7 @@
     }
   },
     {
-    "id": "48",
+    "id": "67",
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
@@ -139,7 +139,7 @@
         "description": "Upgrade now to access custom desktop notification sounds, Russian spell check, and an improved user experience using multiple workspaces.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
         "actionText": "Download",
-        "actionParam": "https://mattermost.com/download/#mattermostApps"
+        "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
       }
     }
   }
