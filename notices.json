@@ -50,7 +50,7 @@
   {
     "id": "79",
     "conditions": {
-      "userConfig": {"feature_enabled_markdown_preview"": false}
+      "userConfig": {"feature_enabled_markdown_preview": false}
     },
     "localizedMessages": {
       "en": {
