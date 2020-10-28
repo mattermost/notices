@@ -33,7 +33,7 @@
     }
   },
       {
-    "id": "76",
+    "id": "77",
     "conditions": {
         "serverConfig": {"SericeSettings.ExperimentalChannelSidebarOrganization": true}
     },
@@ -48,9 +48,9 @@
     }
   },
   {
-    "id": "75",
+    "id": "79",
     "conditions": {
-      "userConfig": {"new_sidebar.disabled": false}
+      "userConfig": {"feature_enabled_markdown_preview"": false}
     },
     "localizedMessages": {
       "en": {
