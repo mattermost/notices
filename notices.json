@@ -17,22 +17,6 @@
     }
   },
   {
-    "id": "58",
-    "conditions": {
-        "numberOfPosts": 15,
-        "numberOfUsers": 6
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "for servers with more than 15 posts and more than 6 users",
-        "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
-        "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
-        "actionText": "Download",
-        "actionParam": "http://download.com/path"
-      }
-    }
-  },
-      {
     "id": "76",
     "conditions": {
         "serverConfig": {"SericeSettings.ExperimentalChannelSidebarOrganization": true}
