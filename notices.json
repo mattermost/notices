@@ -33,9 +33,9 @@
     }
   },
       {
-    "id": "74",
+    "id": "76",
     "conditions": {
-        "serverConfig": {"ExperimentalChannelSidebarOrganization": true}
+        "serverConfig": {"SericeSettings.ExperimentalChannelSidebarOrganization": true}
     },
     "localizedMessages": {
       "en": {
@@ -54,7 +54,22 @@
     },
     "localizedMessages": {
       "en": {
-        "title": "disabled new sidebar",
+        "title": "user settings - new sidebar",
+        "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
+        "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
+        "actionText": "Download",
+        "actionParam": "http://download.com/path"
+      }
+    }
+  },
+      {
+    "id": "77",
+    "conditions": {
+      "serverConfig": {"GuestAccountsSettings.Enable": false}
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "user settings - new sidebar",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
