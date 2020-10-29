@@ -33,7 +33,7 @@
     }
   },
       {
-    "id": "76",
+    "id": "79",
     "conditions": {
         "serverConfig": {"SericeSettings.ExperimentalChannelSidebarOrganization": true}
     },
@@ -48,13 +48,13 @@
     }
   },
   {
-    "id": "75",
+    "id": "80",
     "conditions": {
-      "userConfig": {"new_sidebar.disabled": false}
+      "userConfig": {"feature_enabled_markdown_preview": false}
     },
     "localizedMessages": {
       "en": {
-        "title": "user settings - new sidebar",
+        "title": "markdown preview disabled",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
@@ -63,7 +63,7 @@
     }
   },
       {
-    "id": "78",
+    "id": "81",
     "conditions": {
       "serverConfig": {"GuestAccountsSettings.Enable": false}
     },
