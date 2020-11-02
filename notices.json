@@ -33,9 +33,9 @@
     }
   },
       {
-    "id": "79",
+    "id": "82",
     "conditions": {
-        "serverConfig": {"SericeSettings.ExperimentalChannelSidebarOrganization": true}
+        "serverConfig": {"ServiceSettings.ExperimentalChannelSidebarOrganization": true}
     },
     "localizedMessages": {
       "en": {
@@ -48,9 +48,9 @@
     }
   },
   {
-    "id": "80",
+    "id": "83",
     "conditions": {
-      "userConfig": {"feature_enabled_markdown_preview": false}
+      "userConfig": {"channel_sidebar_organization": false}
     },
     "localizedMessages": {
       "en": {
@@ -63,7 +63,7 @@
     }
   },
       {
-    "id": "81",
+    "id": "84",
     "conditions": {
       "serverConfig": {"GuestAccountsSettings.Enable": false}
     },
