@@ -12,12 +12,9 @@ Notices are modals that appear in-product when users meet certain critera as def
 ### Notice Conditions
 Notices can be triggered on the following conditions:
 
-
-server version, can onyl target v5.28+
-
-
+XXXXXX table of conditions
+server version, can only target v5.28+
 Definitions, link to cheat sheet
-
 table of what can be used and what cannot
 
 ## Guidelines
