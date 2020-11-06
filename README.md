@@ -12,10 +12,22 @@ Notices are modals that appear in-product when users meet certain critera as def
 ### Notice Conditions
 Notices can be triggered on the following conditions:
 
-XXXXXX table of conditions
-server version, can only target v5.28+
-Definitions, link to cheat sheet
-table of what can be used and what cannot
+User Role (sysadmins, all): default "all" if not specified
+SKU (team, e0, e10, e20, all): default "all" if not specified
+Client Type (desktop, web, all): default "all" if not specified. Mobile client targeting is not supported yet.
+Desktop Version (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.3rfcbukbair) for syntax): default all if not specified
+Server Version (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.j2dh2p8pljjh) for syntax): default "all" if not specified
+Display Date (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.ytgiix2d4t2o) for syntax): default "all" if not specified
+Instance Type (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.xmdvclunh3tg) for syntax): default "all" if not specified
+Server Configuration: Not available yet
+User Account Configuration: Not available yet
+Mobile Version: Not available yet
+Number of posts: Not available yet
+Number of Users: Not available yet
+
+Resources:
+[Condition cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C)
+[Notices schema](https://github.com/mattermost/notices/blob/master/notices.schema.json)
 
 ## Guidelines
 
@@ -45,7 +57,7 @@ Branch protection:
 
 1. Check how many notices are live in production in `notices.json`: As a general guideline we should aim to have < 5 live notices that could apply to unique user to avoid spamming. Please reach out to the PM owner for any live notices if we are at the threshold and need to consider removing or replacing a notice. 
 2. Consider your audience: Carefully consider who should see this notice. Do we need to spam all users or should we target System Admins only? 
-3. Consider what conditions: Consider narrowing your target audience further by using additional conditions such as SKU, client, client versions, server versions, server configs 
+3. Consider narrowing your reach: Consider narrowing your target audience further by using additional conditions such as SKU, client, client versions, server versions, server configs 
 
 ### Opening a PR 
 Open a PR against the `release` branch to add your notice to the `notices.json`. See this [example PR] XXXXXX will submit a PR for the v5.29 server upgrade
