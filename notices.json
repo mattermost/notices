@@ -27,7 +27,7 @@
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "Mattermost server v5.29 is available now offering many bug fixes for increased stability and Mattermost Incident Management (E20), Channel Moderation Settings (E20), and Mattermost Omnibus as generally available. [Learn more](https://mattermost.com/blog/mattermost-release-v5-29/).",
+        "description": "Mattermost server v5.29 is now available offering many bug fixes for increased stability as well as Mattermost Incident Management (E20), Channel Moderation Settings (E20), and Mattermost Omnibus as generally available. [Learn more](https://mattermost.com/blog/mattermost-release-v5-29/).",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Upgrade Guide",
         "actionParam": "https://docs.mattermost.com/administration/upgrade.html"
