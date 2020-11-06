@@ -74,7 +74,7 @@ Open a PR against the `release` branch to add your notice to the `notices.json`.
 - **"id"**: must be a **unique** alpha-numeric value. The server uses the notice ID to store if a user has seen a particular notice. It is recommended to choose an ID that will be recognizable in telemetry.
 - **"title"**: configure the title of the modal. This appears in larger bold font (supports emoji).
 - **"description"**: configure the description text that appears below the title (supports full markdown and emoji).
-- **"image"** (optional): configure the hero image that appears below the description text. It is recommended to use a 16:9 aspect ratio image ([example](https://github.com/mattermost/notices/blob/master/images/desktop_upgrade.png)). Images should be added to the `images` folder in your PR branch, then in the `notices.json` add the image URL in the format `https://raw.githubusercontent.com/mattermost/notices/release/images/image_name.image_format` ([example](https://github.com/mattermost/notices/pull/49/files#diff-11766faeb8c25f77d7dbf8e61fd0e9fc8cd1a08858d6b1f8867715a570bfd9d9R13))  
+- **"image"** (optional): configure the hero image that appears below the description text. It is recommended to use a 16:9 aspect ratio image ([example](https://github.com/mattermost/notices/blob/master/images/desktop_upgrade.png)). Images should be added to the `images` folder in your PR branch, then in the `notices.json` add the image URL in the format `https://raw.githubusercontent.com/mattermost/notices/release/images/image_name.image_format` ([example](https://github.com/mattermost/notices/pull/49/files#diff-11766faeb8c25f77d7dbf8e61fd0e9fc8cd1a08858d6b1f8867715a570bfd9d9R13)).
 - **"actionText"** (optional): configure the text in the call-to-action button for this notice. If nothing is specified this reverts to "Done". 
 - **"actionParam"** (optional): configure the action that the call-to-action button takes. This can be an external URL or system console page.  
 
@@ -103,5 +103,4 @@ If a user meets the conditions to show a notice the modal appears on first webso
 
 ### Do we have telemetry on individual notices?
 Yes, we track impressions and clicks on the call-to-action button for every notice ([telemetry PR](https://github.com/mattermost/mattermost-webapp/pull/6934)).  
-
 
