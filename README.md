@@ -4,7 +4,7 @@ This repository drives what [notices](https://docs.mattermost.com/administration
 
 Notices are modals that appear in-product when users meet certain critera as defined by the [notice conditions](https://github.com/mattermost/notices/blob/master/notices.schema.json). Notice modals contain a title, description text, image (optional) and call-to-action button (optional).
 
-[See current notices in production](https://github.com/mattermost/notices/blob/release/notices.json)
+[See current notices in production](https://github.com/mattermost/notices/blob/release/notices.json).
 
 ![example notice](https://raw.githubusercontent.com/mattermost/notices/master/images/example_notice.png)
 
