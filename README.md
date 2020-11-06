@@ -12,7 +12,7 @@ Notices are modals that appear in-product when users meet certain critera as def
 ### Notice Conditions
 Notices can be triggered on the following conditions:
 
-**User Role** (sysadmins, all): default "all" if not specified
+**User Role** (sysadmins, all): default "all" if not specified.
 
 **SKU** (team, e0, e10, e20, all): default "all" if not specified.
 
