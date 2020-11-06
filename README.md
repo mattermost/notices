@@ -66,7 +66,7 @@ Branch protection:
 
 1. Check how many notices are live in production in `notices.json`: As a general guideline we should aim to have < 5 live notices that could apply to any unique user to avoid spamming. Please reach out to the PM owner for any live notices if we are at the threshold and need to consider removing or replacing a notice. 
 2. Consider your audience: Carefully consider who should see this notice. Do we need to spam all users or should we target System Admins only? 
-3. Consider narrowing your reach: Consider narrowing your target audience further by using additional conditions such as SKU, client, client versions, server versions, server configs 
+3. Consider narrowing your reach: Consider narrowing your target audience further by using additional conditions such as SKU, client, client versions, server versions, server configs.
 
 ### Opening a PR 
 Open a PR against the `release` branch to add your notice to the `notices.json`. See this [example PR] XXXXXX will submit a PR for the v5.29 server upgrade
@@ -103,4 +103,3 @@ If a user meets the conditions to show a notice the modal appears on first webso
 
 ### Do we have telemetry on individual notices?
 Yes, we track impressions and clicks on the call-to-action button for every notice ([telemetry PR](https://github.com/mattermost/mattermost-webapp/pull/6934)).  
-
