@@ -64,7 +64,7 @@ Branch protection:
 
 ### Before opening a PR
 
-1. Check how many notices are live in production in `notices.json`: As a general guideline we should aim to have < 5 live notices that could apply to unique user to avoid spamming. Please reach out to the PM owner for any live notices if we are at the threshold and need to consider removing or replacing a notice. 
+1. Check how many notices are live in production in `notices.json`: As a general guideline we should aim to have < 5 live notices that could apply to any unique user to avoid spamming. Please reach out to the PM owner for any live notices if we are at the threshold and need to consider removing or replacing a notice. 
 2. Consider your audience: Carefully consider who should see this notice. Do we need to spam all users or should we target System Admins only? 
 3. Consider narrowing your reach: Consider narrowing your target audience further by using additional conditions such as SKU, client, client versions, server versions, server configs 
 
@@ -90,9 +90,11 @@ Servers check for notices https://notices.mattermost.com/ once per day so it wil
 ### Troubleshooting
 
 **Checks aren't passing on my PR**
+
 The PR checks have automated syntax checking to verify the sytax used for conditions. XXXXXX QA how do you check syntax?
 
 **Checks won't complete and stuck in a yellow state**
+
 Please @jason.deland in the [In-Product Notices](https://community.mattermost.com/core/channels/in-product-notices) channel.
 
 
