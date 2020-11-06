@@ -20,7 +20,7 @@ Notices can be triggered on the following conditions:
 
 **Desktop Version** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.3rfcbukbair) for syntax): default all if not specified.
 
-**Server Version** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.j2dh2p8pljjh) for syntax): default "all" if not specified.
+**Server Version** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.j2dh2p8pljjh) for syntax): default "all" if not specified. Only server versions v5.28 and later can be targeted. 
 
 **Display Date** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.ytgiix2d4t2o) for syntax): default "all" if not specified.
 
@@ -38,13 +38,10 @@ Notices can be triggered on the following conditions:
 
 
 Resources:
+
 [Condition cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C)
+
 [Notices schema](https://github.com/mattermost/notices/blob/master/notices.schema.json)
-
-## Guidelines
-
-- Only servers running v5.28+ can be targetted for notices
-- Admins may have disabled them, but shipped on by-default. 
 
 ## Branches
 
