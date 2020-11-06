@@ -14,7 +14,7 @@ Notices can be triggered on the following conditions:
 
 **User Role** (sysadmins, all): default "all" if not specified
 
-**SKU** (team, e0, e10, e20, all): default "all" if not specified
+**SKU** (team, e0, e10, e20, all): default "all" if not specified.
 
 **Client Type** (desktop, web, all): default "all" if not specified. Mobile client targeting is not supported yet.
 
