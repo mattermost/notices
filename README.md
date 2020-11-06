@@ -46,7 +46,7 @@ Resources:
 ## Branches
 
 ### `release`
-This branch is for notices live in production. Any notices or changes merged to `notices.json` on the `release` branch are mirrored to https://notices.mattermost.com/. Servers with notices enabled will check this URL daily for new notices or changes that are then propogated to users when they meet the notice conditions.
+This branch is for notices live in production. Any notices or changes merged to `notices.json` on the `release` branch are mirrored to https://notices.mattermost.com/. Servers with notices enabled will check this URL once per hour for new notices or changes that are then propogated to users when they meet the notice conditions.
 
 Branch protection: 
 - Only PM's can merge to the release branch
@@ -83,7 +83,7 @@ Open a PR against the `release` branch to add your notice to the `notices.json`.
 2. QA will test the notice on the `master` branch and verify the conditions are working as expected then approve the PR. Once reviews are complete the PR can be merged to the `release` branch.
 3. Once merged, verify the changes have been mirrored to https://notices.mattermost.com/ (this may take up to 15 minutes post-merge).
 
-Servers check for notices https://notices.mattermost.com/ once per day so it will take up to 24 hours for any newly merged notices to appear in the wild.
+Servers check for notices https://notices.mattermost.com/ once per hour, so it will take up to 1 hour for any newly merged notices to appear in the wild.
 
 ## FAQ
 
