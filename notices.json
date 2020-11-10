@@ -142,19 +142,20 @@
     }
   },
     {
-    "id": "70",
+    "id": "89",
     "conditions": {
-      "audience": "all",
-      "clientType": "desktop",
-      "desktopVersion": ["<4.7"]
+      "audience": "sysadmin",
+      "clientType": "all",
+      "serverVersion": ["<5.29"],
+      "displayDate": ">= 2020-11-10T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "New desktop version available",
-        "description": "Upgrade now to access custom desktop notification sounds, Russian spell check, and an improved user experience using multiple workspaces.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
-        "actionText": "Download",
-        "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
+        "title": "New server version available",
+        "description": "Mattermost server v5.29 is now available offering many bug fixes for increased stability as well as Mattermost Incident Management (E20), Channel Moderation Settings (E20), and Mattermost Omnibus as generally available. [Learn more](https://mattermost.com/blog/mattermost-release-v5-29/).",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
+        "actionText": "Upgrade Guide",
+        "actionParam": "https://docs.mattermost.com/administration/upgrade.html"
       }
     }
   }
