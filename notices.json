@@ -33,7 +33,7 @@
     }
   },
       {
-    "id": "93",
+    "id": "96",
     "conditions": {
         "serverConfig": {"ServiceSettings.ExperimentalChannelSidebarOrganization": true}
     },
@@ -48,7 +48,7 @@
     }
   },
   {
-    "id": "92",
+    "id": "95",
     "conditions": {
       "userConfig": {"sidebar_settings.channel_sidebar_organization": "false"}
     },
@@ -63,7 +63,7 @@
     }
   },
       {
-    "id": "91",
+    "id": "94",
     "conditions": {
       "serverConfig": {"GuestAccountsSettings.Enable": false}
     },
@@ -142,7 +142,7 @@
     }
   },
     {
-    "id": "90",
+    "id": "97",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
