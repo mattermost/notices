@@ -33,7 +33,7 @@
     }
   },
       {
-    "id": "97",
+    "id": "98",
     "conditions": {
         "serverConfig": {"ServiceSettings.ExperimentalChannelSidebarOrganization": true}
     },
@@ -142,7 +142,7 @@
     }
   },
     {
-    "id": "97",
+    "id": "99",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
@@ -152,10 +152,10 @@
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "Mattermost server v5.29 is now available offering many bug fixes for increased stability as well as Mattermost Incident Management (E20), Channel Moderation Settings (E20), and Mattermost Omnibus as generally available. [Learn more](https://mattermost.com/blog/mattermost-release-v5-29/).",
+        "description": "Mattermost server v5.29 is now available offering many bug fixes for increased stability as well as Mattermost Incident Management (E20), Channel Moderation Settings (E20), and Mattermost Omnibus as generally available. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Upgrade Guide",
-        "actionParam": "https://docs.mattermost.com/administration/upgrade.html"
+        "actionText": "Learn more",
+        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-29/"
       }
     }
   }
