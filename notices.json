@@ -1,5 +1,5 @@
 [
-   {
+  {
     "id": "2",
     "conditions": {
       "audience": "all",
@@ -13,6 +13,24 @@
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
+      }
+    }
+  },
+  {
+    "id": "server_upgrade_v5.29",
+    "conditions": {
+      "audience": "sysadmin",
+      "clientType": "all",
+      "serverVersion": ["<5.29"],
+      "displayDate": ">= 2020-11-19T00:00:00Z"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "New server version available",
+        "description": "Mattermost server v5.29 is now available offering many bug fixes for increased stability as well as the general availability of a pre-installed incident management application (E20), channel moderation settings (E20), and Mattermost Omnibus. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
+        "actionText": "Learn more",
+        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-29/"
       }
     }
   }
