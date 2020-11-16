@@ -63,9 +63,9 @@
     }
   },
       {
-    "id": "94",
+    "id": "101",
     "conditions": {
-      "serverConfig": {"GuestAccountsSettings.Enable": false}
+      "serverConfig": {"GuestAccountsSettings.Enable": true}
     },
     "localizedMessages": {
       "en": {
