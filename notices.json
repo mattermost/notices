@@ -33,9 +33,9 @@
     }
   },
       {
-    "id": "98",
+    "id": "103",
     "conditions": {
-        "serverConfig": {"ServiceSettings.ExperimentalChannelSidebarOrganization": true}
+        "userConfig": {"display_settings.channel_display_mode":"full"}
     },
     "localizedMessages": {
       "en": {
@@ -48,13 +48,13 @@
     }
   },
   {
-    "id": "95",
+    "id": "102",
     "conditions": {
-      "userConfig": {"sidebar_settings.channel_sidebar_organization": "false"}
+      "userConfig": {"sidebar_settings.channel_sidebar_organization": "true"}
     },
     "localizedMessages": {
       "en": {
-        "title": "new sidebar off",
+        "title": "new sidebar on",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
@@ -69,7 +69,7 @@
     },
     "localizedMessages": {
       "en": {
-        "title": "guest accounts disabled",
+        "title": "guest accounts enabled",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
