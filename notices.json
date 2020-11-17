@@ -48,7 +48,7 @@
     }
   },
   {
-    "id": "106",
+    "id": "107",
     "conditions": {
       "userConfig": {"sidebar_settings.channel_sidebar_organization": "true"}
     },
