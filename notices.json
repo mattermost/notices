@@ -17,7 +17,7 @@
     }
   },
   {
-    "id": "58",
+    "id": "104",
     "conditions": {
         "numberOfPosts": 15,
         "numberOfUsers": 6
@@ -33,13 +33,13 @@
     }
   },
       {
-    "id": "82",
+    "id": "105",
     "conditions": {
-        "serverConfig": {"ServiceSettings.ExperimentalChannelSidebarOrganization": true}
+        "userConfig": {"display_settings.channel_display_mode":"full"}
     },
     "localizedMessages": {
       "en": {
-        "title": "sidebar enabled",
+        "title": "channel display mode - full",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
@@ -48,13 +48,13 @@
     }
   },
   {
-    "id": "85",
+    "id": "102",
     "conditions": {
-      "userConfig": {"channel_sidebar_organization": "false"}
+      "userConfig": {"sidebar_settings.channel_sidebar_organization": "true"}
     },
     "localizedMessages": {
       "en": {
-        "title": "markdown preview disabled",
+        "title": "new sidebar on",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
@@ -63,13 +63,13 @@
     }
   },
       {
-    "id": "86",
+    "id": "101",
     "conditions": {
       "serverConfig": {"GuestAccountsSettings.Enable": true}
     },
     "localizedMessages": {
       "en": {
-        "title": "guest accounts disabled",
+        "title": "guest accounts enabled",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
@@ -142,19 +142,20 @@
     }
   },
     {
-    "id": "70",
+    "id": "100",
     "conditions": {
-      "audience": "all",
-      "clientType": "desktop",
-      "desktopVersion": ["<4.7"]
+      "audience": "sysadmin",
+      "clientType": "all",
+      "serverVersion": ["<5.30"],
+      "displayDate": ">= 2020-11-19T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "New desktop version available",
-        "description": "Upgrade now to access custom desktop notification sounds, Russian spell check, and an improved user experience using multiple workspaces.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
-        "actionText": "Download",
-        "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
+        "title": "New server version available",
+        "description": "Mattermost server v5.29 is now available offering many bug fixes for increased stability as well as Mattermost Incident Management (E20), Channel Moderation Settings (E20), and Mattermost Omnibus as generally available. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
+        "actionText": "Learn more",
+        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-29/"
       }
     }
   }

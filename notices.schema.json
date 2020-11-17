@@ -13,8 +13,6 @@
       "description": "User role, i.e. who will see the notice. Defaults to \"all\"",
       "enum": [
         "sysadmin",
-        "teamadmin",
-        "member",
         "all"
       ],
       "type": "string"
