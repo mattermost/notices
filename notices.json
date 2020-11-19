@@ -142,12 +142,11 @@
     }
   },
     {
-    "id": "100",
+    "id": "108",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.30"],
-      "displayDate": ">= 2020-11-19T00:00:00Z"
+      "serverVersion": ["<5.30"]
     },
     "localizedMessages": {
       "en": {
