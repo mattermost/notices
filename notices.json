@@ -110,34 +110,37 @@
     }
   },
      {
-    "id": "45",
+    "id": "108",
     "conditions": {
-      "audience": "all",
+      "audience": "sysadmin",
+      "clientType": "all",
+      "serverVersion": ["<5.30"],
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "New server version available (for all)",
+        "description": "Mattermost server v5.29 is now available offering many bug fixes for increased stability as well as Mattermost Incident Management (E20), Channel Moderation Settings (E20), and Mattermost Omnibus as generally available. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
+        "actionText": "Learn more",
+        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-29/"
+      }
+    }
+  },
+    {
+    "id": "109",
+    "conditions": {
+      "audience": "sysadmin",
+      "clientType": "all",
+      "serverVersion": ["<5.30"],
       "instanceType": "onprem"
     },
     "localizedMessages": {
       "en": {
-        "title": "onprem notice",
-        "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
-        "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
-        "actionText": "Download",
-        "actionParam": "http://download.com/path"
-      }
-    }
-  },
-         {
-    "id": "46",
-    "conditions": {
-      "audience": "all",
-      "instanceType": "cloud"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "cloud notice",
-        "description": "_sample_ your *eyes* only! [test](https://test.com) with an emoji :smile: and some longer formated text, like *bold* and _italicized_ , maybe a #help too and one mention @sysadmin",
-        "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
-        "actionText": "Download",
-        "actionParam": "http://download.com/path"
+        "title": "New server version available (for onprem)",
+        "description": "Mattermost server v5.29 is now available offering many bug fixes for increased stability as well as Mattermost Incident Management (E20), Channel Moderation Settings (E20), and Mattermost Omnibus as generally available. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
+        "actionText": "Learn more",
+        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-29/"
       }
     }
   },
@@ -151,7 +154,7 @@
     },
     "localizedMessages": {
       "en": {
-        "title": "New server version available",
+        "title": "New server version available (for all, with date)",
         "description": "Mattermost server v5.29 is now available offering many bug fixes for increased stability as well as Mattermost Incident Management (E20), Channel Moderation Settings (E20), and Mattermost Omnibus as generally available. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
