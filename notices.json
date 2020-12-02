@@ -17,14 +17,14 @@
     }
   },
   {
-    "id": "104",
+    "id": "111",
     "conditions": {
-        "numberOfPosts": 15,
-        "numberOfUsers": 6
+        "numberOfPosts": 5,
+        "numberOfUsers": 1
     },
     "localizedMessages": {
       "en": {
-        "title": "for servers with more than 15 posts and more than 6 users",
+        "title": "for servers with more than 5 posts and more than 1 user",
         "description": "_sample_ your *eyes* :eye: only! [test](https://test.com)",
         "image": "https://raw.githubusercontent.com/reflog/notices-experiment/master/images/2020-08-11_11-42.png",
         "actionText": "Download",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "id": "102",
+    "id": "107",
     "conditions": {
       "userConfig": {"sidebar_settings.channel_sidebar_organization": "true"}
     },
@@ -63,7 +63,7 @@
     }
   },
       {
-    "id": "101",
+    "id": "112",
     "conditions": {
       "serverConfig": {"GuestAccountsSettings.Enable": true}
     },
@@ -110,7 +110,7 @@
     }
   },
      {
-    "id": "45",
+    "id": "115",
     "conditions": {
       "audience": "all",
       "instanceType": "onprem"
@@ -126,7 +126,7 @@
     }
   },
          {
-    "id": "46",
+    "id": "114",
     "conditions": {
       "audience": "all",
       "instanceType": "cloud"
@@ -142,12 +142,11 @@
     }
   },
     {
-    "id": "100",
+    "id": "109",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.30"],
-      "displayDate": ">= 2020-11-19T00:00:00Z"
+      "serverVersion": ["<5.31"]
     },
     "localizedMessages": {
       "en": {
