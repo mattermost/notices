@@ -17,7 +17,7 @@
     }
   },
   {
-    "id": "119",
+    "id": "120",
     "conditions": {
         "numberOfPosts": 5,
         "numberOfUsers": 1
@@ -63,7 +63,7 @@
     }
   },
       {
-    "id": "118",
+    "id": "121",
     "conditions": {
       "serverConfig": {"GuestAccountsSettings.Enable": true}
     },
@@ -110,7 +110,7 @@
     }
   },
      {
-    "id": "116",
+    "id": "122",
     "conditions": {
       "audience": "all",
       "instanceType": "onprem"
