@@ -28,7 +28,7 @@
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "Mattermost server v5.30 is now available offering Incident Management out-of-the-box, a new MS Teams Meetings plugin, configuration of new administrator roles from the System Console, and improvements to the Matterpoll plugin. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "description": "Mattermost server v5.30 is now available offering a new Microsoft Teams Meetings plugin, new administrator roles configurable in the System Console, and improvements to the Matterpoll plugin. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/mattermost-release-v5-30/"
