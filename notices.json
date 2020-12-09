@@ -1,11 +1,8 @@
 [
 {
-    "id": "37",
-    "repeatable": true,
+    "id": "124",
     "conditions": {
-      "audience": "all",
-      "clientType": "desktop",
-      "desktopVersion": ["<4.6"]
+
     },
     "localizedMessages": {
       "en": {
