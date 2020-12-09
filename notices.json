@@ -1,11 +1,8 @@
 [
 {
-    "id": "37",
-    "repeatable": true,
+    "id": "124",
     "conditions": {
-      "audience": "all",
-      "clientType": "desktop",
-      "desktopVersion": ["<4.6"]
+
     },
     "localizedMessages": {
       "en": {
@@ -17,11 +14,7 @@
     }
   },
   {
-    "id": "120",
-    "conditions": {
-        "numberOfPosts": 5,
-        "numberOfUsers": 1
-    },
+    "id": "123",
     "localizedMessages": {
       "en": {
         "title": "for servers with more than 5 posts and more than 1 user",
