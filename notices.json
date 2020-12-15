@@ -14,7 +14,7 @@
     }
   },
   {
-    "id": "server_upgrade_v5.30_3",
+    "id": "server_upgrade_v5.30_4",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
