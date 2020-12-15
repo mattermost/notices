@@ -18,9 +18,9 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.30"],
+      "serverVersion": ["<5.31"],
       "instanceType": "onprem",
-      "displayDate": ">= 2020-12-15T00:00:00Z"
+      "displayDate": ">= 2020-12-18T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
