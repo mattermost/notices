@@ -1,12 +1,12 @@
 [
 {
-    "id": "125",
+    "id": "130",
     "conditions": {
-
+     "userConfig": {"display_settings.channel_display_mode":"full"}
     },
     "localizedMessages": {
       "en": {
-        "title": "v4.6 desktop app is available now",
+        "title": "v4.6 desktop app is available now display settings",
         "description": "Download and checkout the latest desktop app.",
         "actionText": "Download",
         "actionParam": "https://github.com/mattermost/desktop/releases/tag/v4.6.0-rc1"
@@ -33,17 +33,17 @@
     }
   },
     {
-    "id": "server_upgrade_v5.30_5",
+    "id": "server_upgrade_v5.30_6",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.30"],
+      "serverVersion": ["<5.31"],
       "instanceType": "onprem",
       "displayDate": ">= 2020-12-15T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "New server version available test5",
+        "title": "New server version available test6",
         "description": "Mattermost server v5.30 is now available offering a new Microsoft Teams Meetings plugin, new administrator roles configurable in the System Console, and improvements to the Matterpoll plugin. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
