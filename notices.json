@@ -23,7 +23,7 @@
       "clientType": "all",
       "serverVersion": ["<5.30"],
       "instanceType": "onprem",
-      "displayDate": ">= 2020-12-19T00:00:00Z"
+      "displayDate": ">= 2020-12-21T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
