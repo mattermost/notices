@@ -14,17 +14,17 @@
     }
   },
   {
-    "id": "server_upgrade_v5.30_8",
+    "id": "server_upgrade_v5.30_9",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": ["<5.31"],
-      "instanceType": "onprem",
-      "displayDate": ">= 2020-12-15T00:00:00Z"
+      "instanceType": "all",
+      "displayDate": ">= 2020-12-18T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "New server version available test 8",
+        "title": "New server version available test 9 - ALL",
         "description": "Mattermost server v5.30 is now available offering a new Microsoft Teams Meetings plugin, new administrator roles configurable in the System Console, and improvements to the Matterpoll plugin. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
