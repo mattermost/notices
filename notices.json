@@ -13,37 +13,41 @@
       }
     }
   },
-  {
-    "id": "server_upgrade_v5.30_14",
+    {
+    "id": "server_upgrade_v5.31",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": ["<5.31"],
       "instanceType": "onprem",
-      "displayDate": ">= 2020-12-15T00:00:00Z"
+      "displayDate": ">= 2021-01-17T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "New server version available test 14",
-        "description": "Mattermost server v5.30 is now available offering a new Microsoft Teams Meetings plugin, new administrator roles configurable in the System Console, and improvements to the Matterpoll plugin. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "title": "New server version available",
+        "description": "The new [Extended Support Release](https://docs.mattermost.com/administration/extended-support-release.html) v5.31 is now available offering many bug fixes for increased stability, and improved status updates for Incident Management. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-30/"
+        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-31/"
       }
     }
   },
-   {
-    "id": "135",
+    {
+    "id": "server_upgrade_v5.31_2",
     "conditions": {
-      "instanceType": "cloud"
+      "audience": "sysadmin",
+      "clientType": "all",
+      "serverVersion": ["<5.31"],
+      "instanceType": "onprem",
+      "displayDate": ">= 2021-01-21T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "cloud notice",
-        "description": "Mattermost server v5.30 is now available offering a new Microsoft Teams Meetings plugin, new administrator roles configurable in the System Console, and improvements to the Matterpoll plugin. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "title": "New server version available (show on the 21st)",
+        "description": "The new [Extended Support Release](https://docs.mattermost.com/administration/extended-support-release.html) v5.31 is now available offering many bug fixes for increased stability, and improved status updates for Incident Management. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-30/"
+        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-31/"
       }
     }
   }
