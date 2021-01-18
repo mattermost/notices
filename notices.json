@@ -18,7 +18,7 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.31"],
+      "serverVersion": ["<5.32"],
       "instanceType": "onprem",
       "displayDate": ">= 2021-01-17T00:00:00Z"
     },
@@ -37,7 +37,7 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.31"],
+      "serverVersion": ["<5.32"],
       "instanceType": "onprem",
       "displayDate": ">= 2021-01-21T00:00:00Z"
     },
