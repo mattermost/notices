@@ -14,11 +14,11 @@
     }
   },
     {
-    "id": "server_upgrade_v5.31",
+    "id": "server_upgrade_v5.31_2",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.32"],
+      "serverVersion": ["<5.31"],
       "instanceType": "onprem",
       "displayDate": ">= 2021-01-17T00:00:00Z"
     },
