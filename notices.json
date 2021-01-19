@@ -23,13 +23,13 @@
       "clientType": "all",
       "serverVersion": [">5.31"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-02-19T00:00:00Z"
+      "displayDate": ">= 2021-02-19T00:00:00Z",
       "serverConfig": { "EnableLegacySidebar.Enable": false }"
     },
     "localizedMessages": {
       "en": {
         "title": "Welcome to your new sidebar",
-        "description": "Your sidebar just got better. New updates include custom categories, drag-and-drop organization, unread channel filtering and more.",
+        "description": "Your sidebar just got better. New updates include custom collapsible categories, drag-and-drop organization, unread channel filtering and more.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/sidebar_ga.gif",
         "actionText": "Learn more",
         "actionParam": "XXXXXX"
