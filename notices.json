@@ -14,17 +14,15 @@
     }
   },
     {
-    "id": "server_upgrade_v5.31_3",
+    "id": "140",
     "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "serverVersion": ["<5.31"],
-      "instanceType": "onprem",
-      "displayDate": ">= 2021-01-17T00:00:00Z"
+      "serverVersion": [">5.30"],
+      "instanceType": "both",
+      "displayDate": ">= 2021-01-21T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "New server version available",
+        "title": "Testing if server version is ignored",
         "description": "The new [Extended Support Release](https://docs.mattermost.com/administration/extended-support-release.html) v5.31 is now available offering many bug fixes for increased stability, and improved status updates for Incident Management. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
