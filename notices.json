@@ -32,7 +32,7 @@
         "description": "Your sidebar just got better. New updates include custom collapsible categories, drag-and-drop organization, unread channel filtering and more.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/sidebar_ga.gif",
         "actionText": "Learn more",
-        "actionParam": "XXXXXX"
+        "actionParam": "https://mattermost.com/blog/custom-collapsible-channel-categories/"
       }
     }
   },
