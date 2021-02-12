@@ -1,8 +1,8 @@
 [
 {
-    "id": "channel_sidebar_GA_1",
+    "id": "channel_sidebar_GA_2",
     "conditions": {
-      "serverConfig": { "EnableLegacySidebar.Enable": false }
+      "serverConfig": { "ServiceSettings.EnableLegacySidebar": false }
     },
     "localizedMessages": {
       "en": {
