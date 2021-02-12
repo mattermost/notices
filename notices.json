@@ -1,7 +1,11 @@
 [
 {
-    "id": "channel_sidebar_GA_2",
+    "id": "channel_sidebar_GA_3",
     "conditions": {
+      "audience": "all",
+      "clientType": "all",
+      "serverVersion": [">5.31"],
+      "instanceType": "onprem",
       "serverConfig": { "ServiceSettings.EnableLegacySidebar": false }
     },
     "localizedMessages": {
@@ -14,13 +18,6 @@
       }
     }
   },
-    {
-    "id": "142",
-    "conditions": {
-      "serverVersion": [">5.30"],
-      "instanceType": "both",
-      "displayDate": ">= 2021-01-21T00:00:00Z"
-    },
     "localizedMessages": {
       "en": {
         "title": "Testing if server version is ignored",
