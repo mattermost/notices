@@ -1,15 +1,20 @@
 [
 {
-    "id": "130",
+    "id": "channel_sidebar_GA",
     "conditions": {
-     "userConfig": {"display_settings.channel_display_mode":"full"}
+      "audience": "all",
+      "clientType": "all",
+      "serverVersion": [">5.31"],
+      "instanceType": "onprem",
+      "serverConfig": { "EnableLegacySidebar.Enable": false }
     },
     "localizedMessages": {
       "en": {
-        "title": "channel display mode",
-        "description": "Download and checkout the latest desktop app.",
-        "actionText": "Download",
-        "actionParam": "https://github.com/mattermost/desktop/releases/tag/v4.6.0-rc1"
+        "title": "Welcome to your new sidebar",
+        "description": "Your sidebar just got better. New updates include custom collapsible categories, drag-and-drop organization, unread channel filtering and more.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/sidebar_ga.gif",
+        "actionText": "Learn more",
+        "actionParam": "https://mattermost.com/blog/custom-collapsible-channel-categories/"
       }
     }
   },
