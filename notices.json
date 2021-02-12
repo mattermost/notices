@@ -1,11 +1,7 @@
 [
 {
-    "id": "channel_sidebar_GA",
+    "id": "channel_sidebar_GA_1",
     "conditions": {
-      "audience": "all",
-      "clientType": "all",
-      "serverVersion": [">5.31"],
-      "instanceType": "onprem",
       "serverConfig": { "EnableLegacySidebar.Enable": false }
     },
     "localizedMessages": {
