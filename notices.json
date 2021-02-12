@@ -6,7 +6,8 @@
       "clientType": "all",
       "serverVersion": [">5.31"],
       "instanceType": "onprem",
-      "serverConfig": { "ServiceSettings.EnableLegacySidebar": true }
+      "displayDate": ">= 2021-02-16T00:00:00Z",
+      "serverConfig": { "ServiceSettings.EnableLegacySidebar": false }
     },
     "localizedMessages": {
       "en": {
