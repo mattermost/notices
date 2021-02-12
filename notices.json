@@ -17,6 +17,26 @@
     }
   },
   {
+    "id": "channel_sidebar_GA",
+    "conditions": {
+      "audience": "all",
+      "clientType": "all",
+      "serverVersion": [">5.31"],
+      "instanceType": "onprem",
+      "displayDate": ">= 2021-02-16T00:00:00Z",
+      "serverConfig": { "ServiceSettings.EnableLegacySidebar": false }
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Welcome to your new sidebar",
+        "description": "Your sidebar just got better. New updates include custom collapsible categories, drag-and-drop organization, unread channel filtering and more.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/sidebar_ga.gif",
+        "actionText": "Learn more",
+        "actionParam": "https://mattermost.com/blog/custom-collapsible-channel-categories/"
+      }
+    }
+  },
+  {
     "id": "server_upgrade_v5.31",
     "conditions": {
       "audience": "sysadmin",
