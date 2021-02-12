@@ -1,10 +1,10 @@
 [
 {
-    "id": "channel_sidebar_GA_3",
+    "id": "channel_sidebar_GA_4",
        "conditions": {
       "audience": "all",
       "clientType": "all",
-      "serverVersion": [">5.31"],
+      "serverVersion": [">5.32"],
       "instanceType": "onprem",
       "serverConfig": { "ServiceSettings.EnableLegacySidebar": false }
     },
