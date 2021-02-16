@@ -85,6 +85,9 @@
         "userConfig": {
           "description": "Map of user's settings and their values. Notice will be displayed only if the values match the viewing users' config\nExample: userConfig: { \"new_sidebar.disabled\": true }",
           "type": "object"
+        },
+        "deprecating_dependency": {
+          "$ref": "#/definitions/Dependency"
         }
       },
       "type": "object"
@@ -177,6 +180,21 @@
         "all"
       ],
       "type": "string"
+    },
+    "Dependency": {
+      "description": "External dependency which is going to be deprecated.",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "description": "Name of the external dependency (e.g. mysql).",
+          "type": "string"
+        },
+        "minimum_version": {
+          "description": "Minimum version required for the external dependency. \nFormat: semver (https://devhints.io/semver)",
+          "type": "string"
+        }
+      },
+      "type": "object"
     }
   }
 }
