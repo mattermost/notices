@@ -1,6 +1,6 @@
-### [![Mattermost](https://user-images.githubusercontent.com/33878967/33095422-7c8aa7a4-ceb8-11e7-810a-4b261fdff6d6.png)](https://mattermost.org)
+# [![Mattermost](https://user-images.githubusercontent.com/33878967/33095422-7c8aa7a4-ceb8-11e7-810a-4b261fdff6d6.png)](https://mattermost.org)
 
-This repository drives what [notices](https://docs.mattermost.com/administration/notices.html) appear in-product for Admins and end users. 
+This repository drives what [notices](https://docs.mattermost.com/administration/notices.html) appear in-product for Admins and end users.
 
 Notices are modals that appear in-product when users meet certain critera as defined by the [notice conditions](https://github.com/mattermost/notices/blob/master/notices.schema.json). Notice modals contain a title, description text, image (optional) and call-to-action button (optional).
 
@@ -8,9 +8,11 @@ Notices are modals that appear in-product when users meet certain critera as def
 
 ![example notice](https://raw.githubusercontent.com/mattermost/notices/master/images/example_notice.png)
 
+## Notice Conditions
 
-### Notice Conditions
 Notices can be triggered on the following conditions:
+
+**External Dependency**: If an external dependency going to be deprecated for a certain version.
 
 **User Role** (sysadmins, all): default "all" if not specified.
 
@@ -20,7 +22,7 @@ Notices can be triggered on the following conditions:
 
 **Desktop Version** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.3rfcbukbair) for syntax): default all if not specified.
 
-**Server Version** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.j2dh2p8pljjh) for syntax): default "all" if not specified. Only server versions v5.28 and later can be targeted. 
+**Server Version** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.j2dh2p8pljjh) for syntax): default "all" if not specified. Only server versions v5.28 and later can be targeted.
 
 **Display Date** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.ytgiix2d4t2o) for syntax): default "all" if not specified.
 
@@ -36,7 +38,6 @@ Notices can be triggered on the following conditions:
 
 **Number of Users**: Not available yet.
 
-
 Resources:
 
 [Condition cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C)
@@ -46,19 +47,22 @@ Resources:
 ## Branches
 
 ### `release`
+
 This branch is for notices live in production. Any notices or changes merged to `notices.json` on the `release` branch are mirrored to https://notices.mattermost.com/. Servers with notices enabled will check this URL once per hour for new notices or changes that are then propogated to users when they meet the notice conditions.
 
-Branch protection: 
+Branch protection:
+
 - Only PM's can merge to the release branch
 - PR's require approval from QA before merge  
 
 ### `master`
+
 This branch is used by QA to test notices. Any notices or changes merged to `notices.json` on the `master` branch are mirrored to https://notices.mattermost.com/pre-release/notices.json. QA can configure test servers to point to this URL and check for new notices or changes that are propogated to users when they meet the notice conditions. QA can also configure the frequency that servers check this URL for updates to speed up testing purposes. 
 
-Branch protection: 
+Branch protection:
+
 - PM's and QA can merge or commit directly to the master branch
 - PR's do not require approval to merge
-
 
 ## Creating a notice
 
@@ -68,7 +72,8 @@ Branch protection:
 2. Consider your audience: Carefully consider who should see this notice. Do we need to spam all users or should we target System Admins only? 
 3. Consider narrowing your reach: Consider narrowing your target audience further by using additional conditions such as SKU, client, client versions, server versions, server configs.
 
-### Opening a PR 
+### Opening a PR
+
 Open a PR against the `release` branch to add your notice to the `notices.json`. See this [example PR] XXXXXX will submit a PR for the v5.29 server upgrade
 
 - **"id"**: must be a **unique** alpha-numeric value. The server uses the notice ID to store if a user has seen a particular notice. It is recommended to choose an ID that will be recognizable in telemetry.
@@ -79,6 +84,7 @@ Open a PR against the `release` branch to add your notice to the `notices.json`.
 - **"actionParam"** (optional): configure the action that the call-to-action button takes. This can be an external URL or system console page.  
 
 ### After opening a PR
+
 1. Please add the "PM Review" and "QA Review" labels. Recommended reviewers are @esethna (PM) and @ogi.m or @jgilliam17 (QA). 
 2. QA will test the notice on the `master` branch and verify the conditions are working as expected then approve the PR. Once reviews are complete the PR can be merged to the `release` branch.
 3. Once merged, verify the changes have been mirrored to https://notices.mattermost.com/ (this may take up to 15 minutes post-merge).
@@ -89,17 +95,18 @@ Servers check for notices https://notices.mattermost.com/ once per hour, so it w
 
 ### Troubleshooting
 
-**Checks aren't passing on my PR**
+#### Checks aren't passing on my PR
 
 The PR checks have automated syntax checking to verify the sytax used for conditions. XXXXXX QA how do you check syntax?
 
-**Checks won't complete and stuck in a yellow state**
+#### Checks won't complete and stuck in a yellow state
 
 Please @jason.deland in the [In-Product Notices](https://community.mattermost.com/core/channels/in-product-notices) channel.
 
+#### When do notices pop-up for users?
 
-### When do notices pop-up for users?
 If a user meets the conditions to show a notice the modal appears on first websocket connection of the day (similar to the Github plugin daily digest).
 
-### Do we have telemetry on individual notices?
+#### Do we have telemetry on individual notices?
+
 Yes, we track impressions and clicks on the call-to-action button for every notice ([telemetry PR](https://github.com/mattermost/mattermost-webapp/pull/6934)).  
