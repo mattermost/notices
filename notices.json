@@ -66,7 +66,7 @@
     "localizedMessages": {
       "en": {
         "title": "Introducing custom statuses",
-        "description": "Setting a custom status adds a descriptive status message and emoji that’s visible to everyone throughout the app, allowing you to express your status in any way you prefer.",
+        "description": "Setting a custom status lets you express your status in any way you prefer by adding a descriptive status message and emoji that’s visible to everyone throughout the app.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/custom-status.gif",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/custom-statuses/"
