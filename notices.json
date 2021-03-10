@@ -56,7 +56,7 @@
     }
   },
    {
-    "id": "custom_statuses",
+    "id": "custom_statuses_1",
     "conditions": {
       "audience": "all",
       "clientType": "all",
