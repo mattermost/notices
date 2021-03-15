@@ -48,7 +48,7 @@
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "The new feature release offers OpenID Connect for OAuth 2.0 authentication, incident collaboration timeline, and custom Mattermost status. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "description": "The new feature release offers OpenID Connect for OAuth 2.0 authentication, incident collaboration timeline, and custom Mattermost user statuses. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/mattermost-release-v5-33/"
