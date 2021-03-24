@@ -72,5 +72,23 @@
         "actionParam": "https://mattermost.com/blog/custom-statuses/"
       }
     }
+  },
+  {
+    "id": "file_search",
+    "conditions": {
+      "audience": "all",
+      "clientType": "all",
+      "serverVersion": [">5.35"],
+      "displayDate": ">= 2021-04-21T00:00:00Z"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Introducing file search",
+        "description": "Search in Mattermost now finds both relevant messages and files in your team's conversation history.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/file-search.gif",
+        "actionText": "Learn more",
+        "actionParam": "https://mattermost.com/blog/file-search/"
+      }
+    }
   }
 ]
