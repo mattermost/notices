@@ -84,7 +84,7 @@
     "localizedMessages": {
       "en": {
         "title": "Introducing file search",
-        "description": "Search in Mattermost now finds both relevant messages and files in your team's conversation history.",
+        "description": "Searching in Mattermost now finds both relevant messages and files in your team's conversation history.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/file-search.gif",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/file-search/"
