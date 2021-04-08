@@ -37,21 +37,21 @@
     }
   },
   {
-    "id": "server_upgrade_v5.32",
+    "id": "server_upgrade_v5.33",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.32"],
+      "serverVersion": ["<5.33"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-02-21T00:00:00Z"
+      "displayDate": ">= 2021-03-21T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "The new feature release offers a streamlined license renewal experience, updated incident status and task list, and custom, collapsible channel categories. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "description": "The new feature release offers OpenID Connect for OAuth 2.0 authentication, incident collaboration timeline, and custom user statuses. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-32/"
+        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-33/"
       }
     }
   },
