@@ -1,6 +1,6 @@
 [
   {
-    "id": "2",
+    "id": "desktop_upgrade_v4.6",
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
