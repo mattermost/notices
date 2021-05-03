@@ -1,6 +1,6 @@
 [
 {
-    "id": "channel_sidebar_GA_8",
+    "id": "channel_sidebar_GA_9",
        "conditions": {
       "audience": "all",
       "clientType": "all",
@@ -69,6 +69,22 @@
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/custom-status.gif",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/custom-statuses/"
+      }
+    }
+  },
+      {
+    "id": "desktop_upgrade_v4.6_1",
+    "conditions": {
+      "audience": "all",
+      "desktopVersion": ["<4.8"]
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "New desktop version available",
+        "description": "Upgrade now to access custom desktop notification sounds, Russian spell check, and an improved user experience using multiple workspaces.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
+        "actionText": "Download",
+        "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
       }
     }
   }
