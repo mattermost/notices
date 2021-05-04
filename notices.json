@@ -72,5 +72,24 @@
         "actionParam": "https://mattermost.com/blog/custom-statuses/"
       }
     }
+  },
+  {
+    "id": "upgrade note",
+    "conditions": {
+      "audience": "sysadmin",
+      "clientType": "all",
+      "instanceType": "onprem",
+      "serverVersion": [">5.30"],
+      "displayDate": ">= 2021-05-10T00:00:00Z"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Important Upgrade Note for Upcoming v5.35.0 Release",
+        "description": "Due to the introduction of backend database architecture required for upcoming new features, Shared Channels and Collapsed Reply Threads, the performance of the migration process for the v5.35 release (May 16, 2021) has been noticeably affected.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
+        "actionText": "Learn more",
+        "actionParam": "https://docs.mattermost.com/administration/important-upgrade-notes.html/"
+      }
+    }
   }
 ]
