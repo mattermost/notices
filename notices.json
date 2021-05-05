@@ -1,6 +1,6 @@
 [
 {
-    "id": "channel_sidebar_GA_9",
+    "id": "channel_sidebar_GA_11",
        "conditions": {
       "audience": "all",
       "clientType": "all",
@@ -19,7 +19,7 @@
     }
   },
     {
-    "id": "142",
+    "id": "143",
     "conditions": {
       "serverVersion": [">5.30"],
       "instanceType": "both",
