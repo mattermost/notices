@@ -1,0 +1,17 @@
+name: CI
+
+on: [ pull_request ]
+
+jobs:
+  analyze:
+    name: validate-json
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: npm install -g ajv-cli
+    - run: ajv validate -s notices.schema.json -d notices.json | tee ajv-out.txt
