@@ -1,12 +1,19 @@
 stages:
   - verify-json
   - deploy
+
 validate-json:
   image: node:lts-alpine3.11
   stage: verify-json
   script:
     - npm install -g ajv-cli
     - ajv validate -s notices.schema.json -d notices.json | tee ajv-out.txt
+  only:
+    refs:
+      - master
+      - release
+      - e2etest
+
 pre-release:
   image: amazon/aws-cli
   stage: deploy
@@ -24,6 +31,7 @@ pre-release:
   only:
     refs:
       - master
+
 release:
   image: amazon/aws-cli
   stage: deploy
@@ -40,6 +48,7 @@ release:
   only:
     refs:
       - release
+
 e2e:
   image: amazon/aws-cli
   stage: deploy
