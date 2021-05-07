@@ -101,7 +101,7 @@ The PR checks have automated syntax checking to verify the sytax used for condit
 
 #### Checks won't complete and stuck in a yellow state
 
-Please @jason.deland in the [In-Product Notices](https://community.mattermost.com/core/channels/in-product-notices) channel.
+Please check with the Release team in the Developers: DevOps channel.
 
 #### When do notices pop-up for users?
 
