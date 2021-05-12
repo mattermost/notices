@@ -37,21 +37,21 @@
     }
   },
   {
-    "id": "server_upgrade_v5.34",
+    "id": "server_upgrade_v5.35",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.34"],
+      "serverVersion": ["<5.35"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-04-21T00:00:00Z"
+      "displayDate": ">= 2021-05-21T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "The new feature release offers enhanced automation for incident collaboration, new plugins, and more. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "description": "The new feature release offers shared channels, add/remove ad hoc tasks for incident collaboration playbooks, file search, and more. [Please also see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-34/"
+        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-35/"
       }
     }
   },
