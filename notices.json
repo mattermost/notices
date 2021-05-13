@@ -48,7 +48,7 @@
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "The new feature release offers shared channels, add/remove ad hoc tasks for incident collaboration playbooks, file search, and more. [Please also see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
+        "description": "The new feature release offers shared channels, stakeholder overview and ad hoc tasks for incident collaboration, file search, and more. [Please also see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/mattermost-release-v5-35/"
