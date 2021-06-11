@@ -19,7 +19,7 @@
     }
   },
     {
-    "id": "143",
+    "id": "150",
     "conditions": {
       "serverVersion": [">5.30"],
       "instanceType": "both",
@@ -55,7 +55,7 @@
     }
   },
    {
-    "id": "custom_statuses_1",
+    "id": "custom_statuses_2",
     "conditions": {
       "audience": "all",
       "clientType": "all",
