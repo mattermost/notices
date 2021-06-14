@@ -11,7 +11,7 @@
           "en": {
             "title": "Enable Focalboard",
             "description": "Focalboard integrates project management tools like kanban boards, cards, and tables with Mattermost to help you easily plan projects, manage tasks, and run effective meetings. Enable Focalboard today following the steps in the link below.",
-            "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/sidebar_ga.gif",
+            "image": "https://user-images.githubusercontent.com/46905241/121941290-ee355280-cd03-11eb-9b9f-f6f524e4103e.gif",
             "actionText": "Learn more",
             "actionParam": "https://www.focalboard.com/download/mattermost"
           }
