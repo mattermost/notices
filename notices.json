@@ -4,8 +4,8 @@
            "conditions": {
           "audience": "sysadmin",
           "clientType": "all",
-          "serverVersion": [">5.35"],
-          "displayDate": ">= 2021-06-13T00:00:00Z"
+          "serverVersion": [">5.36"],
+          "displayDate": ">= 2021-07-13T00:00:00Z"
         },
         "localizedMessages": {
           "en": {
