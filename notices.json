@@ -48,7 +48,7 @@
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "The new feature release offers updates to Incident Collaboration with enhanced permission controls and automated welcome messages, and the addition of Hungarian language support. Focalboard project management is now integrated with Mattermost for the first time as a beta feature. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "description": "The new feature release offers updates to Incident Collaboration with enhanced permission controls and automated welcome messages, and the addition of Hungarian language support. Focalboard project management is now integrated with Mattermost for the first time as a beta feature. [Please see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/mattermost-release-v5-36/"
