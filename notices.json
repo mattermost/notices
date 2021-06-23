@@ -4,12 +4,12 @@
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
-      "desktopVersion": ["<4.6"]
+      "desktopVersion": ["<4.7"]
     },
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Upgrade now to access custom desktop notification sounds, Russian spell check, and an improved user experience using multiple workspaces.",
+        "description": "Upgrade now to access performance improvements and snappier interactions (i.e., less lag), lower CPU usage, and faster launch times.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
