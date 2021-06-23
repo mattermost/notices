@@ -9,7 +9,7 @@
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Upgrade now to access Electron BrowserView, an underlying architecture change that improves performance and offers snappier interactions (i.e., less lag), lower CPU usage, and faster launch times.",
+        "description": "Upgrade now to access performance improvements and snappier interactions (i.e., less lag), lower CPU usage, and faster launch times.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
