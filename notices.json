@@ -74,7 +74,7 @@
     }
   },
   {
-    "id": "collapsed-reply-threads-beta",
+    "id": "collapsed-reply-threads-beta-user",
     "conditions": {
       "audience": "all",
       "clientType": "all",
@@ -86,6 +86,24 @@
       "en": {
         "title": "Collapsed Reply Threads are here, get early access to the beta",
         "description": "You can now enable an early beta of Collapsed Reply Threads in **Account Settings** > **Display** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/help/messaging/organizing-conversations.html) as we work towards stabilizing the feature.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
+        "actionText": "Learn more",
+        "actionParam": "https://mattermost.com/blog/collapsed-reply-threads-beta/"
+      }
+    }
+  },
+  {
+    "id": "collapsed-reply-threads-beta-admin",
+    "conditions": {
+      "audience": "sysadmin",
+      "clientType": "all",
+      "serverVersion": [">5.36"],
+      "displayDate": ">= 2021-07-19T00:00:00Z"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Collapsed Reply Threads are here, get early access to the beta",
+        "description": "You can now enable an early beta of Collapsed Reply Threads for this workspace in **System Console** > **Experimental** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/help/messaging/organizing-conversations.html) as we work towards stabilizing the feature.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/collapsed-reply-threads-beta/"
