@@ -80,7 +80,7 @@
       "clientType": "all",
       "serverVersion": [">5.36"],
       "displayDate": ">= 2021-07-19T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "default-off" }
+      "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
     },
     "localizedMessages": {
       "en": {
