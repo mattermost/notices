@@ -108,7 +108,7 @@
     }
   },
   {
-    "id": "collapsed-reply-threads-beta-user-1",
+    "id": "collapsed-reply-threads-beta-user-2",
     "conditions": {
       "audience": "all",
       "clientType": "all",
@@ -127,7 +127,7 @@
     }
   },
   {
-    "id": "collapsed-reply-threads-beta-admin",
+    "id": "collapsed-reply-threads-beta-admin-2",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
