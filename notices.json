@@ -108,17 +108,18 @@
     }
   },
   {
-    "id": "collapsed-reply-threads-beta-user-2",
+    "id": "collapsed-reply-threads-beta-user-3",
     "conditions": {
       "audience": "all",
       "clientType": "all",
       "serverVersion": [">5.36"],
       "displayDate": ">= 2021-07-15T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
+      "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" },
+      "userConfig": { "COLLAPSED_REPLY_THREADS_OFF": "off" }"
     },
     "localizedMessages": {
       "en": {
-        "title": "Collapsed Reply Threads are here, get early access to the beta",
+        "title": "test Collapsed Reply Threads are here, get early access to the beta",
         "description": "You can now enable an early beta of Collapsed Reply Threads in **Account Settings** > **Display** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/help/messaging/organizing-conversations.html) as we work towards stabilizing the feature.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
@@ -127,16 +128,17 @@
     }
   },
   {
-    "id": "collapsed-reply-threads-beta-admin-2",
+    "id": "collapsed-reply-threads-beta-admin-3",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": [">5.36"],
-      "displayDate": ">= 2021-07-15T00:00:00Z"
+      "displayDate": ">= 2021-07-15T00:00:00Z",
+      "serverConfig": { "ServiceSettings.CollapsedThreads": "disabled" }
     },
     "localizedMessages": {
       "en": {
-        "title": "Collapsed Reply Threads are here, get early access to the beta",
+        "title": "test Collapsed Reply Threads are here, get early access to the beta",
         "description": "You can now enable an early beta of Collapsed Reply Threads for this workspace in **System Console** > **Experimental** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/help/messaging/organizing-conversations.html) as we work towards stabilizing the feature.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
