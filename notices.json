@@ -1,8 +1,8 @@
 [
     {
-        "id": "focalboard_2",
+        "id": "focalboard_3",
         "conditions": {
-            "audience": "sysadmin",
+            "audience": "all",
             "clientType": "all",
             "serverVersion": [">5.36"],
             "instanceType": "onprem",
