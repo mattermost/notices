@@ -108,13 +108,14 @@
     }
   },
   {
-    "id": "collapsed-reply-threads-beta-user-4",
+    "id": "collapsed-reply-threads-beta-user-5",
     "conditions": {
       "audience": "all",
       "clientType": "all",
       "serverVersion": [">5.36"],
       "displayDate": ">= 2021-07-15T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
+      "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" },
+      "userConfig": { "display_settings.collapsed_reply_threads": "off" }
     },
     "localizedMessages": {
       "en": {
