@@ -138,7 +138,7 @@
     },
     "localizedMessages": {
       "en": {
-        "title": "test1 Collapsed Reply Threads are here, get early access to the beta",
+        "title": "Collapsed Reply Threads are here, get early access to the beta 1",
         "description": "You can now enable an early beta of Collapsed Reply Threads in **Account Settings** > **Display** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/help/messaging/organizing-conversations.html) as we work towards stabilizing the feature.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
