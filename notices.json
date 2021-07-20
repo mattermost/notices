@@ -127,10 +127,11 @@
     }
   },
       {
-    "id": "collapsed-reply-threads-beta-user-8",
+    "id": "collapsed-reply-threads-beta-user-9",
     "conditions": {
       "audience": "all",
       "clientType": "all",
+      "repeatable": "false",
       "serverVersion": [">5.36"],
       "displayDate": ">= 2021-07-15T00:00:00Z",
       "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
