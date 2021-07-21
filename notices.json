@@ -1,29 +1,28 @@
 [
-    {
-        "id": "focalboard_3",
-        "conditions": {
-            "audience": "all",
-            "clientType": "all",
-            "serverVersion": [">5.36"],
-            "instanceType": "onprem",
-            "displayDate": ">= 2021-07-13T00:00:00Z"
-        },
-        "localizedMessages": {
-            "en": {
-                "title": "Enable Focalboard",
-                "description": "Focalboard integrates project management tools like kanban boards, cards, and tables with Mattermost to help you easily plan projects, manage tasks, and run effective meetings.",
-                "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/focalboard.gif",
-                "actionText": "Learn more",
-                "actionParam": "https://www.focalboard.com/download/mattermost"
-            }
-        }
+  {
+    "id": "2_01",
+    "conditions": {
+      "audience": "all",
+      "clientType": "desktop",
+      "desktopVersion": ["<4.6"]
     },
-    {
-    "id": "channel_sidebar_GA_10",
-       "conditions": {
+    "localizedMessages": {
+      "en": {
+        "title": "New desktop version available",
+        "description": "Upgrade now to access custom desktop notification sounds, Russian spell check, and an improved user experience using multiple workspaces.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
+        "actionText": "Download",
+        "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
+      }
+    }
+  },
+  {
+    "id": "channel_sidebar_GA_01",
+    "conditions": {
       "audience": "all",
       "clientType": "all",
       "serverVersion": [">5.31"],
+      "instanceType": "onprem",
       "displayDate": ">= 2021-02-16T00:00:00Z",
       "serverConfig": { "ServiceSettings.EnableLegacySidebar": false }
     },
@@ -37,49 +36,32 @@
       }
     }
   },
-    {
-    "id": "150",
-    "conditions": {
-      "serverVersion": [">5.30"],
-      "instanceType": "both",
-      "displayDate": ">= 2021-01-21T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Testing if server version is ignored",
-        "description": "The new [Extended Support Release](https://docs.mattermost.com/administration/extended-support-release.html) v5.31 is now available offering many bug fixes for increased stability, and improved status updates for Incident Management. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
-        "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-31/"
-      }
-    }
-  },
-    {
-    "id": "server_upgrade_v5.35",
+  {
+    "id": "server_upgrade_v5.36_01",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": ["<5.36"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-05-19T00:00:00Z"
+      "displayDate": ">= 2021-06-21T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "The new feature release offers shared channels, stakeholder overview and ad hoc tasks for incident collaboration, file search, and more. [Please also see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
+        "description": "The new feature release offers updates to Incident Collaboration with enhanced permission controls and automated welcome messages, and the addition of Hungarian language support. Focalboard project management is now integrated with Mattermost for the first time as a beta feature. [Please see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-35/"
+        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-36/"
       }
     }
   },
-   {
-    "id": "custom_statuses_2",
+  {
+    "id": "custom_statuses_01",
     "conditions": {
       "audience": "all",
       "clientType": "all",
-      "serverVersion": [">5.33"],
-      "displayDate": ">= 2021-03-09T00:00:00Z"
+      "serverVersion": [">5.32"],
+      "displayDate": ">= 2021-03-11T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
@@ -91,55 +73,38 @@
       }
     }
   },
-      {
-    "id": "desktop_upgrade_v4.6_1",
+  {
+    "id": "collapsed-reply-threads-beta-user-01",
     "conditions": {
       "audience": "all",
-      "desktopVersion": ["<4.8"]
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "New desktop version available",
-        "description": "Upgrade now to access custom desktop notification sounds, Russian spell check, and an improved user experience using multiple workspaces.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
-        "actionText": "Download",
-        "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
-      }
-    }
-  },
-  {
-    "id": "collapsed-reply-threads-beta-admin-3",
-    "conditions": {
-      "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": [">5.36"],
-      "displayDate": ">= 2021-07-15T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "disabled" }
+      "displayDate": ">= 2021-07-19T00:00:00Z",
+      "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
     },
     "localizedMessages": {
       "en": {
-        "title": "test Collapsed Reply Threads are here, get early access to the beta",
-        "description": "You can now enable an early beta of Collapsed Reply Threads for this workspace in **System Console** > **Experimental** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/help/messaging/organizing-conversations.html) as we work towards stabilizing the feature.",
+        "title": "Collapsed Reply Threads are here, get early access to the beta",
+        "description": "You can now enable an early beta of Collapsed Reply Threads in **Account Settings** > **Display** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/help/messaging/organizing-conversations.html) as we work towards stabilizing the feature.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/collapsed-reply-threads-beta/"
       }
     }
   },
-      {
-    "id": "collapsed-reply-threads-beta-user-10",
+  {
+    "id": "collapsed-reply-threads-beta-admin-01",
     "conditions": {
-      "audience": "all",
+      "audience": "sysadmin",
       "clientType": "all",
-      "repeatable": "false",
       "serverVersion": [">5.36"],
-      "displayDate": ">= 2021-07-15T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
+      "displayDate": ">= 2021-07-19T00:00:00Z",
+      "serverConfig": { "ServiceSettings.CollapsedThreads": "disabled" }
     },
     "localizedMessages": {
       "en": {
-        "title": "Collapsed Reply Threads are here, get early access to the beta 1",
-        "description": "You can now enable an early beta of Collapsed Reply Threads in **Account Settings** > **Display** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/help/messaging/organizing-conversations.html) as we work towards stabilizing the feature.",
+        "title": "Collapsed Reply Threads are here, get early access to the beta",
+        "description": "You can now enable an early beta of Collapsed Reply Threads for this workspace in **System Console** > **Experimental** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/help/messaging/organizing-conversations.html) as we work towards stabilizing the feature.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/collapsed-reply-threads-beta/"
