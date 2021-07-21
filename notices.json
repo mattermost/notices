@@ -1,12 +1,11 @@
 [
     {
-    "id": "collapsed-reply-threads-beta-user-02",
+    "id": "collapsed-reply-threads-beta-user-03",
     "conditions": {
       "audience": "all",
       "clientType": "all",
       "serverVersion": [">5.36"],
-      "displayDate": ">= 2021-07-19T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
+      "displayDate": ">= 2021-07-19T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
