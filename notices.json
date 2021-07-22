@@ -55,21 +55,21 @@
     }
   },
   {
-    "id": "server_upgrade_v5.36_01",
+    "id": "server_upgrade_v5.37",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.36"],
+      "serverVersion": ["<5.38"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-06-21T00:00:00Z"
+      "displayDate": ">= 2021-07-21T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "The new feature release offers updates to Incident Collaboration with enhanced permission controls and automated welcome messages, and the addition of Hungarian language support. Focalboard project management is now integrated with Mattermost for the first time as a beta feature. [Please see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
+        "description": "This new release includes the beta release of Collapsed Reply Threads, the addition of Incident Collaboration features to all editions, enhanced emojis with skin tone selection, Focalboard updates, and English-Australian language support. [Please see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-release-v5-36/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v5-37/"
       }
     }
   },
