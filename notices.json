@@ -1,6 +1,6 @@
 [
     {
-    "id": "collapsed-reply-threads-beta-user-03",
+    "id": "crt-beta-user-04",
     "conditions": {
       "audience": "all",
       "clientType": "all",
@@ -93,7 +93,7 @@
     }
   },
   {
-    "id": "collapsed-reply-threads-beta-admin-01",
+    "id": "crt-beta-admin-02",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
