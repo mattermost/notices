@@ -37,21 +37,21 @@
     }
   },
   {
-    "id": "server_upgrade_v5.37",
+    "id": "server_upgrade_v5.38",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.37"],
+      "serverVersion": ["<5.38"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-07-21T00:00:00Z"
+      "displayDate": ">= 2021-08-21T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "This new release includes the beta release of Collapsed Reply Threads, the addition of Incident Collaboration features to all editions, enhanced emojis with skin tone selection, Focalboard updates, and English-Australian language support. [Please see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
+        "description": "This new release includes Granular Data Retention Policies, enhanced user onboarding, rebranding of Incident Collaboration to Playbooks, new playbook templates, and Focalboard updates. [Please see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v5-37/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v5-38/"
       }
     }
   },
