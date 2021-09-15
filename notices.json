@@ -37,21 +37,21 @@
     }
   },
   {
-    "id": "server_upgrade_v5.38",
+    "id": "server_upgrade_v5.39",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.38"],
+      "serverVersion": ["<5.39"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-08-21T00:00:00Z"
+      "displayDate": ">= 2021-09-21T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "This new release includes Granular Data Retention Policies, enhanced user onboarding, rebranding of Incident Collaboration to Playbooks, new playbook templates, and Focalboard updates. [Please see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
+        "description": "This new release includes bug fixes for increased stability and some important notices for upcoming product changes and events. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v5-38/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v5-39/"
       }
     }
   },
