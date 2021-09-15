@@ -48,7 +48,7 @@
     "localizedMessages": {
       "en": {
         "title": "New server version available",
-        "description": "This new release includes bug fixes for increased stability and some important notices for upcoming product changes and events. [Upgrading](https://docs.mattermost.com/administration/upgrade.html) only takes a few minutes.",
+        "description": "This new release includes bug fixes for increased stability and some important notices for upcoming product changes and events. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/mattermost-v5-39/"
