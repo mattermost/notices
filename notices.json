@@ -116,7 +116,7 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "numberOfUsers": "1",
+      "numberOfUsers": ["<2"],
       "numberOfPosts": "3"
     },
     "localizedMessages": {
