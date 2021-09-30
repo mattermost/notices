@@ -110,5 +110,23 @@
         "actionParam": "https://mattermost.com/blog/collapsed-reply-threads-beta/"
       }
     }
+  },
+  {
+    "id": "ftue-survey",
+    "conditions": {
+      "audience": "sysadmin",
+      "clientType": "all",
+      "numberOfUsers": "1",
+      "numberOfPosts": "3"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Share your first impressions and get a $50 gift card",
+        "description": "Thank you for trying Mattermost. We’d love to chat with you and see how you like it so far! For 30 minutes of your time, we will gift you a $50 Amazon gift card (or other if not available in your region). If interested, simply schedule 30 minutes using the link below.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Feedback.png",
+        "actionText": "Schedule",
+        "actionParam": "https://calendly.com/d/ycdh-gmkr/mattermost-first-impressions"
+      }
+    }
   }
 ]
