@@ -93,21 +93,19 @@
     }
   },
   {
-    "id": "crt-beta-admin-02",
+    "id": "ftue-survey",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": [">5.36"],
-      "displayDate": ">= 2021-07-19T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "disabled" }
+      "numberOfUsers": ["<2"]
     },
     "localizedMessages": {
       "en": {
-        "title": "Collapsed Reply Threads are here, get early access to the beta",
-        "description": "You can now enable an early beta of Collapsed Reply Threads for this workspace in **System Console** > **Experimental** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/help/messaging/organizing-conversations.html) as we work towards stabilizing the feature.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
-        "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/collapsed-reply-threads-beta/"
+        "title": "Share your first impressions and get a $50 gift card",
+        "description": "Thank you for trying Mattermost. We’d love to chat with you and see how you like it so far! For 30 minutes of your time, we will gift you a $50 Amazon gift card (or other if not available in your region). If interested, simply schedule 30 minutes using the link below.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Feedback.png",
+        "actionText": "Schedule",
+        "actionParam": "https://calendly.com/d/ycdh-gmkr/mattermost-first-impressions"
       }
     }
   }
