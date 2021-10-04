@@ -93,7 +93,7 @@
     }
   },
   {
-    "id": "ftue-survey",
+    "id": "ftue-survey-1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
