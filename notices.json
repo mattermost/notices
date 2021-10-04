@@ -93,11 +93,10 @@
     }
   },
   {
-    "id": "ftue-survey-1",
+    "id": "ftue-survey-2",
     "conditions": {
       "audience": "sysadmin",
-      "clientType": "all",
-      "numberOfUsers": "5"
+      "clientType": "all"
     },
     "localizedMessages": {
       "en": {
