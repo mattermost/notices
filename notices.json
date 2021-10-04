@@ -75,9 +75,9 @@
     }
   },
   {
-    "id": "custom_statuses_01",
+    "id": "custom_statuses_10",
     "conditions": {
-      "audience": "all",
+      "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": [">5.32"],
       "displayDate": ">= 2021-03-11T00:00:00Z"
