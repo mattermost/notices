@@ -117,7 +117,7 @@
       "audience": "sysadmin",
       "clientType": "all",
       "numberOfUsers": ["<2"],
-      "numberOfPosts": "5"
+      "numberOfPosts": "3"
     },
     "localizedMessages": {
       "en": {
