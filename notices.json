@@ -5,8 +5,7 @@
       "audience": "all",
       "clientType": "desktop",
       "desktopVersion": ["<5.0"],
-      "serverVersion": [">=6.0"],
-      
+      "serverVersion": [">=6.0"]
     },
     "localizedMessages": {
       "en": {
