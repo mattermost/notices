@@ -55,29 +55,29 @@
       }
     }
   },
-  {
-    "id": "server_upgrade_v5.37",
+ {
+    "id": "server_upgrade_v6.00",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<5.38"],
+      "serverVersion": ["<6.10"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-07-21T00:00:00Z"
+      "displayDate": ">= 2021-10-11T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "New server version available",
-        "description": "This new release includes the beta release of Collapsed Reply Threads, the addition of Incident Collaboration features to all editions, enhanced emojis with skin tone selection, Focalboard updates, and English-Australian language support. [Please see the important upgrade notes](https://docs.mattermost.com/administration/important-upgrade-notes.html).",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/server_upgrade.png",
+        "title": "Mattermost 6.0 is here!",
+        "description": "Mattermost has expanded beyond channel-based messaging and offers Playbooks and Boards as core features to our open source developer collaboration platform!",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/6.0.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v5-37/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v6-00/"
       }
     }
   },
   {
-    "id": "custom_statuses_01",
+    "id": "custom_statuses_10",
     "conditions": {
-      "audience": "all",
+      "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": [">5.32"],
       "displayDate": ">= 2021-03-11T00:00:00Z"
@@ -93,21 +93,18 @@
     }
   },
   {
-    "id": "crt-beta-admin-02",
+    "id": "ftue-survey-2",
     "conditions": {
       "audience": "sysadmin",
-      "clientType": "all",
-      "serverVersion": [">5.36"],
-      "displayDate": ">= 2021-07-19T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "disabled" }
+      "clientType": "all"
     },
     "localizedMessages": {
       "en": {
-        "title": "Collapsed Reply Threads are here, get early access to the beta",
-        "description": "You can now enable an early beta of Collapsed Reply Threads for this workspace in **System Console** > **Experimental** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/help/messaging/organizing-conversations.html) as we work towards stabilizing the feature.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
-        "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/collapsed-reply-threads-beta/"
+        "title": "Share your first impressions and get a $50 gift card",
+        "description": "Thank you for trying Mattermost. We’d love to chat with you and see how you like it so far! For 30 minutes of your time. If interested, simply schedule 30 minutes using the link below.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Feedback.png",
+        "actionText": "Schedule",
+        "actionParam": "https://calendly.com/d/ycdh-gmkr/mattermost-first-impressions"
       }
     }
   }
