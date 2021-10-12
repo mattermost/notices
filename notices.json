@@ -48,7 +48,7 @@
     "localizedMessages": {
       "en": {
         "title": "Mattermost 6.0 is here!",
-        "description": "Mattermost has expanded beyond channel-based messaging and offers Playbooks and Boards as core features to our open source developer collaboration platform! Upgrading only takes a few minutes.",
+        "description": "Mattermost has expanded beyond channel-based messaging and offers Playbooks and Boards as core features to our open source developer collaboration platform! [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/v6.0.gif",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/mattermost-v6-00/"
