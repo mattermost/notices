@@ -110,5 +110,23 @@
         "actionParam": "https://mattermost.com/blog/collapsed-reply-threads-beta/"
       }
     }
-  }
+  },
+  {
+    "id": "v6.0_user_introduction",
+    "conditions": {
+      "audience": "all",
+      "clientType": "all",
+      "serverVersion": [">=6.0"],
+      "displayDate": ">= 2021-10-13T00:00:00Z"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "New tools, new interface",
+        "description": "Mattermost is expanding our open source collaboration platform to include new integrated tools that address a wider variety of workflow types. Playbooks are for well-defined processes that typically follow a checklist-based structure. Boards are for managing and organizing projects and tasks across the entire product lifecycle.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/v6.0.gif",
+        "actionText": "Learn more",
+        "actionParam": "https://mattermost.com/blog/mattermost-v6-00/"
+      }
+    }
+  },
 ]
