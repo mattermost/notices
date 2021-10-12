@@ -12,7 +12,7 @@
       "en": {
         "title": "New desktop version available",
         "description": "Upgrade now to access a redesigned title bar to seamlessly work in Channels, Playbooks, and Boards across multiple servers with minimal context switching.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_5.0.gif",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
       }
