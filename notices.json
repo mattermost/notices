@@ -1,16 +1,18 @@
 [
   {
-    "id": "2",
+    "id": "desktop_upgrade_v5.0",
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
-      "desktopVersion": ["<5.0"]
+      "desktopVersion": ["<5.0"],
+      "serverVersion": [">=6.0"],
+      
     },
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Upgrade now to access redesigned title bar to seamlessly work in Channels, Playbooks, and Boards across multiple servers with minimal context switching.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
+        "description": "Upgrade now to access a redesigned title bar to seamlessly work in Channels, Playbooks, and Boards across multiple servers with minimal context switching.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_5.0.gif",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
       }
