@@ -4,12 +4,12 @@
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
-      "desktopVersion": ["<4.7"]
+      "desktopVersion": ["<5.0"]
     },
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Upgrade now to access performance improvements and snappier interactions (i.e., less lag), lower CPU usage, and faster launch times.",
+        "description": "Upgrade now to access redesigned title bar to seamlessly work in Channels, Playbooks, and Boards across multiple servers with minimal context switching.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
