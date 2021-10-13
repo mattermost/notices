@@ -56,11 +56,11 @@
     }
   },
  {
-    "id": "server_upgrade_v6.00",
+    "id": "server_upgrade_v6.00-1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<6.10"],
+      "serverVersion": ["<6.00"],
       "instanceType": "onprem",
       "displayDate": ">= 2021-10-11T00:00:00Z"
     },
