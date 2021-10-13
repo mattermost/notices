@@ -96,7 +96,8 @@
     "id": "ftue-survey-2",
     "conditions": {
       "audience": "sysadmin",
-      "clientType": "all"
+      "clientType": "all",
+      "numberOfUsers": ["<5"]
     },
     "localizedMessages": {
       "en": {
