@@ -56,10 +56,12 @@
     }
   },
  {
+    "id": "server_upgrade_v6.00",
     "id": "server_upgrade_v6.00-1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
+      "serverVersion": ["<6.10"],
       "serverVersion": ["<6.00"],
       "instanceType": "onprem",
       "displayDate": ">= 2021-10-11T00:00:00Z"
@@ -93,28 +95,11 @@
     }
   },
   {
-    "id": "ftue-survey-2",
-    "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "numberOfUsers": 5
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Share your first impressions and get a $50 gift card",
-        "description": "Thank you for trying Mattermost. We’d love to chat with you and see how you like it so far! For 30 minutes of your time. If interested, simply schedule 30 minutes using the link below.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Feedback.png",
-        "actionText": "Schedule",
-        "actionParam": "https://calendly.com/d/ycdh-gmkr/mattermost-first-impressions"
-      }
-    }
-  }.
-   {
     "id": "v6.0_user_introduction",
     "conditions": {
       "audience": "all",
       "clientType": "all",
-      "serverVersion": [">=6.0.0"],
+      "serverVersion": [">=6.0"],
       "displayDate": ">= 2021-10-11T00:00:00Z"
     },
     "localizedMessages": {
