@@ -55,24 +55,21 @@
       }
     }
   },
- {
-    "id": "server_upgrade_v6.00",
-    "id": "server_upgrade_v6.00-1",
+  {
+    "id": "desktop_upgrade_v5.0",
     "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "serverVersion": ["<6.10"],
-      "serverVersion": ["<6.00"],
-      "instanceType": "onprem",
-      "displayDate": ">= 2021-10-11T00:00:00Z"
+      "audience": "all",
+      "clientType": "desktop",
+      "desktopVersion": ["<5.0"],
+      "serverVersion": [">=6.0"]
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 6.0 is here!",
-        "description": "Mattermost has expanded beyond channel-based messaging and offers Playbooks and Boards as core features to our open source developer collaboration platform!",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/6.0.png",
-        "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v6-00/"
+        "title": "New desktop version available",
+        "description": "Upgrade now to access a redesigned title bar to seamlessly work in Channels, Playbooks, and Boards across multiple servers with minimal context switching.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
+        "actionText": "Download",
+        "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
       }
     }
   },
