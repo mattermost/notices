@@ -109,4 +109,8 @@ If a user meets the conditions to show a notice the modal appears on first webso
 
 #### Do we have telemetry on individual notices?
 
-Yes, we track impressions and clicks on the call-to-action button for every notice ([telemetry PR](https://github.com/mattermost/mattermost-webapp/pull/6934)).  
+Yes, we track impressions and clicks on the call-to-action button for every notice ([telemetry PR](https://github.com/mattermost/mattermost-webapp/pull/6934)).
+
+#### Do notices interupt the onboarding flow for newly created users if they meet the trigger conditions?
+
+No. All existing notices are marked as read at the time of account creation so users will only see new notices that are added after their account creation date.  
