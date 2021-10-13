@@ -97,7 +97,7 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "numberOfUsers": ["<5"]
+      "numberOfUsers": 5
     },
     "localizedMessages": {
       "en": {
