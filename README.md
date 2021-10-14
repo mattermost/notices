@@ -74,9 +74,9 @@ Branch protection:
 
 ### Opening a PR
 
-Open a PR against the `release` branch to add your notice to the `notices.json`. See this [example PR] XXXXXX will submit a PR for the v5.29 server upgrade
+**Open a PR against the `release` branch** to add your notice to the `notices.json`. See this [example PR](https://github.com/mattermost/notices/pull/220) shows the v6.0 server upgrade notice.
 
-- **"id"**: must be a **unique** alpha-numeric value. The server uses the notice ID to store if a user has seen a particular notice. It is recommended to choose an ID that will be recognizable in telemetry.
+- **"id"**: must be a **unique** alpha-numeric value. The server uses the notice ID to store if a user has seen a particular notice. It is recommended to choose an ID that will be recognizable in telemetry. Do not update existing notice ID's unless you intend for them to retrigger for users (such as updating an existing notice for a new release, ie updating the v5.38 notice to a v5.39 notice).
 - **"title"**: configure the title of the modal. This appears in larger bold font (supports emoji).
 - **"description"**: configure the description text that appears below the title (supports full markdown and emoji).
 - **"image"** (optional): configure the hero image that appears below the description text. It is recommended to use a 16:9 aspect ratio image ([example](https://github.com/mattermost/notices/blob/master/images/desktop_upgrade.png)). Images should be added to the `images` folder in your PR branch, then in the `notices.json` add the image URL in the format `https://raw.githubusercontent.com/mattermost/notices/release/images/image_name.image_format` ([example](https://github.com/mattermost/notices/pull/49/files#diff-11766faeb8c25f77d7dbf8e61fd0e9fc8cd1a08858d6b1f8867715a570bfd9d9R13)).
