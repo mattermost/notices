@@ -97,7 +97,7 @@
       "audience": "all",
       "clientType": "all",
       "serverVersion": [">=6.0"],
-      "numberOfPosts": "2"
+      "numberOfPosts": 2
     },
     "localizedMessages": {
       "en": {
