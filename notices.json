@@ -92,12 +92,12 @@
     }
   },
   {
-    "id": "v6.0_user_introduction-2",
+    "id": "v6.0_user_introduction-3",
     "conditions": {
       "audience": "all",
       "clientType": "all",
       "serverVersion": [">=6.0"],
-      "numberOfPosts": 10
+      "numberOfPosts": 13
     },
     "localizedMessages": {
       "en": {
