@@ -1,20 +1,20 @@
 [
     {
-    "id": "crt-beta-user-05",
+    "id": "server_upgrade_v6.1",
     "conditions": {
-      "audience": "all",
+      "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": [">5.36"],
-      "displayDate": ">= 2021-07-19T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
+      "serverVersion": ["<6.2"],
+      "instanceType": "onprem",
+      "displayDate": ">= 2021-11-18T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Collapsed Reply Threads are here, get early access to the beta 1",
-        "description": "You can now enable an early beta of Collapsed Reply Threads in **Account Settings** > **Display** > **Collapsed Reply Threads (Beta)**\n\nPlease [review the list of known issues](https://docs.mattermost.com/messaging/organizing-conversations.html#known-issues) as we work towards stabilizing the feature.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
+        "title": "Mattermost 6.1 is here!",
+        "description": "Mattermost v6.1 includes a single view of recent mentions and saved posts across your teams, quick access to recently used reactions, timed do not disturb, Playbooks and Boards previews, Playbooks and Boards improved notifications and Boards calculations. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/v6.0.gif",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/collapsed-reply-threads-beta/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v6-1-is-now-available/"
       }
     }
   },
