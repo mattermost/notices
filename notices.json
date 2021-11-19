@@ -38,21 +38,21 @@
     }
   },
   {
-    "id": "server_upgrade_v6.00",
+    "id": "server_upgrade_v6.1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<6.00"],
+      "serverVersion": ["<6.1"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-10-18T00:00:00Z"
+      "displayDate": ">= 2021-11-22T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 6.0 is here!",
-        "description": "Mattermost has expanded beyond channel-based messaging and offers Playbooks and Boards as core features to our open source developer collaboration platform! [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 6.1 is here!",
+        "description": "Mattermost v6.1 includes a single view of recent mentions and saved posts across your teams, quick access to recently used reactions, timed do not disturb, Playbooks and Boards previews, Playbooks and Boards improved notifications and Boards calculations. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/v6.0.gif",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v6-0-is-now-available/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v6-1-is-now-available/"
       }
     }
   },
