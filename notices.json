@@ -129,5 +129,23 @@
         "actionParam": "https://mattermost.com/blog/mattermost-v6-0-is-now-available/"
       }
     }
+  },
+  {
+    "id": "v6.2_boards",
+    "conditions": {
+      "audience": "all",
+      "clientType": "all",
+      "serverVersion": [">=6.2"],
+      "displayDate": ">= 2021-12-10T00:00:00Z"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Manage your projects and tasks in one place",
+        "description": "View your active projects and work items, update weekly status and more by selecting Boards from the top-left menu.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/focalboard.gif",
+        "actionText": "Open Boards",
+        "actionParam": "/boards/welcome"
+      }
+    }
   }
 ]
