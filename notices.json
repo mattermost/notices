@@ -142,7 +142,7 @@
       "en": {
         "title": "Manage your projects and tasks in one place",
         "description": "View your active projects and work items, update weekly status and more by selecting Boards from the top-left menu.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/focalboard.gif",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Boards_v6.2.gif",
         "actionText": "Open Boards",
         "actionParam": "/boards/welcome"
       }
