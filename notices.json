@@ -91,21 +91,21 @@
       }
     }
   },
-  {
-    "id": "v6.0_user_introduction-3",
+    {
+    "id": "v6.2_boards",
     "conditions": {
       "audience": "all",
       "clientType": "all",
-      "serverVersion": [">=6.0"],
-      "numberOfPosts": 13
+      "serverVersion": [">=6.2"],
+      "displayDate": ">= 2021-12-10T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Testing",
-        "description": "test Mattermost is expanding our open source collaboration platform to include new integrated tools that address a wider variety of workflow types. Playbooks are for well-defined processes that typically follow a checklist-based structure. Boards are for managing and organizing projects and tasks across the entire product lifecycle.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/v6.0.gif",
-        "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v6-0-is-now-available/"
+        "title": "Manage your projects and tasks in one place",
+        "description": "View your active projects and work items, update weekly status and more by selecting Boards from the top-left menu.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/focalboard.gif",
+        "actionText": "Open Boards",
+        "actionParam": "/boards/welcome"
       }
     }
   }
