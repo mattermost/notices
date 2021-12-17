@@ -1,6 +1,6 @@
 [
      {
-    "id": "server_upgrade_v6.2",
+    "id": "server_upgrade_v6.2_1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
