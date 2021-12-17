@@ -6,7 +6,7 @@
       "clientType": "all",
       "serverVersion": ["<6.3"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-12-20T00:00:00Z"
+      "displayDate": ">= 2021-12-16T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
