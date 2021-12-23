@@ -92,11 +92,11 @@
     }
   },
     {
-    "id": "v6.2_boards",
+    "id": "v6.2_boards_1",
     "conditions": {
       "audience": "all",
       "clientType": "all",
-      "serverVersion": [">=6.2"],
+      "serverVersion": [">=6.3"],
       "displayDate": ">= 2021-12-10T00:00:00Z"
     },
     "localizedMessages": {
