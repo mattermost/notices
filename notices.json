@@ -96,7 +96,7 @@
     "conditions": {
       "audience": "all",
       "clientType": "all",
-      "serverVersion": [">=6.3"],
+      "serverVersion": [">=6.4"],
       "displayDate": ">= 2021-12-10T00:00:00Z"
     },
     "localizedMessages": {
