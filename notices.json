@@ -1,20 +1,21 @@
 [
-     {
-    "id": "server_upgrade_v6.2",
+   {
+    "id": "server_upgrade_v6.3",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<6.3"],
+      "serverVersion": ["<6.4"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-12-16T00:00:00Z"
+      "displayDate": ">= 2022-01-17T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 6.2 is here!",
-        "description": "Mattermost v6.2 includes private channel autocomplete, click to reply to a thread, ability to follow Playbook runs, Boards calendar view and @mention autocomplete. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 6.3 is here!",
+        "description": "Mattermost v6.3 is a new Extended Support Release and includes Playbooks granular permissions, translations,  and streamlined notifications. Also, Boards is promoted to Generally Available and includes change notifications, person avatars, and comment sort order. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v6-2-is-now-available/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v6-3-is-now-available/"
+      }
       }
     }
   },
