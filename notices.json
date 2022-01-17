@@ -1,12 +1,12 @@
 [
    {
-    "id": "server_upgrade_v6.3",
+    "id": "server_upgrade_v6.3_1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": ["<6.4"],
       "instanceType": "onprem",
-      "displayDate": ">= 2022-01-17T00:00:00Z"
+      "displayDate": ">= 2022-01-16T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
