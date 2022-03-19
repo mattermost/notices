@@ -1,20 +1,20 @@
 [
-   {
-    "id": "server_upgrade_v6.3_1",
+     {
+    "id": "server_upgrade_v6.5",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<6.4"],
+      "serverVersion": ["<6.6"],
       "instanceType": "onprem",
-      "displayDate": ">= 2022-01-16T00:00:00Z"
+      "displayDate": ">= 2022-03-18T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 6.3 is here!",
-        "description": "Mattermost v6.3 is a new Extended Support Release and includes Playbooks granular permissions, translations,  and streamlined notifications. Also, Boards is promoted to Generally Available and includes change notifications, person avatars, and comment sort order. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 6.5 is here!",
+        "description": "Mattermost v6.5 includes custom groups, cross-team channel navigation, playbook import, export, and duplication, improved board sharing, Bitbucket integration, workplace optimization, improved onboarding experiences and Persian language support. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v6-3-is-now-available/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v6-5-is-now-available/"
       }
     }
   },
