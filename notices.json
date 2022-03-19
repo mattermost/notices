@@ -1,6 +1,6 @@
 [
      {
-    "id": "server_upgrade_v6.5",
+    "id": "server_upgrade_v6.5.1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
@@ -36,14 +36,13 @@
     }
   },
   {
-    "id": "channel_sidebar_GA_01",
+    "id": "channel_sidebar_GA_02",
     "conditions": {
       "audience": "all",
       "clientType": "all",
       "serverVersion": [">5.31"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-02-16T00:00:00Z",
-      "serverConfig": { "ServiceSettings.EnableLegacySidebar": false }
+      "displayDate": ">= 2021-02-16T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
