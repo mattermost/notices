@@ -49,7 +49,7 @@
     "localizedMessages": {
       "en": {
         "title": "Mattermost 6.6 is here!",
-        "description": "Mattermost v6.6 includes includes triggers and actions on channel messages, retrospective metrics on playbooks and the general availability of Apps Framework. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "description": "Mattermost v6.6 includes triggers and actions on channel messages, retrospective metrics on playbooks and the general availability of Apps Framework. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/mattermost-v6-6-is-now-available/"
