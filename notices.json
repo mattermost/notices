@@ -1,16 +1,16 @@
 [
   {
-    "id": "desktop_upgrade_v5.0",
+    "id": "desktop_upgrade_v5.1",
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
-      "desktopVersion": ["<5.0"],
+      "desktopVersion": ["<5.1"],
       "serverVersion": [">=6.0"]
     },
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Upgrade now to access a redesigned title bar to seamlessly work in Channels, Playbooks, and Boards across multiple servers with minimal context switching.",
+        "description": "Upgrade now to access desktop application automatic updates.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
@@ -38,21 +38,21 @@
     }
   },
   {
-    "id": "server_upgrade_v6.6",
+    "id": "server_upgrade_v6.7",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<6.6"],
+      "serverVersion": ["<6.7"],
       "instanceType": "onprem",
-      "displayDate": ">= 2022-04-18T00:00:00Z"
+      "displayDate": ">= 2022-05-18T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 6.6 is here!",
-        "description": "Mattermost v6.6 includes [triggers and actions](https://docs.mattermost.com/channels/create-channels.html) on channel messages, [retrospective metrics on playbooks](https://docs.mattermost.com/playbooks/metrics-and-goals.html) and the general availability of [Apps Framework](https://developers.mattermost.com/integrate/apps/). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 6.7 is here!",
+        "description": "Mattermost v6.7 includes [Playbooks task due dates](https://docs.mattermost.com/playbooks/customize-a-playbook.html#assign-tasks-and-due-dates). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v6-6-is-now-available/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v6-7-is-now-available/"
       }
     }
   },
