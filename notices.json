@@ -9,8 +9,8 @@
     },
     "localizedMessages": {
       "en": {
-        "title": "The Desktop App now updates itself automatically!",
-        "description": "Update your Desktop App one last time to start getting new features as they become available.",
+        "title": "New desktop version available",
+        "description": "Download and update now for the last time! You'll be alerted as new releases become available and can update in one-click.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
