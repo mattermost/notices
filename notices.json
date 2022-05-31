@@ -19,23 +19,6 @@
     }
   },
   {
-    "id": "2_01",
-    "conditions": {
-      "audience": "all",
-      "clientType": "desktop",
-      "desktopVersion": ["<4.6"]
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "New desktop version available",
-        "description": "Upgrade now to access custom desktop notification sounds, Russian spell check, and an improved user experience using multiple workspaces.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
-        "actionText": "Download",
-        "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
-      }
-    }
-  },
-  {
     "id": "channel_sidebar_GA_02",
     "conditions": {
       "audience": "all",
@@ -69,24 +52,6 @@
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
-      }
-    }
-  },
-  {
-    "id": "custom_statuses_10",
-    "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "serverVersion": [">5.32"],
-      "displayDate": ">= 2021-03-11T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Introducing custom statuses",
-        "description": "Setting a custom status lets you express your status in any way you prefer by adding a descriptive status message and emoji that’s visible to everyone throughout the app.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/custom-status.gif",
-        "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/custom-statuses/"
       }
     }
   },
