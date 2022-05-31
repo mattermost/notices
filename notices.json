@@ -18,6 +18,25 @@
       }
     }
   },
+    {
+    "id": "june15-cloud-freemium",
+    "conditions": {
+      "audience": "all",
+      "clientType": "all",
+      "instanceType": "onprem",
+      "repeatable": true,
+      "displayDate": ">= 2022-06-16T00:00:00Z"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Use Mattermost Cloud for free forever",
+        "description": "Use Mattermost Cloud to automate upgrades, decrease hosting costs, and remove maintenance overhead while maintaining global security standards - for free! Get started today.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/focalboard.gif",
+        "actionText": "Get Started",
+        "actionParam": "https://mattermost.com/sign-up"
+      }
+    }
+  },
   {
     "id": "2_01",
     "conditions": {
