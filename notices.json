@@ -35,6 +35,7 @@
         "actionParam": "https://mattermost.com/blog/mattermost-v6-7-is-now-available/"
       }
     }
+  },
   {
     "id": "crt-beta-user",
     "conditions": {
