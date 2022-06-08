@@ -12,8 +12,8 @@
     "localizedMessages": {
       "en": {
         "title": "Use Mattermost Cloud for free forever",
-        "description": "Use Mattermost Cloud to automate upgrades, decrease hosting costs, and remove maintenance overhead while maintaining global security standards - for free! Get started today.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/focalboard.gif",
+        "description": "Use Mattermost Cloud to automate upgrades, decrease hosting costs, and remove maintenance overhead while keeping global security standards - for free! Get started today.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_upgrade.png",
         "actionText": "Get Started",
         "actionParam": "https://mattermost.com/sign-up?inapp-notice=true"
       }
