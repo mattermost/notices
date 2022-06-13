@@ -22,11 +22,11 @@ Notices can be triggered on the following conditions:
 
 **Desktop Version** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.3rfcbukbair) for syntax): default all if not specified.
 
-**Server Version** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.j2dh2p8pljjh) for syntax): default "all" if not specified. Only server versions v5.28 and later can be targeted.
+**Server Version** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.j2dh2p8pljjh) for syntax): default "all" if not specified. Only server versions v5.28 and later can be targeted. If targeting cloud instances with your notice, the server version condition is ignored.
 
 **Display Date** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.ytgiix2d4t2o) for syntax): default "all" if not specified.
 
-**Instance Type** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.xmdvclunh3tg) for syntax): default "all" if not specified.
+**Instance Type** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.xmdvclunh3tg) for syntax): default "both" if not specified.
 
 **Server Configuration**: Not available yet.
 
