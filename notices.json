@@ -42,7 +42,6 @@
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": [">=7.0"],
-      "displayDate": ">= 2022-06-19T00:00:00Z",
       "instanceType": "onprem",
       "serverConfig": { "ServiceSettings.CollapsedThreads": "disabled" }
     },
@@ -62,7 +61,6 @@
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": [">=7.0"],
-      "displayDate": ">= 2022-06-19T00:00:00Z",
       "instanceType": "onprem",
       "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
     },
