@@ -38,26 +38,6 @@
     }
   },
   {
-    "id": "channel_sidebar_GA",
-    "conditions": {
-      "audience": "all",
-      "clientType": "all",
-      "serverVersion": [">5.31"],
-      "instanceType": "onprem",
-      "displayDate": ">= 2021-02-16T00:00:00Z",
-      "serverConfig": { "ServiceSettings.EnableLegacySidebar": false }
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Welcome to your new sidebar",
-        "description": "Your sidebar just got better. New updates include custom collapsible categories, drag-and-drop organization, unread channel filtering and more.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/sidebar_ga.gif",
-        "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/custom-collapsible-channel-categories/"
-      }
-    }
-  },
-  {
     "id": "server_upgrade_v6.7",
     "conditions": {
       "audience": "sysadmin",
@@ -73,24 +53,6 @@
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/mattermost-v6-7-is-now-available/"
-      }
-    }
-  },
-  {
-    "id": "custom_statuses",
-    "conditions": {
-      "audience": "all",
-      "clientType": "all",
-      "serverVersion": [">5.32"],
-      "displayDate": ">= 2021-03-11T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Introducing custom statuses",
-        "description": "Setting a custom status lets you express your status in any way you prefer by adding a descriptive status message and emoji that’s visible to everyone throughout the app.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/custom-status.gif",
-        "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/custom-statuses/"
       }
     }
   },
