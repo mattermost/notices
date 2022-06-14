@@ -42,7 +42,7 @@
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": [">=7.0"],
-      "instanceType": "onprem",
+      "displayDate": ">= 2022-06-16T00:00:00Z",
       "serverConfig": { "ServiceSettings.CollapsedThreads": "disabled" }
     },
     "localizedMessages": {
@@ -61,7 +61,7 @@
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": [">=7.0"],
-      "instanceType": "onprem",
+      "displayDate": ">= 2022-06-16T00:00:00Z",
       "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
     },
     "localizedMessages": {
