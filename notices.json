@@ -37,7 +37,7 @@
     }
   },
   {
-    "id": "crt-user-default-on",
+    "id": "crt-user-default-on_1",
     "conditions": {
       "audience": "all",
       "clientType": "all",
@@ -46,7 +46,7 @@
     },
     "localizedMessages": {
       "en": {
-        "title": "Experience a better way to communicate in threads",
+        "title": "Experience a better way to communicate in threads (test 1)",
         "description": "Welcome to Collapsed Reply Threads! You can now find, follow, and resume conversations more easily, and keep discussion threads focused.\n\nYou can always disable it in **Settings** > **Display** > **Collapsed Reply Threads**",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
