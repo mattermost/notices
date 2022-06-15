@@ -18,12 +18,11 @@
     }
   },
   {
-    "id": "crt-admin-default_off",
+    "id": "crt-admin-default_off_1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": [">=7.0"],
-      "displayDate": ">= 2022-06-16T00:00:00Z",
       "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
     },
     "localizedMessages": {
