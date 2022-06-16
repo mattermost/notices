@@ -89,21 +89,40 @@
     }
   },
   {
-    "id": "channel_sidebar_GA_02",
+    "id": "server_upgrade_v7.0",
     "conditions": {
-      "audience": "all",
+      "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": [">5.31"],
+      "serverVersion": ["<8.0"],
       "instanceType": "onprem",
-      "displayDate": ">= 2021-02-16T00:00:00Z"
+      "displayDate": ">= 2022-06-16T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Welcome to your new sidebar",
-        "description": "Your sidebar just got better. New updates include custom collapsible categories, drag-and-drop organization, unread channel filtering and more.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/sidebar_ga.gif",
+        "title": "Mattermost 7.0 is here!",
+        "description": "Mattermost v7.0 includes general availability of [collapsed reply threads](https://docs.mattermost.com/channels/organize-conversations.html), [voice calls and screen share (beta)](https://docs.mattermost.com/channels/make-calls.html), [messaging format toolbar](https://docs.mattermost.com/channels/format-messages.html), [Playbooks inline editor](https://docs.mattermost.com/playbooks/customize-a-playbook.html#edit-a-playbook), usage statistics, and ability to change [triggers and actions mid-run](https://docs.mattermost.com/playbooks/customize-a-run.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/custom-collapsible-channel-categories/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v7-0-is-now-available/"
+      }
+    }
+  },
+  {
+    "id": "june15-cloud-freemium",
+    "conditions": {
+      "audience": "all",
+      "clientType": "all",
+      "sku": "e0",
+      "instanceType": "onprem",
+      "displayDate": ">= 2022-06-16T00:00:00Z"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Use Mattermost Cloud for free forever",
+        "description": "Use Mattermost Cloud to automate upgrades, decrease hosting costs, and remove maintenance overhead while keeping global security standards - for free! Create your free workspace today.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/mattermost-cloud-freemium.png",
+        "actionText": "Create your free workspace",
+        "actionParam": "https://mattermost.com/sign-up?inapp-notice=true"
       }
     }
   },
