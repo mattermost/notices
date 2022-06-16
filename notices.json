@@ -6,7 +6,6 @@
       "clientType": "all",
       "sku": "e0",
       "instanceType": "onprem",
-      "repeatable": true,
       "displayDate": ">= 2022-06-16T00:00:00Z"
     },
     "localizedMessages": {
