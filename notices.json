@@ -89,7 +89,7 @@
     }
   },
   {
-    "id": "server_upgrade_v7.0",
+    "id": "server_upgrade_v7.0-1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
