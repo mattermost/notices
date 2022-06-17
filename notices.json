@@ -18,21 +18,21 @@
     }
   },
   {
-    "id": "server_upgrade_v6.7",
+    "id": "server_upgrade_v7.0",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<6.7"],
+      "serverVersion": ["<7.0"],
       "instanceType": "onprem",
-      "displayDate": ">= 2022-05-18T00:00:00Z"
+      "displayDate": ">= 2022-06-20T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 6.7 is here!",
-        "description": "Mattermost v6.7 includes [Playbooks task due dates](https://docs.mattermost.com/playbooks/customize-a-playbook.html#assign-tasks-and-due-dates). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 7.0 is here!",
+        "description": "Mattermost v7.0 includes general availability of [collapsed reply threads](https://docs.mattermost.com/channels/organize-conversations.html), [voice calls and screen share (beta)](https://docs.mattermost.com/channels/make-calls.html), [messaging format toolbar](https://docs.mattermost.com/channels/format-messages.html), [Playbooks inline editor](https://docs.mattermost.com/playbooks/customize-a-playbook.html#edit-a-playbook), usage statistics, and ability to change [triggers and actions mid-run](https://docs.mattermost.com/playbooks/customize-a-run.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v6-7-is-now-available/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v7-0-is-now-available/"
       }
     }
   },
