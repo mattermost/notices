@@ -1,4 +1,23 @@
 [
+    {
+    "id": "june15-cloud-freemium",
+    "conditions": {
+      "audience": "all",
+      "clientType": "all",
+      "sku": "e0",
+      "instanceType": "onprem",
+      "displayDate": ">= 2022-06-21T00:00:00Z"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Use Mattermost Cloud for free forever",
+        "description": "Use Mattermost Cloud to automate upgrades, decrease hosting costs, and remove maintenance overhead while keeping global security standards - for free! Create your free workspace today.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/mattermost-cloud-freemium.png",
+        "actionText": "Create your free workspace",
+        "actionParam": "https://mattermost.com/sign-up/?utm_source=freemium-inapp-notice"
+      }
+    }
+  },
   {
     "id": "desktop_upgrade_v5.1",
     "conditions": {
