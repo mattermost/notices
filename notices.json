@@ -166,5 +166,59 @@
         "actionParam": "/boards/welcome"
       }
     }
+  },
+  {
+	"id": "task_due_date_e10",
+	"conditions": {
+		"audience": "all",
+		"clientType": "all",
+		"serverVersion": [">= 7.0"],
+		"sku": "e10"
+	},
+	"localizedMessages": {
+		"en": {
+			"title": "You can now add due dates to tasks!",
+			"description": "Keep mission-critical processes on track by adding due dates to tasks in your playbooks or runs.",
+			"image": "https://raw.githubusercontent.com/mattermost/notices/release/images/task-due-date.gif",
+			"actionText": "Learn more",
+			"actionParam": "https://mattermost.com/blog/mattermost-v6-7-is-now-available/#playbooks"
+		}
+	}
+  },
+  {
+	"id": "task_due_date_e20",
+	"conditions": {
+		"audience": "all",
+		"clientType": "all",
+		"serverVersion": [">= 7.0"],
+		"sku": "e20"
+	},
+	"localizedMessages": {
+		"en": {
+			"title": "You can now add due dates to tasks!",
+			"description": "Keep mission-critical processes on track by adding due dates to tasks in your playbooks or runs.",
+			"image": "https://raw.githubusercontent.com/mattermost/notices/release/images/task-due-date.gif",
+			"actionText": "Learn more",
+			"actionParam": "https://mattermost.com/blog/mattermost-v6-7-is-now-available/#playbooks"
+		}
+	}
+  },
+  {
+	"id": "retrospective_metrics",
+	"conditions": {
+		"audience": "all",
+		"clientType": "all",
+		"serverVersion": [">= 6.6"],
+		"sku": "e20",
+	},
+	"localizedMessages": {
+		"en": {
+			"title": "Introducing retrospective metrics",
+			"description": "Playbooks can now track up to four key metrics that can indicate the performance of each run, whether it’s a duration, dollar amount, or simply an integer.",
+			"image": "https://raw.githubusercontent.com/mattermost/notices/release/images/retrospective-metrics.gif",
+			"actionText": "Learn more",
+			"actionParam": "https://mattermost.com/blog/mattermost-v6-6-is-now-available/#metrics"
+		}
+	}
   }
 ]
