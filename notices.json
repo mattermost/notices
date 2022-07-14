@@ -48,7 +48,7 @@
     "localizedMessages": {
       "en": {
         "title": "Mattermost 7.1 is here!",
-        "description": "Mattermost v7.1 is an Extended Support Release and includes [a new Insights dashboard](https://docs.mattermost.com/welcome/insights.html) and weekly updates to [the Mobile v2.0 beta](https://mattermost.com/blog/mobile-beta-program-v2/). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "description": "Mattermost v7.1 is an Extended Support Release and includes [a new Insights dashboard](https://docs.mattermost.com/welcome/insights.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/mattermost-v7-1-is-now-available/"
