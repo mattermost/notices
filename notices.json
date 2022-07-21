@@ -37,21 +37,21 @@
     }
   },
   {
-    "id": "server_upgrade_v7.0",
+    "id": "server_upgrade_v7.1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<7.0"],
+      "serverVersion": ["<7.1"],
       "instanceType": "onprem",
-      "displayDate": ">= 2022-06-20T00:00:00Z"
+      "displayDate": ">= 2022-07-18T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 7.0 is here!",
-        "description": "Mattermost v7.0 includes general availability of [collapsed reply threads](https://docs.mattermost.com/channels/organize-conversations.html), [voice calls and screen share (beta)](https://docs.mattermost.com/channels/make-calls.html), [messaging format toolbar](https://docs.mattermost.com/channels/format-messages.html), [Playbooks inline editor](https://docs.mattermost.com/playbooks/customize-a-playbook.html#edit-a-playbook), usage statistics, and ability to change [triggers and actions mid-run](https://docs.mattermost.com/playbooks/customize-a-run.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 7.1 is here!",
+        "description": "Mattermost v7.1 is an Extended Support Release and includes [a new Insights dashboard](https://docs.mattermost.com/welcome/insights.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v7-0-is-now-available/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v7-1-is-now-available/"
       }
     }
   },
