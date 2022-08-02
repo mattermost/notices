@@ -6,7 +6,7 @@
       "clientType": "all",
       "instanceType": "onprem",
       "repeatable": "true",
-      "serverVersion": ["<=5.37"]
+      "serverVersion": ["<6.3"]
     },
     "localizedMessages": {
       "en": {
