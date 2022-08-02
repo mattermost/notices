@@ -5,7 +5,8 @@
       "audience": "sysadmin",
       "clientType": "all",
       "instanceType": "onprem",
-      "repeatable": "true"
+      "repeatable": "true",
+      "serverVersion": ["<=5.37"]
     },
     "localizedMessages": {
       "en": {
