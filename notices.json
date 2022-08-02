@@ -1,5 +1,23 @@
 [
     {
+    "id": "unsupported-server-version-v5.37",
+    "conditions": {
+      "audience": "sysadmin",
+      "clientType": "all",
+      "instanceType": "onprem",
+      "repeatable": "true"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Your Mattermost server is unsupported XXXXXX needs copy",
+        "description": "XXXXXX needs copy",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
+        "actionText": "Upgrade Now",
+        "actionParam": "https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html"
+      }
+    }
+  },
+    {
     "id": "june15-cloud-freemium",
     "conditions": {
       "audience": "all",
