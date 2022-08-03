@@ -6,6 +6,7 @@
       "clientType": "all",
       "instanceType": "all",
       "repeatable": "true",
+      "displayDate": "> 2022-08-01T00:00:00Z <= 2022-09-30T00:00:00Z",
     },
     "localizedMessages": {
       "en": {
