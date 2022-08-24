@@ -56,21 +56,21 @@
     }
   },
   {
-    "id": "server_upgrade_v7.1",
+    "id": "server_upgrade_v7.2",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<7.1"],
+      "serverVersion": ["<7.2"],
       "instanceType": "onprem",
-      "displayDate": ">= 2022-07-18T00:00:00Z"
+      "displayDate": ">= 2022-08-18T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 7.1 is here!",
-        "description": "Mattermost v7.1 is an Extended Support Release and includes [a new Insights dashboard](https://docs.mattermost.com/welcome/insights.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 7.2 is here!",
+        "description": "Mattermost v7.2 includes [message forwarding for channels](https://docs.mattermost.com/channels/forward-messages.html) and [Audit Log v2 Beta](https://docs.mattermost.com/comply/audit-log.html) supporting new schema and output log types. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v7-1-is-now-available/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v7-2-is-now-available/"
       }
     }
   },
