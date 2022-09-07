@@ -1,13 +1,6 @@
 [
   {
-    "id": "use_case_survey_1",
-    "conditions": {
-      "audience": "all",
-      "clientType": "all",
-      "instanceType": "all"
-      "repeatable": "false",
-      "displayDate": ">= 2022-06-16T00:00:00Z"
-    },
+    "id": "use_case_survey_2",
     "localizedMessages": {
       "en": {
         "title": "We want your feedback!",
