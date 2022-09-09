@@ -8,7 +8,7 @@
       "en": {
         "title": "We want your feedback!",
         "description": "We are looking for feedback on how we are doing in supporting your team's collaboration throughout different phases of the DevOps lifecycle. Please help us with a quick 5 minutes survey and a chance to win a set of AirPod Pros.",
-        "image": "https://github.com/mattermost/notices/blob/master/images/Feedback.png",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Feedback.png",
         "actionText": "Give feedback",
         "actionParam": "https://forms.gle/otcG8ETaG8URZtEt8"
       }
