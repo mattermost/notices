@@ -1,8 +1,8 @@
 [
   {
-    "id": "use_case_survey_3",
+    "id": "use_case_survey_4",
     "conditions": {
-      "displayDate": "> 2022-08-01T00:00:00Z <= 2022-09-30T00:00:00Z"
+      "displayDate": ">= 2022-07-17T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
