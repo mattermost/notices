@@ -52,21 +52,21 @@
     }
   },
   {
-    "id": "server_upgrade_v7.2",
+    "id": "server_upgrade_v7.3",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<7.2"],
+      "serverVersion": ["<7.3"],
       "instanceType": "onprem",
-      "displayDate": ">= 2022-08-18T00:00:00Z"
+      "displayDate": ">= 2022-09-19T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 7.2 is here!",
-        "description": "Mattermost v7.2 includes [message forwarding for channels](https://docs.mattermost.com/channels/forward-messages.html) and [Audit Log v2 Beta](https://docs.mattermost.com/comply/audit-log.html) supporting new schema and output log types. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 7.3 is here!",
+        "description": "Mattermost v7.3 includes [standalone Calls server and Kubernetes support (Enterprise)](https://docs.mattermost.com/configure/calls-deployment.html#calls-self-hosted-deployment), new [role-based permissions system](https://docs.mattermost.com/welcome/whats-new-in-v72.html#sharing) and [sidebar navigation](https://docs.mattermost.com/welcome/whats-new-in-v72.html#navigation) for Boards, a redesigned left-hand sidebar and run detail page for Playbooks, and [new Insights widgets](https://docs.mattermost.com/welcome/insights.html) including Most Active Direct Messages and Top Playbooks. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v7-2-is-now-available/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v7-3-is-now-available/"
       }
     }
   },
