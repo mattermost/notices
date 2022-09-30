@@ -104,11 +104,11 @@
     }
   },
   {
-    "id": "server_upgrade_v7.3",
+    "id": "server_upgrade_v7.3_1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<7.4"],
+      "serverVersion": ["<7.5"],
       "instanceType": "onprem",
       "displayDate": ">= 2022-09-19T00:00:00Z"
     },
