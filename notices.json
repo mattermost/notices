@@ -11,7 +11,7 @@
     "localizedMessages": {
       "en": {
         "title": "Your Mattermost server version is unsupported. Upgrading is required",
-        "description": "You are on an unsupported Mattermost server version and it’s time to upgrade! [Read here](https://mattermost.com/blog/why-to-upgrade-mattermost-server/) on how we have improved server performance for Mattermost users, as well as why upgrading your Mattermost server ensures that you’re getting the latest new features, security fixes, and bug fixes.",
+        "description": "You are on an unsupported Mattermost server version and it’s time to upgrade! [Read here](https://mattermost.com/blog/why-to-upgrade-mattermost-server/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=notification-why-upgrade-blog&utm_id=nov-notifications&utm_content=notification-why-upgrade-blog) on how we have improved server performance for Mattermost users, as well as why upgrading your Mattermost server ensures that you’re getting the latest new features, security fixes, and bug fixes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Upgrade Now",
         "actionParam": "https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html"
