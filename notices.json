@@ -44,7 +44,7 @@
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Desktop App v5.2 includes a downloads dropdown for managing downloads and improved onboarding screens when adding new servers. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
+        "description": "Desktop App v5.2 includes a downloads dropdown for managing downloads and an improved onboarding screen for adding new servers. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
