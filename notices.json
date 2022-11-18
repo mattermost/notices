@@ -196,13 +196,13 @@
     }
   },
   {
-    "id": "unsupported-server-version-v5.37-3",
+    "id": "unsupported-server-version-v5.37-4",
+    "repeatable": true
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
       "instanceType": "onprem",
-      "serverVersion": ["<7.6"],
-      "repeatable": true
+      "serverVersion": ["<7.6"]
     },
     "localizedMessages": {
       "en": {
