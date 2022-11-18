@@ -160,7 +160,7 @@
     }
   },
   {
-    "id": "custom_statuses_11",
+    "id": "custom_statuses_22",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
@@ -178,7 +178,7 @@
     }
   },
     {
-    "id": "v6.2_boards_2",
+    "id": "v6.2_boards_5",
     "conditions": {
       "audience": "all",
       "clientType": "all",
