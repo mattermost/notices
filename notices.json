@@ -1,6 +1,6 @@
 [
   {
-    "id": "use_case_survey",
+    "id": "use_case_survey_1",
     "conditions": {
       "displayDate": ">= 2022-08-01T00:00:00Z"
     },
@@ -215,7 +215,7 @@
     }
   },
   {
-    "id": "unsupported-server-version-v5.37-2",
+    "id": "unsupported-server-version-v5.37-3",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
