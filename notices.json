@@ -66,7 +66,7 @@
         "description": "Mattermost v7.5 includes message threads in Calls, [new Board templates](https://docs.mattermost.com/boards/work-with-boards.html#choose-a-board-template), [Board filtering by text properties](https://docs.mattermost.com/boards/groups-filter-sort.html#filters), [Board metrics](https://docs.mattermost.com/configure/reporting-configuration-settings.html#site-statistics), and [user last activity in channels](https://docs.mattermost.com/channels/channels-settings.html#share-last-active-time). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v7-5-is-now-available/"
+        "actionParam": "https://mattermost.com/blog/mattermost-v7-5-is-now-available/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
       }
     }
   },
