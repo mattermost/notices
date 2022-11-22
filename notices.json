@@ -201,7 +201,6 @@
       "audience": "sysadmin",
       "clientType": "all",
       "instanceType": "onprem",
-      "repeatable": "true",
       "serverVersion": ["<7.1"]
     },
     "localizedMessages": {
