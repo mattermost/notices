@@ -108,7 +108,7 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<7.5"],
+      "serverVersion": ["<7.7"],
       "instanceType": "onprem",
       "displayDate": ">= 2022-11-21T00:00:00Z"
     },
