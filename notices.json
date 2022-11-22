@@ -104,7 +104,7 @@
     }
   },
 {
-    "id": "server_upgrade_v7.5",
+    "id": "server_upgrade_v7.5_1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
