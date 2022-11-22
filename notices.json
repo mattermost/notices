@@ -36,7 +36,7 @@
   {
     "id": "desktop_upgrade_v5.2",
     "conditions": {
-      "audience": "sysadmin",
+      "audience": "all",
       "clientType": "desktop",
       "desktopVersion": ["<5.2"],
       "serverVersion": [">=6.0"]
