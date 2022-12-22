@@ -14,4 +14,4 @@ jobs:
       with:
         node-version: '14'
     - run: npm install -g ajv-cli
-    - run: ajv validate -s notices.schema.json -d notices.json | tee ajv-out.txt
+    - run: ajv validate -s notices.schema.json -d notices.json
