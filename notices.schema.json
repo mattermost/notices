@@ -141,7 +141,9 @@
         },
         "id": {
           "description": "Unique identifier for this notice. Can be a running number. Used for storing 'viewed' state on the server.",
-          "type": "string"
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 26
         },
         "localizedMessages": {
           "additionalProperties": {
