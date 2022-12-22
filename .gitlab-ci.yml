@@ -6,7 +6,7 @@ validate-json:
   stage: verify-json
   script:
     - npm install -g ajv-cli
-    - ajv validate -s notices.schema.json -d notices.json | tee ajv-out.txt
+    - ajv validate -s notices.schema.json -d notices.json 
 pre-release:
   image: amazon/aws-cli
   stage: deploy
