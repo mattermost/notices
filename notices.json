@@ -52,21 +52,21 @@
     }
   },
   {
-    "id": "server_upgrade_v7.5",
+    "id": "server_upgrade_v7.7",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<7.5"],
+      "serverVersion": ["<7.7"],
       "instanceType": "onprem",
-      "displayDate": ">= 2022-11-22T00:00:00Z"
+      "displayDate": ">= 2023-01-19T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 7.5 is here!",
-        "description": "Mattermost v7.5 includes message threads in Calls, [new Board templates](https://docs.mattermost.com/boards/work-with-boards.html#choose-a-board-template), [Board filtering by text properties](https://docs.mattermost.com/boards/groups-filter-sort.html#filters), [Board metrics](https://docs.mattermost.com/configure/reporting-configuration-settings.html#site-statistics), and [user last activity in channels](https://docs.mattermost.com/channels/channels-settings.html#share-last-active-time). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 7.7 is here!",
+        "description": "Mattermost v7.7 includes the general availability of [Calls](https://docs.mattermost.com/configure/calls-deployment.html) and [Mobile app v2](https://mattermost.com/blog/preparing-for-mobile-v2-0/), [Channel Message priority](https://docs.mattermost.com/channels/message-priority.html), [Playbook runs in existing channels](https://docs.mattermost.com/playbooks/work-with-playbooks.html#multiple-runs-in-a-channel), [Playbook task inbox](https://docs.mattermost.com/playbooks/work-with-tasks.html#task-inbox), [Board file attachments](https://docs.mattermost.com/boards/work-with-cards.html#attach-files), [sidebar drag and drop Boards sidebar](https://docs.mattermost.com/boards/navigate-boards.html#manage-boards-on-the-sidebar) and improved [Boards template picker](https://docs.mattermost.com/boards/work-with-boards.html#choose-a-board-template). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v7-5-is-now-available/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
+        "actionParam": "https://mattermost.com/blog/mattermost-v7-7-is-now-available/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
       }
     }
   },
