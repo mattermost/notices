@@ -38,7 +38,6 @@
   },
   {
     "id": "unsupported-server-version-v5.37-4",
-    "repeatable": true,
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
