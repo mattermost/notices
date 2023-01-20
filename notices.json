@@ -35,23 +35,5 @@
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
       }
     }
-  },
-  {
-    "id": "unsupported-server-version-v5.37-4",
-    "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "instanceType": "onprem",
-      "serverVersion": ["<7.6"]
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "2 Your Mattermost server version is unsupported. Upgrading is required",
-        "description": "You are on an unsupported Mattermost server version and it’s time to upgrade! [Read here](https://mattermost.com/blog/why-to-upgrade-mattermost-server/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=notification-why-upgrade-blog&utm_id=nov-notifications&utm_content=notification-why-upgrade-blog) on how we have improved server performance for Mattermost users, as well as why upgrading your Mattermost server ensures that you’re getting the latest new features, security fixes, and bug fixes.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Upgrade Now",
-        "actionParam": "https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=notification-upgrade&utm_id=nov-notifications&utm_content=notification-upgrade"
-      }
-    }
   }
 ]
