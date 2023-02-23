@@ -63,7 +63,7 @@
     "localizedMessages": {
       "en": {
         "title": "Mattermost 7.8 is here!",
-        "description": "Mattermost v7.8 includes [improved filters and groups for Boards](https://docs.mattermost.com/boards/groups-filter-sort.html#work-with-groups-filter-and-sort). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "description": "Mattermost v7.8 Extended Support Release includes [improved filters and groups for Boards](https://docs.mattermost.com/boards/groups-filter-sort.html#work-with-groups-filter-and-sort). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://mattermost.com/blog/mattermost-v7-8-is-now-available/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
