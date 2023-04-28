@@ -1,39 +1,5 @@
 [
   {
-    "id": "use_case_survey",
-    "conditions": {
-      "displayDate": "<= 2022-08-01T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "We want your feedback!",
-        "description": "We are looking for feedback on how we are doing in supporting your team's collaboration throughout different phases of the DevOps lifecycle. Please help us with a quick 5 minutes survey for a chance to win a set of AirPod Pros.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Feedback.png",
-        "actionText": "Give feedback",
-        "actionParam": "https://forms.gle/otcG8ETaG8URZtEt8"
-      }
-    }
-  },
-  {
-    "id": "june15-cloud-freemium",
-    "conditions": {
-      "audience": "all",
-      "clientType": "all",
-      "sku": "e0",
-      "instanceType": "onprem",
-      "displayDate": ">= 2022-06-21T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Use Mattermost Cloud for free forever",
-        "description": "Use Mattermost Cloud to automate upgrades, decrease hosting costs, and remove maintenance overhead while keeping global security standards - for free! Create your free workspace today.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/release/images/mattermost-cloud-freemium.png",
-        "actionText": "Create your free workspace",
-        "actionParam": "https://mattermost.com/sign-up/?utm_source=freemium-inapp-notice"
-      }
-    }
-  },
-  {
     "id": "desktop_upgrade_v5.2",
     "conditions": {
       "audience": "all",
@@ -147,42 +113,6 @@
     }
   },
   {
-    "id": "v6.0_user_introduction",
-    "conditions": {
-      "audience": "all",
-      "clientType": "all",
-      "serverVersion": [">=6.0"],
-      "displayDate": ">= 2021-10-13T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "New tools, new interface",
-        "description": "Mattermost is expanding our open source collaboration platform to include new integrated tools that address a wider variety of workflow types. Playbooks are for well-defined processes that typically follow a checklist-based structure. Boards are for managing and organizing projects and tasks across the entire product lifecycle.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/v6.0.gif",
-        "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v6-0-is-now-available/"
-      }
-    }
-  },
-  {
-    "id": "v6.2_boards",
-    "conditions": {
-      "audience": "all",
-      "clientType": "all",
-      "serverVersion": [">=6.2"],
-      "displayDate": ">= 2021-12-10T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Manage your projects and tasks in one place",
-        "description": "View your active projects and work items, update weekly status and more by selecting Boards from the top-left menu.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Boards_v6.2.gif",
-        "actionText": "Open Boards",
-        "actionParam": "/boards/welcome"
-      }
-    }
-  },
-      {
     "id": "unsupported-server-v5.37",
     "conditions": {
       "audience": "sysadmin",
