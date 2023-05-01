@@ -2,7 +2,7 @@
  {
     "id": "server_upgrade_v7.10-1",
     "conditions": {
-      "audience": "all",
+      "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": ["<7.10"],
       "instanceType": "onprem",
