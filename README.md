@@ -12,7 +12,7 @@ Notices are modals that appear in-product when users meet certain criteria as de
 
 Notices can be triggered on the following conditions:
 
-- **External Dependency**: If an external dependency going to be deprecated for a certain version.
+- **External Dependency**: If an external dependency is going to be deprecated for a certain version.
 
 - **User Role** (sysadmins, all): default "all" if not specified.
 
