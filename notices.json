@@ -18,21 +18,21 @@
     }
   },
   {
-    "id": "server_upgrade_v7.9",
+    "id": "server_upgrade_v8.0",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<7.9"],
+      "serverVersion": ["<8.0"],
       "instanceType": "onprem",
-      "displayDate": ">= 2023-03-20T00:00:00Z"
+      "displayDate": ">= 2023-07-17T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 7.9 is here!",
-        "description": "Mattermost v7.9 includes [Boards System and Team admin access](https://docs.mattermost.com/boards/share-and-collaborate.html#roles) and [Compliance APIs](https://htmlpreview.github.io/?https://github.com/mattermost/focalboard/blob/main/server/swagger/docs/html/index.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 8.0 is here!",
+        "description": "Mattermost v8.0 is focused on increasing your team’s operational efficiency, expanding our ecosystem, and improving our platform. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://mattermost.com/blog/mattermost-v7-9-is-now-available/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
+        "actionParam": "https://mattermost.com/blog/mattermost-v8-0-is-now-available/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
       }
     }
   },
