@@ -7,7 +7,7 @@
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost Boards will be removed on September 21, 2023",
+        "title": "Mattermost Boards will be removed on September 28, 2023",
         "description": "Mattermost Boards is transitioning to a fully community supported plugin. As a result, Boards will be removed from Mattermost Cloud instances on September 21, 2023. Click below to learn more about how this impacts your instance and how to prepare."
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Feedback.png",
         "actionText": "Learn more",
