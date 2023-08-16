@@ -17,7 +17,7 @@
       }
     }
   },
-    {
+  {
     "id": "boards_deprecations",
     "conditions": {
       "audience": "sysadmin",
