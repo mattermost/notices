@@ -3,7 +3,7 @@
     "id": "boards_deprecations",
     "conditions": {
       "audience": "sysadmin",
-      "instanceType": "cloud",
+      "instanceType": "cloud"
     },
     "localizedMessages": {
       "en": {
