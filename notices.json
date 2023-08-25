@@ -22,7 +22,7 @@
       "clientType": "all",
       "serverVersion": ["<8.1"],
       "instanceType": "onprem",
-      "displayDate": ">= 2023-08-28T00:00:00Z"
+      "displayDate": ">= 2023-08-20T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
