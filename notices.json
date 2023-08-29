@@ -8,7 +8,7 @@
     },
     "localizedMessages": {
       "en": {
-        "title": " In-product GIF picker will be temporarily unavailable",
+        "title": "In-product GIF picker will be temporarily unavailable",
         "description": "Due to GFYCAT shutting down on September 1, 2023, the in-product picker will not work until a Mattermost fix is shipped in v9.0, [supported 8.x versions, and ESR versions](https://docs.mattermost.com/upgrade/release-lifecycle.html). If GIFs are important to your instance, please consider upgrading your Mattermost instance to these versions as soon as it is available.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/gif_picker.png",
         "actionText": "Learn more",
