@@ -1,5 +1,73 @@
 [
   {
+    "id": "gfycat_deprecation_7.8",
+    "conditions": {
+      "audience": "sysadmin",
+      "instanceType": "onprem",
+      "serverVersion": ["<7.8.9"]
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "In-product GIF picker will be temporarily unavailable",
+        "description": "Due to GFYCAT shutting down on September 1, 2023, the in-product picker will not work until a Mattermost fix is shipped in v9.0, [supported 8.x versions, and ESR versions](https://docs.mattermost.com/upgrade/release-lifecycle.html). If GIFs are important to your instance, please consider upgrading your Mattermost instance to these versions as soon as it is available.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/gif_picker.png",
+        "actionText": "Learn more",
+        "actionParam": "https://forum.mattermost.com/t/gfycat-is-going-away-what-does-it-mean-for-mattermost-users/16751"
+      }
+    }
+  },
+  {
+    "id": "gfycat_deprecation_7.9_7.10",
+    "conditions": {
+      "audience": "sysadmin",
+      "instanceType": "onprem",
+      "serverVersion": ["7.9-7.11"]
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "In-product GIF picker will be temporarily unavailable",
+        "description": "Due to GFYCAT shutting down on September 1, 2023, the in-product picker will not work until a Mattermost fix is shipped in v9.0, [supported 8.x versions, and ESR versions](https://docs.mattermost.com/upgrade/release-lifecycle.html). If GIFs are important to your instance, please consider upgrading your Mattermost instance to these versions as soon as it is available.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/gif_picker.png",
+        "actionText": "Learn more",
+        "actionParam": "https://forum.mattermost.com/t/gfycat-is-going-away-what-does-it-mean-for-mattermost-users/16751"
+      }
+    }
+  },
+  {
+    "id": "gfycat_deprecation_8.0",
+    "conditions": {
+      "audience": "sysadmin",
+      "instanceType": "onprem",
+      "serverVersion": ["8.0.0-8.0.1"]
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "In-product GIF picker will be temporarily unavailable",
+        "description": "Due to GFYCAT shutting down on September 1, 2023, the in-product picker will not work until a Mattermost fix is shipped in v9.0, [supported 8.x versions, and ESR versions](https://docs.mattermost.com/upgrade/release-lifecycle.html). If GIFs are important to your instance, please consider upgrading your Mattermost instance to these versions as soon as it is available.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/gif_picker.png",
+        "actionText": "Learn more",
+        "actionParam": "https://forum.mattermost.com/t/gfycat-is-going-away-what-does-it-mean-for-mattermost-users/16751"
+      }
+    }
+  },
+  {
+    "id": "gfycat_deprecation_8.1",
+    "conditions": {
+      "audience": "sysadmin",
+      "instanceType": "onprem",
+      "serverVersion": ["8.1.0"]
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "In-product GIF picker will be temporarily unavailable",
+        "description": "Due to GFYCAT shutting down on September 1, 2023, the in-product picker will not work until a Mattermost fix is shipped in v9.0, [supported 8.x versions, and ESR versions](https://docs.mattermost.com/upgrade/release-lifecycle.html). If GIFs are important to your instance, please consider upgrading your Mattermost instance to these versions as soon as it is available.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/gif_picker.png",
+        "actionText": "Learn more",
+        "actionParam": "https://forum.mattermost.com/t/gfycat-is-going-away-what-does-it-mean-for-mattermost-users/16751"
+      }
+    }
+  },
+ {
     "id": "boards_deprecations",
     "conditions": {
       "audience": "sysadmin",
@@ -8,28 +76,10 @@
     "localizedMessages": {
       "en": {
         "title": "Mattermost Boards will be removed on September 28, 2023",
-        "description": "Mattermost Boards is transitioning to a fully community supported plugin. As a result, Boards will be removed from Mattermost Cloud instances on September 28, 2023. Click below to learn more about how this impacts your instance and how to prepare.",
+        "description": "Mattermost Boards is transitioning to a fully community supported plugin. As a result, Boards will be removed from Mattermost Cloud instances on September 21, 2023. Click below to learn more about how this impacts your instance and how to prepare.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Feedback.png",
         "actionText": "Learn more",
         "actionParam": "https://forum.mattermost.com/t/upcoming-product-changes-to-boards-and-various-plugins/16669"
-      }
-    }
-  },
-  {
-    "id": "desktop_upgrade_v5.4",
-    "conditions": {
-      "audience": "all",
-      "clientType": "desktop",
-      "desktopVersion": ["<5.4"],
-      "serverVersion": [">=6.0"]
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "New desktop version available",
-        "description": "Desktop App v5.4 includes an improved URL validation and an improved add/edit server experience. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
-        "actionText": "Download",
-        "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
       }
     }
   },
@@ -40,7 +90,7 @@
       "clientType": "all",
       "serverVersion": ["<8.1"],
       "instanceType": "onprem",
-      "displayDate": ">= 2023-08-28T00:00:00Z"
+      "displayDate": ">= 2023-08-20T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
@@ -53,96 +103,39 @@
     }
   },
   {
-    "id": "crt-admin-disabled",
+    "id": "server_upgrade_v7.10-1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": [">=7.0"],
-      "displayDate": ">= 2022-06-16T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "disabled" }
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Collapsed Reply Threads are here, now in general availability!",
-        "description": "Experience a better way to communicate in threads that keeps your channels and conversations organized.\n\nYou can now enable Collapsed Reply Threads by default for all users in **System Console** > **Posts** > **Collapsed Reply Threads**.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
-        "actionText": "Learn more",
-        "actionParam": "https://support.mattermost.com/hc/en-us/articles/6880701948564"
-      }
-    }
-  },
-  {
-    "id": "crt-admin-default_off",
-    "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "serverVersion": [">=7.0"],
-      "displayDate": ">= 2022-06-16T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "default_off" }
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Now enable Collapsed Reply Threads by default for all users!",
-        "description": "You can now enable Collapsed Reply Threads by default for all users in **System Console** > **Posts** > **Collapsed Reply Threads**.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
-        "actionText": "Learn more",
-        "actionParam": "https://support.mattermost.com/hc/en-us/articles/6880701948564"
-      }
-    }
-  },
-  {
-    "id": "crt-user-default-on",
-    "conditions": {
-      "audience": "all",
-      "clientType": "all",
-      "serverVersion": [">=7.0"],
-      "displayDate": ">= 2022-06-16T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "default_on" }
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Experience a better way to communicate in threads",
-        "description": "Welcome to Collapsed Reply Threads! You can now find, follow, and resume conversations more easily, and keep discussion threads focused.\n\nYou can always disable it in **Settings** > **Display** > **Collapsed Reply Threads**",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
-        "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/channels/organize-conversations.html"
-      }
-    }
-  },
-  {
-    "id": "crt-user-always-on",
-    "conditions": {
-      "audience": "all",
-      "clientType": "all",
-      "serverVersion": [">=7.0"],
-      "displayDate": ">= 2022-06-16T00:00:00Z",
-      "serverConfig": { "ServiceSettings.CollapsedThreads": "always_on" }
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Experience a better way to communicate in threads",
-        "description": "Welcome to Collapsed Reply Threads! You can now find, follow, and resume conversations more easily, and keep discussion threads focused.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
-        "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/channels/organize-conversations.html"
-      }
-    }
-  },
-  {
-    "id": "unsupported-server-v5.37",
-    "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
+      "serverVersion": ["<7.10"],
       "instanceType": "onprem",
-      "serverVersion": ["<7.1"]
+      "displayDate": ">= 2023-04-16T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Your Mattermost server version is unsupported. Upgrading is required",
-        "description": "You are on an unsupported Mattermost server version and it’s time to upgrade! [Read here](https://mattermost.com/blog/why-to-upgrade-mattermost-server/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=notification-why-upgrade-blog&utm_id=nov-notifications&utm_content=notification-why-upgrade-blog) on how we have improved server performance for Mattermost users, as well as why upgrading your Mattermost server ensures that you’re getting the latest new features, security fixes, and bug fixes.",
+        "title": "Mattermost 7.10 is here!",
+        "description": "Mattermost v7.10 includes medium severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Upgrade Now",
-        "actionParam": "https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=notification-upgrade&utm_id=nov-notifications&utm_content=notification-upgrade"
+        "actionText": "Learn more",
+        "actionParam": "https://docs.mattermost.com/install/self-managed-changelog.html/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
+      }
+    }
+  },
+  {
+    "id": "desktop_upgrade_v5.2",
+    "conditions": {
+      "audience": "sysadmin",
+      "clientType": "desktop",
+      "desktopVersion": ["<5.2"],
+      "serverVersion": [">=6.0"]
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "New desktop version available",
+        "description": "Desktop App v5.2 includes a downloads dropdown for managing downloads and an improved onboarding screen for adding new servers. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
+        "actionText": "Download",
+        "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
       }
     }
   }
