@@ -4,7 +4,7 @@
     "conditions": {
       "audience": "sysadmin",
       "instanceType": "onprem",
-      "serverVersion": ["<7.8.9"]
+      "serverVersion": ["<=7.8.9"]
     },
     "localizedMessages": {
       "en": {
