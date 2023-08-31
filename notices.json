@@ -84,7 +84,7 @@
     }
   },
   {
-    "id": "boards_deprecations_end_user",
+    "id": "boards_deprecations_user",
     "conditions": {
       "instanceType": "cloud"
     },
