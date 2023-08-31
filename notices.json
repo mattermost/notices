@@ -21,7 +21,7 @@
     "conditions": {
       "audience": "sysadmin",
       "instanceType": "onprem",
-      "serverVersion": ["7.9-7.11"]
+      "serverVersion": [">= 7.9 <= 7.10"]
     },
     "localizedMessages": {
       "en": {
@@ -38,7 +38,7 @@
     "conditions": {
       "audience": "sysadmin",
       "instanceType": "onprem",
-      "serverVersion": ["8.0.0-8.0.1"]
+      "serverVersion": [">= 8.0.0 <=8.0.1"]
     },
     "localizedMessages": {
       "en": {
