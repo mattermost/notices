@@ -99,21 +99,21 @@
     }
   },
   {
-    "id": "server_upgrade_v8.1",
+    "id": "server_upgrade_v9.0",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<8.1"],
+      "serverVersion": ["<9.0"],
       "instanceType": "onprem",
-      "displayDate": ">= 2023-08-20T00:00:00Z"
+      "displayDate": ">= 2023-09-16T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 8.1 is here!",
-        "description": "Mattermost v8.1 is the newest Extended Support Release. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 9.0 is here!",
+        "description": "Mattermost v9.0 is the newest major release. In Mattermost v9.0, secure, purpose-built collaboration allows your team to focus and thrive. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/install/self-managed-changelog.html/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
+        "actionParam": "https://mattermost.com/blog/mattermost-v9-0-is-now-available/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
       }
     }
   },
@@ -137,17 +137,17 @@
     }
   },
   {
-    "id": "desktop_upgrade_v5.2",
+    "id": "desktop_upgrade_v5.5",
     "conditions": {
-      "audience": "sysadmin",
+      "audience": "all",
       "clientType": "desktop",
-      "desktopVersion": ["<5.2"],
+      "desktopVersion": ["<5.5"],
       "serverVersion": [">=6.0"]
     },
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Desktop App v5.2 includes a downloads dropdown for managing downloads and an improved onboarding screen for adding new servers. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
+        "description": "Desktop App v5.5 includes various new improvements and bug fixes. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
