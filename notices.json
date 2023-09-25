@@ -91,7 +91,7 @@
     "localizedMessages": {
       "en": {
         "title": "Mattermost Boards will be removed on September 28th, 2023",
-        "description": "Boards will be removed from Mattermost Cloud instances on September 28th, 2023. You can export your boards to CSV files prior to this date. Click below to learn more about how to prepare.",
+        "description": "Boards will be removed from Mattermost Cloud instances on September 28th, 2023. You must export your boards to CSV files prior to this date. Click below to learn more about how to prepare.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Feedback.png",
         "actionText": "Learn more",
         "actionParam": "https://forum.mattermost.com/t/upcoming-product-changes-to-boards-and-various-plugins/16669"
