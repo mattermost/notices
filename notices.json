@@ -84,14 +84,14 @@
     }
   },
   {
-    "id": "boards_deprecations_user",
+    "id": "boards_deprecations_user_2",
     "conditions": {
       "instanceType": "cloud"
     },
     "localizedMessages": {
       "en": {
         "title": "Mattermost Boards will be removed on September 28th, 2023",
-        "description": "Mattermost Boards is transitioning to a fully community supported plugin. As a result, Boards will be removed from Mattermost Cloud instances on September 28th, 2023. Click below to learn more about how to prepare.",
+        "description": "Boards will be removed from Mattermost Cloud instances on September 28th, 2023. You can export your boards to CSV files prior to this date. Click below to learn more about how to prepare.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Feedback.png",
         "actionText": "Learn more",
         "actionParam": "https://forum.mattermost.com/t/upcoming-product-changes-to-boards-and-various-plugins/16669"
