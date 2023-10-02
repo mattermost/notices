@@ -84,14 +84,14 @@
     }
   },
   {
-    "id": "boards_deprecations_user",
+    "id": "boards_deprecations_user_2",
     "conditions": {
       "instanceType": "cloud"
     },
     "localizedMessages": {
       "en": {
         "title": "Mattermost Boards will be removed on September 28th, 2023",
-        "description": "Mattermost Boards is transitioning to a fully community supported plugin. As a result, Boards will be removed from Mattermost Cloud instances on September 28th, 2023. Click below to learn more about how to prepare.",
+        "description": "Boards will be removed from Mattermost Cloud instances on September 28th, 2023. You must export your boards to CSV files prior to this date. Click below to learn more about how to prepare.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/Feedback.png",
         "actionText": "Learn more",
         "actionParam": "https://forum.mattermost.com/t/upcoming-product-changes-to-boards-and-various-plugins/16669"
@@ -117,21 +117,21 @@
     }
   },
   {
-    "id": "server_upgrade_v8.1",
+    "id": "server_upgrade_v9.0",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<8.1"],
+      "serverVersion": ["<9.0"],
       "instanceType": "onprem",
-      "displayDate": ">= 2023-08-28T00:00:00Z"
+      "displayDate": ">= 2023-09-18T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 8.1 is here!",
-        "description": "Mattermost v8.1 is the newest Extended Support Release. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 9.0 is here!",
+        "description": "Mattermost v9.0 is the newest major release. In Mattermost v9.0, secure, purpose-built collaboration allows your team to focus and thrive. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/install/self-managed-changelog.html/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
+        "actionParam": "https://mattermost.com/blog/mattermost-v9-0-is-now-available/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
       }
     }
   },
