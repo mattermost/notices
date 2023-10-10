@@ -2,7 +2,10 @@
   {
     "id": "user_survey_2023",
     "conditions": {
-      "displayDate": ">= 2023-10-01T00:00:00Z"
+      "displayDate": ">= 2023-10-01T00:00:00Z",
+      "audience": "all",
+      "clientType": "all",
+      "serverVersion": [">=7.1"]
     },
     "localizedMessages": {
       "en": {
