@@ -10,7 +10,7 @@
     "localizedMessages": {
       "en": {
         "title": "Share your feedback for a chance to win",
-        "description": "We’re looking for feedback on how we support your team’s collaboration and workflows. [Complete this 5-minute survey](https://forms.gle/h7SnAehdzbDb83x78) and be entered for chance to win one of 3 Apple Airpod Pros and other exciting prizes!",
+        "description": "We’re looking for feedback on how we support your team’s collaboration and workflows. [Complete this 5-minute survey](https://forms.gle/h7SnAehdzbDb83x78) and be entered for a chance to win one of 3 Apple Airpod Pros and other exciting prizes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/user-survey-2023-notice.jpg",
         "actionText": "Take the survey",
         "actionParam": "https://forms.gle/h7SnAehdzbDb83x78"
