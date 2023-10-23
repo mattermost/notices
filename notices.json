@@ -105,15 +105,15 @@
       "clientType": "all",
       "serverVersion": ["<9.1"],
       "instanceType": "onprem",
-      "displayDate": ">= 2023-10-17T00:00:00Z"
+      "displayDate": ">= 2023-10-19T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
         "title": "Mattermost 9.1 is here!",
-        "description": "Mattermost v9.1 includes the ability to [add custom user groups to channels](https://docs.mattermost.com/collaborate/mention-people.html#customusergroupname), adds the [ability to convert a Group Message (GM) to a private channel](https://docs.mattermost.com/collaborate/convert-group-messages.html), and [Group Messages by default will now push out a notification per new post](https://docs.mattermost.com/collaborate/channel-types.html#group-messages). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "description": "Mattermost v9.1 includes the [ability to convert a Group Message (GM) to a private channel](https://docs.mattermost.com/collaborate/convert-group-messages.html), and [Group Messages by default will now push out a notification per new post](https://docs.mattermost.com/collaborate/channel-types.html#group-messages). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/install/self-managed-changelog.html/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
+        "actionParam": "https://mattermost.com/blog/mattermost-v9-1-is-now-available/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
       }
     }
   },
