@@ -99,17 +99,17 @@
     }
   },
   {
-    "id": "desktop_upgrade_v5.5",
+    "id": "desktop_upgrade_v5.6",
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
-      "desktopVersion": ["<5.5"],
+      "desktopVersion": ["<5.6"],
       "serverVersion": [">=6.0"]
     },
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Desktop App v5.5 includes various new improvements and bug fixes. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
+        "description": "Desktop App v5.6 includes various new improvements and bug fixes. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
@@ -117,18 +117,18 @@
     }
   },
   {
-    "id": "server_upgrade_v9.2",
+    "id": "server_upgrade_v9.3",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<9.2"],
+      "serverVersion": ["<9.3"],
       "instanceType": "onprem",
-      "displayDate": ">= 2023-11-20T00:00:00Z"
+      "displayDate": ">= 2024-01-02T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 9.2 is here!",
-        "description": "Mattermost v9.2 includes various new improvements and bug fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 9.3 is here!",
+        "description": "Mattermost v9.3 includes the ability to passively track keywords with highlights without triggering a notification (Professional and Enterprise plans), and various other improvements and bug fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/deploy/mattermost-changelog.html/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
