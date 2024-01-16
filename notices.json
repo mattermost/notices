@@ -99,18 +99,18 @@
     }
   },
   {
-    "id": "server_upgrade_v9.3",
+    "id": "server_upgrade_v9.4",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<9.3"],
+      "serverVersion": ["<9.4"],
       "instanceType": "onprem",
-      "displayDate": ">= 2023-12-17T00:00:00Z"
+      "displayDate": ">= 2024-01-15T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 9.3 is here!",
-        "description": "Mattermost v9.3 includes the ability to passively track keywords with highlights without triggering a notification (Professional and Enterprise plans), and various other improvements and bug fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 9.4 is here!",
+        "description": "Mattermost v9.4 includes multiple new improvements and bug fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/deploy/mattermost-changelog.html/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
