@@ -99,18 +99,18 @@
     }
   },
   {
-    "id": "server_upgrade_v9.4",
+    "id": "server_upgrade_v9.5",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<9.4"],
+      "serverVersion": ["<9.5"],
       "instanceType": "onprem",
-      "displayDate": ">= 2024-01-15T00:00:00Z"
+      "displayDate": ">= 2024-02-19T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 9.4 is here!",
-        "description": "Mattermost v9.4 includes multiple new improvements and bug fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 9.5 is here!",
+        "description": "Mattermost v9.5 is the newest Extended Support Release and includes multiple new improvements and bug fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/deploy/mattermost-changelog.html/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
