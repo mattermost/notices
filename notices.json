@@ -99,17 +99,17 @@
     }
   },
   {
-    "id": "desktop_upgrade_v5.6",
+    "id": "desktop_upgrade_v5.7",
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
-      "desktopVersion": ["<5.6"],
+      "desktopVersion": ["<5.7"],
       "serverVersion": [">=6.0"]
     },
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Desktop App v5.6 includes various new improvements and bug fixes. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
+        "description": "Desktop App v5.7 includes various new improvements and bug fixes. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
@@ -117,18 +117,18 @@
     }
   },
   {
-    "id": "server_upgrade_v9.5",
+    "id": "server_upgrade_v9.6",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<9.5"],
+      "serverVersion": ["<9.6"],
       "instanceType": "onprem",
-      "displayDate": ">= 2024-02-20T00:00:00Z"
+      "displayDate": ">= 2024-03-19T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 9.5 is here!",
-        "description": "Mattermost v9.5 is the newest Extended Support Release and includes multiple new improvements and bug fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 9.6 is here!",
+        "description": "Mattermost v9.6 includes multiple new improvements and bug fixes, including additional user statistics under User Management. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/deploy/mattermost-changelog.html"
