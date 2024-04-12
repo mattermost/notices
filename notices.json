@@ -104,7 +104,7 @@
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": ["<9.6"],
-      "instanceType": "onprem",
+      "instanceType": "cloud",
       "displayDate": ">= 2024-03-15T00:00:00Z"
     },
     "localizedMessages": {
