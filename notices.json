@@ -99,17 +99,17 @@
     }
   },
   {
-    "id": "desktop_upgrade_v5.8",
+    "id": "desktop_upgrade_v5.7",
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
-      "desktopVersion": ["<5.8"],
+      "desktopVersion": ["<5.7"],
       "serverVersion": [">=6.0"]
     },
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Desktop App v5.8 includes various new improvements and bug fixes. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
+        "description": "Desktop App v5.7 includes various new improvements and bug fixes. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
