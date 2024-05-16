@@ -99,17 +99,17 @@
     }
   },
   {
-    "id": "desktop_upgrade_v5.7",
+    "id": "desktop_upgrade_v5.8",
     "conditions": {
       "audience": "all",
       "clientType": "desktop",
-      "desktopVersion": ["<5.7"],
+      "desktopVersion": ["<5.8"],
       "serverVersion": [">=6.0"]
     },
     "localizedMessages": {
       "en": {
         "title": "New desktop version available",
-        "description": "Desktop App v5.7 includes various new improvements and bug fixes. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
+        "description": "Desktop App v5.8 includes various new improvements and bug fixes. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
         "actionText": "Download",
         "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
@@ -117,18 +117,18 @@
     }
   },
   {
-    "id": "server_upgrade_v9.7",
+    "id": "server_upgrade_v9.8",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<9.7"],
+      "serverVersion": ["<9.8"],
       "instanceType": "onprem",
-      "displayDate": ">= 2024-04-18T00:00:00Z"
+      "displayDate": ">= 2024-05-20T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 9.7 is here!",
-        "description": "Mattermost v9.7 includes multiple new improvements and bug fixes, including [beta of the AI plugin](https://github.com/mattermost/mattermost-plugin-ai). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 9.8 is here!",
+        "description": "Mattermost v9.8 includes multiple new improvements and bug fixes, including simpler notification settings. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/deploy/mattermost-changelog.html"
