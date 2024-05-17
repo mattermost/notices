@@ -99,18 +99,18 @@
     }
   },
   {
-    "id": "server_upgrade_v9.7",
+    "id": "server_upgrade_v9.8",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": ["<9.7"],
       "instanceType": "onprem",
-      "displayDate": ">= 2024-04-16T00:00:00Z"
+      "displayDate": ">= 2024-05-17T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 9.7 is here!",
-        "description": "Mattermost v9.7 includes multiple new improvements and bug fixes, including [beta of the AI plugin](https://github.com/mattermost/mattermost-plugin-ai). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 9.8 is here!",
+        "description": "Mattermost v9.8 includes multiple new improvements and bug fixes, including simpler notification settings. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/deploy/mattermost-changelog.html"
