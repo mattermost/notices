@@ -103,7 +103,7 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<9.7"],
+      "serverVersion": ["<9.8"],
       "instanceType": "onprem",
       "displayDate": ">= 2024-05-17T00:00:00Z"
     },
