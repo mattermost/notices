@@ -68,18 +68,18 @@
     }
   },
   {
-    "id": "server_upgrade_v9.8",
+    "id": "server_upgrade_v9.9",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<9.8"],
+      "serverVersion": ["<9.9"],
       "instanceType": "onprem",
-      "displayDate": ">= 2024-05-17T00:00:00Z"
+      "displayDate": ">= 2024-06-14T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 9.8 is here!",
-        "description": "Mattermost v9.8 includes multiple new improvements and bug fixes, including simpler notification settings. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 9.9 is here!",
+        "description": "Mattermost v9.9 includes multiple new improvements and bug fixes, including new client-side performance metrics. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/deploy/mattermost-changelog.html"
