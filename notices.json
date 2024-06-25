@@ -68,13 +68,13 @@
     }
   },
   {
-    "id": "server_upgrade_v9.9",
+    "id": "server_upgrade_v9.11",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<9.9"],
+      "serverVersion": ["<9.11"],
       "instanceType": "onprem",
-      "displayDate": ">= 2024-06-14T00:00:00Z"
+      "displayDate": ">= 2024-06-26T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
