@@ -97,8 +97,8 @@
     },
     "localizedMessages": {
       "en": {
-        "title": "Collapsed Reply Threads are here, now in general availability!",
-        "description": "Experience a better way to communicate in threads that keeps your channels and conversations organized.\n\nYou can now enable Collapsed Reply Threads by default for all users in **System Console** > **Posts** > **Collapsed Reply Threads**.",
+        "title": "Threaded Discussions are here, now in general availability!",
+        "description": "Experience a better way to communicate in threads that keeps your channels and conversations organized.\n\nYou can now enable Threaded Discussions by default for all users in **System Console** > **Posts** > **Threaded Discussions**.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
         "actionParam": "https://support.mattermost.com/hc/en-us/articles/6880701948564"
@@ -116,8 +116,8 @@
     },
     "localizedMessages": {
       "en": {
-        "title": "Now enable Collapsed Reply Threads by default for all users!",
-        "description": "You can now enable Collapsed Reply Threads by default for all users in **System Console** > **Posts** > **Collapsed Reply Threads**.",
+        "title": "Now enable Threaded Discussions by default for all users!",
+        "description": "You can now enable Threaded Discussions by default for all users in **System Console** > **Posts** > **Threaded Discussions**.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
         "actionParam": "https://support.mattermost.com/hc/en-us/articles/6880701948564"
@@ -136,7 +136,7 @@
     "localizedMessages": {
       "en": {
         "title": "Experience a better way to communicate in threads",
-        "description": "Welcome to Collapsed Reply Threads! You can now find, follow, and resume conversations more easily, and keep discussion threads focused.\n\nYou can always disable it in **Settings** > **Display** > **Collapsed Reply Threads**",
+        "description": "Welcome to Threaded Discussions! You can now find, follow, and resume conversations more easily, and keep discussion threads focused.\n\nYou can always disable it in **Settings** > **Display** > **Threaded Discussions**",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/channels/organize-conversations.html"
@@ -155,7 +155,7 @@
     "localizedMessages": {
       "en": {
         "title": "Experience a better way to communicate in threads",
-        "description": "Welcome to Collapsed Reply Threads! You can now find, follow, and resume conversations more easily, and keep discussion threads focused.",
+        "description": "Welcome to Threaded Discussions! You can now find, follow, and resume conversations more easily, and keep discussion threads focused.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/channels/organize-conversations.html"
