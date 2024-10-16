@@ -68,18 +68,18 @@
     }
   },
   {
-    "id": "server_upgrade_v10.0",
+    "id": "server_upgrade_v10.1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
       "serverVersion": ["<10.0"],
       "instanceType": "onprem",
-      "displayDate": ">= 2024-09-17T00:00:00Z"
+      "displayDate": ">= 2024-10-16T00T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.0 is here!",
-        "description": "Mattermost v10.0 extends Microsoft Teams and M365 platform to accelerate mission-critical workflows in defense, government and vital services at scale. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 10.1 is here!",
+        "description": "Mattermost v10.1 includes multiple new improvements and bug fixes, including channel bookmarks. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
