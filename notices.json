@@ -79,7 +79,7 @@
     "localizedMessages": {
       "en": {
         "title": "Mattermost 10.2 is here!",
-        "description": "Mattermost v10.2 includes multiple new improvements and bug fixes, including [Shared Channels (Beta)](https://docs.mattermost.com/onboard/connected-workspaces.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "description": "Mattermost v10.2 includes multiple new improvements and bug fixes, including [Connected Workspaces (Beta)](https://docs.mattermost.com/onboard/connected-workspaces.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
