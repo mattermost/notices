@@ -72,9 +72,9 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<10.1"],
+      "serverVersion": ["<10.2"],
       "instanceType": "onprem",
-      "displayDate": ">= 2024-11-17T00T00:00:00Z"
+      "displayDate": ">= 2024-11-18T00T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
