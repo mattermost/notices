@@ -83,9 +83,9 @@
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
-     }
-   }
- },
+      }
+    }
+  },
   {
     "id": "server_upgrade_v7.10-1",
     "conditions": {
