@@ -68,18 +68,18 @@
     }
   },
   {
-    "id": "server_upgrade_v10.3",
+    "id": "server_upgrade_v10.4",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<10.3"],
+      "serverVersion": ["<10.4"],
       "instanceType": "onprem",
-      "displayDate": ">= 2024-12-18T00:00:00Z"
+      "displayDate": ">= 2025-01-15T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.3 is here!",
-        "description": "Mattermost v10.3 includes multiple new improvements and bug fixes, including [Scheduled Messages](https://docs.mattermost.com/collaborate/schedule-messages.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 10.4 is here!",
+        "description": "Mattermost v10.4 includes multiple new improvements and bug fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
