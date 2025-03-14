@@ -68,18 +68,18 @@
     }
   },
   {
-    "id": "server_upgrade_v10.5",
+    "id": "server_upgrade_v10.6",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<10.5"],
+      "serverVersion": ["<10.6"],
       "instanceType": "onprem",
-      "displayDate": ">= 2025-02-20T00:00:00Z"
+      "displayDate": ">= 2025-03-17T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.5 is here!",
-        "description": "Mattermost v10.5 is the newest Extended Support Release and includes a Compliance Export overhaul as well as other improvements, bug fixes and breaking changes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 10.6 is here!",
+        "description": "Mattermost v10.6 includes multiple new improvements and bug fixes, as well as a new minimum PostgreSQL version of v13+. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
