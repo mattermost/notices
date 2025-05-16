@@ -68,18 +68,18 @@
     }
   },
   {
-    "id": "server_upgrade_v10.7",
+    "id": "server_upgrade_v10.8",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<10.7"],
+      "serverVersion": ["<10.8"],
       "instanceType": "onprem",
-      "displayDate": ">= 2025-04-17T00:00:00Z"
+      "displayDate": ">= 2025-05-19T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.7 is here!",
-        "description": "Mattermost v10.7 includes multiple new quality of life improvements. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 10.8 is here!",
+        "description": "Mattermost v10.8 includes multiple new quality of life improvements. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
