@@ -163,6 +163,22 @@
     }
   },
   {
+    "id": "playbooks-v1",
+    "conditions": {
+      "audience": "sysadmins",
+      "sku": "",
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Experience a better way to communicate in threads",
+        "description": "Welcome to Threaded Discussions! You can now find, follow, and resume conversations more easily, and keep discussion threads focused.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
+        "actionText": "Learn more",
+        "actionParam": "https://docs.mattermost.com/channels/organize-conversations.html"
+      }
+    }
+  },
+  {
     "id": "unsupported-server-v5.37",
     "conditions": {
       "audience": "sysadmin",
