@@ -68,18 +68,18 @@
     }
   },
   {
-    "id": "server_upgrade_v10.9",
+    "id": "server_upgrade_v10.10",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<10.9"],
+      "serverVersion": ["<10.10"],
       "instanceType": "onprem",
-      "displayDate": ">= 2025-06-18T00:00:00Z"
+      "displayDate": ">= 2025-06-16T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.9 is here!",
-        "description": "Mattermost v10.9 includes user attributes for channel access and channel classification banners. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 10.10 is here!",
+        "description": "Mattermost v10.10 contains multiple new quality of life improvements, including [Shared Direct/Group Messages](https://docs.mattermost.com/onboard/connected-workspaces.html#direct-message-delivery), [LDAP Wizard](https://docs.mattermost.com/onboard/ad-ldap.html), and [AI-enhanced Search (experimental)](https://docs.mattermost.com/guides/agents.html#search-with-ai). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
