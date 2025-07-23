@@ -110,7 +110,7 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<10.10.1"],
+      "serverVersion": ["=10.10.0"],
       "instanceType": "onprem",
       "displayDate": ">= 2025-07-16T00:00:00Z"
     },
