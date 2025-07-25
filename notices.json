@@ -110,13 +110,13 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["=10.5.0"],
+      "serverVersion": [">= 10.5.0 <=10.5.8"],
       "instanceType": "onprem",
-      "displayDate": ">= 2025-07-16T00:00:00Z"
+      "displayDate": ">= 2025-07-25T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.5.9 is available",
+        "title": "Mattermost 10.5.9 is now available",
         "description": "Mattermost v10.5.9 contains medium severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) is recommended.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
