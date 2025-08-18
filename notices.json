@@ -104,6 +104,25 @@
         "actionParam": "https://docs.mattermost.com/install/self-managed-changelog.html/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
       }
     }
+    },
+    {
+      "id": "patch_upgrade",
+      "conditions": {
+        "audience": "sysadmin",
+        "clientType": "all",
+        "serverVersion": [">= 10.5.0 <=10.5.9"],
+        "instanceType": "onprem",
+        "displayDate": ">= 2025-08-15T00:00:00Z"
+      },
+      "localizedMessages": {
+        "en": {
+          "title": "Mattermost 10.5.10 is now available",
+          "description": "Mattermost v10.5.10 Extended Support Release contains low to high severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) is recommended.",
+          "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
+          "actionText": "Learn more",
+          "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
+        }
+      }
   },
   {
     "id": "desktop_upgrade_v5.7",
