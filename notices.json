@@ -68,21 +68,21 @@
     }
   },
   {
-    "id": "server_upgrade_v10.10",
+    "id": "server_upgrade_v10.11",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<10.10"],
+      "serverVersion": ["<10.11"],
       "instanceType": "onprem",
-      "displayDate": ">= 2025-06-16T00:00:00Z"
+      "displayDate": ">= 2025-08-16T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.10 is here!",
-        "description": "Mattermost v10.10 contains multiple new quality of life improvements, including [Shared Direct/Group Messages](https://docs.mattermost.com/onboard/connected-workspaces.html#direct-message-delivery), [LDAP Wizard](https://docs.mattermost.com/onboard/ad-ldap.html), and [AI-enhanced Search (experimental)](https://docs.mattermost.com/guides/agents.html#search-with-ai). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 10.11 is here!",
+        "description": "Mattermost v10.11 Extended Support Release contains multiple new quality of life improvements, including server support for [Playbooks on mobile]​(https://docs.mattermost.com/end-user-guide/workflow-automation.html#access). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
+        "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v10-changelog.html"
       }
     }
   },
@@ -104,6 +104,25 @@
         "actionParam": "https://docs.mattermost.com/install/self-managed-changelog.html/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
       }
     }
+    },
+    {
+      "id": "patch_upgrade",
+      "conditions": {
+        "audience": "sysadmin",
+        "clientType": "all",
+        "serverVersion": [">= 10.5.0 <=10.5.9"],
+        "instanceType": "onprem",
+        "displayDate": ">= 2025-08-15T00:00:00Z"
+      },
+      "localizedMessages": {
+        "en": {
+          "title": "Mattermost 10.5.10 is now available",
+          "description": "Mattermost v10.5.10 Extended Support Release contains low to high severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) is recommended.",
+          "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
+          "actionText": "Learn more",
+          "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
+        }
+      }
   },
     {
     "id": "patch_upgrade",
