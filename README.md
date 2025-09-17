@@ -28,7 +28,7 @@ Notices can be triggered on the following conditions. See [schema](https://githu
 
 - **Instance Type**: Default "both" if not specified.
 
-- **Server Configuration**: If server congif settings match specific values. 
+- **Server Configuration**: If server configuration settings match specific values. 
 
 - **User Account Configuration**: Not available yet.
 
