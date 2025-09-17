@@ -79,7 +79,7 @@
     "localizedMessages": {
       "en": {
         "title": "Mattermost 10.12 is here!",
-        "description": "Mattermost v10.12 Extended Support Release contains multiple new quality of life improvements, including server support for [Playbooks on mobile]​(https://docs.mattermost.com/end-user-guide/workflow-automation.html#access). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "description": "Mattermost v10.12 release contains multiple new quality of life improvements. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v10-changelog.html"
