@@ -10,7 +10,7 @@ Notices are modals that appear in-product when users meet certain criteria as de
 
 ## Notice Conditions
 
-Notices can be triggered on the following conditions:
+Notices can be triggered on the following conditions. See [schema](https://github.com/mattermost/notices/blob/master/notices.schema.json) for syntax:
 
 - **External Dependency**: If an external dependency is going to be deprecated for a certain version.
 
@@ -20,15 +20,15 @@ Notices can be triggered on the following conditions:
 
 - **Client Type** (desktop, web, all): default "all" if not specified. Mobile client targeting is not supported yet.
 
-- **Desktop Version** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.3rfcbukbair) for syntax): default all if not specified.
+- **Desktop Version**: Default "all" if not specified.
 
-- **Server Version** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.j2dh2p8pljjh) for syntax): default "all" if not specified. Only server versions v5.28 and later can be targeted. If targeting cloud instances with your notice, the server version condition is ignored.
+- **Server Version**: Default "all" if not specified. Only server versions v5.28 and later can be targeted. If targeting cloud instances with your notice, the server version condition is ignored.
 
-- **Display Date** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.ytgiix2d4t2o) for syntax): default "all" if not specified.
+- **Display Date**: Default "all" if not specified.
 
-- **Instance Type** (see [cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C#heading=h.xmdvclunh3tg) for syntax): default "both" if not specified.
+- **Instance Type**: Default "both" if not specified.
 
-- **Server Configuration**: Not available yet.
+- **Server Configuration**: If server configuration settings match specific values. 
 
 - **User Account Configuration**: Not available yet.
 
@@ -39,8 +39,6 @@ Notices can be triggered on the following conditions:
 - **Number of Users**: Not available yet.
 
 Resources:
-
-- [Condition cheat sheet](https://docs.google.com/document/d/1aqBGdeNeOqB8OQQivgBA7avTL2yngE4QEBapSmH3hrE/edit?ts=5f7752c9%5C)
 
 - [Notices schema](https://github.com/mattermost/notices/blob/master/notices.schema.json)
 
