@@ -231,7 +231,7 @@
     "localizedMessages": {
       "en": {
         "title": "Transitioning from certificate-based authentication in Mattermost v11",
-        "description": "Experimental certificate-based authentication feature will be removed. ``ExperimentalSettings.ClientSideCertEnable`` must be ``false`` to start the server.",
+        "description": "Experimental certificate-based authentication feature is removed in Mattermost v11.0. ``ExperimentalSettings.ClientSideCertEnable`` must be ``false`` to start the server.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/product-overview/deprecated-features.html"
