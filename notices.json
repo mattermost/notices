@@ -206,13 +206,14 @@
       "audience": "sysadmin",
       "serverVersion": ["<11.0"],
       "displayDate": ">= 2025-10-16T00:00:00Z",
-      "serverConfig": { "EnableSearching": "true" }
-      "serverConfig": { "DisableDatabaseSearch": "true" }
+      "serverConfig": {
+        "EnableSearching": "true",
+        "DisableDatabaseSearch": "true"
     },
     "localizedMessages": {
       "en": {
         "title": "Transitioning from Bleve Search in Mattermost v11",
-        "description": "Experimental Bleve Search functionality is retired in Mattermost v11.0. If Bleve is enabled, search will not work until DisableDatabaseSearch is set to false. See more details in this [forum post](https://forum.mattermost.com/t/transitioning-from-bleve-search-in-mattermost-v11/22982).",
+        "description": "Experimental Bleve Search functionality is retired in Mattermost v11.0. If Bleve is enabled, search will not work until ``DisableDatabaseSearch`` is set to ``false``. See more details in this [forum post](https://forum.mattermost.com/t/transitioning-from-bleve-search-in-mattermost-v11/22982).",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://forum.mattermost.com/t/transitioning-from-bleve-search-in-mattermost-v11/22982"
@@ -230,7 +231,7 @@
     "localizedMessages": {
       "en": {
         "title": "Transitioning from certificate-based authentication in Mattermost v11",
-        "description": "Experimental certificate-based authentication feature will be removed. ExperimentalSettings.ClientSideCertEnable must be false to start the server.",
+        "description": "Experimental certificate-based authentication feature will be removed. ``ExperimentalSettings.ClientSideCertEnable`` must be ``false`` to start the server.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/product-overview/deprecated-features.html"
