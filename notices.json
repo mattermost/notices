@@ -208,7 +208,7 @@
       "displayDate": ">= 2025-10-16T00:00:00Z",
       "serverConfig": {
         "EnableSearching": "true",
-        "DisableDatabaseSearch": "true"
+        "DisableDatabaseSearch": "true" }
     },
     "localizedMessages": {
       "en": {
