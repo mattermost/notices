@@ -207,7 +207,7 @@
       "serverVersion": ["<11.0"],
       "serverConfig": {
         "BleveSettings.EnableSearching": "true",
-        "SqlSettings.DisableDatabaseSearch": "true"
+        "SqlSettings.DisableDatabaseSearch": "false"
       }
     },
     "localizedMessages": {
