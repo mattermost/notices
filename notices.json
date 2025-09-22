@@ -205,7 +205,10 @@
     "conditions": {
       "audience": "sysadmin",
       "serverVersion": ["<11.0"],
-      "serverConfig": { "BleveSettings.EnableSearching": "true", "SqlSettings.DisableDatabaseSearch": "true" }
+      "serverConfig": {
+        "BleveSettings.EnableSearching": "true",
+        "SqlSettings.DisableDatabaseSearch": "true"
+      }
     },
     "localizedMessages": {
       "en": {
