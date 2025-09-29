@@ -222,7 +222,7 @@
     "conditions": {
       "audience": "sysadmin",
       "serverVersion": ["<11.0"],
-      "serverConfig": { "ExperimentalSettings.ClientSideCertEnable": "true" }
+      "serverConfig": { "ExperimentalSettings.ClientSideCertEnable": true }
     },
     "localizedMessages": {
       "en": {
