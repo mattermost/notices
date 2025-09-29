@@ -166,7 +166,7 @@
     "conditions": {
       "audience": "sysadmin",
       "serverVersion": ["<11.0"],
-      "serverConfig": { "BleveSettings.EnableSearching": "true", "SqlSettings.DisableDatabaseSearch": "true" }
+      "serverConfig": { "BleveSettings.EnableSearching": true, "SqlSettings.DisableDatabaseSearch": true }
     },
     "localizedMessages": {
       "en": {
@@ -183,7 +183,7 @@
     "conditions": {
       "audience": "sysadmin",
       "serverVersion": ["<11.0"],
-      "serverConfig": { "ExperimentalSettings.ClientSideCertEnable": "true" }
+      "serverConfig": { "ExperimentalSettings.ClientSideCertEnable": true }
     },
     "localizedMessages": {
       "en": {
