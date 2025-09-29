@@ -201,6 +201,40 @@
     }
   },
   {
+    "id": "bleve_deprecation",
+    "conditions": {
+      "audience": "sysadmin",
+      "serverVersion": ["<11.0"],
+      "serverConfig": { "BleveSettings.EnableSearching": true, "SqlSettings.DisableDatabaseSearch": true }
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Transitioning from Bleve Search in Mattermost v11",
+        "description": "Experimental search functionality using [Bleve](https://docs.mattermost.com/administration-guide/configure/bleve-search.html) will be deprecated in Mattermost v11.0. We recommend configuring ``DisableDatabaseSearch`` to ``false`` before upgrading to avoid search issues. See more details in this [forum post](https://forum.mattermost.com/t/transitioning-from-bleve-search-in-mattermost-v11/22982).",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
+        "actionText": "Learn more",
+        "actionParam": "https://forum.mattermost.com/t/transitioning-from-bleve-search-in-mattermost-v11/22982"
+      }
+    }
+  },
+  {
+    "id": "certificate_deprecation",
+    "conditions": {
+      "audience": "sysadmin",
+      "serverVersion": ["<11.0"],
+      "serverConfig": { "ExperimentalSettings.ClientSideCertEnable": true }
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Transitioning from certificate-based authentication in Mattermost v11",
+        "description": "Experimental [certificate-based authentication](https://docs.mattermost.com/administration-guide/onboard/certificate-based-authentication.html) will be deprecated in Mattermost v11.0. We recommend configuring ``ExperimentalSettings.ClientSideCertEnable`` to ``false`` before upgrading to be able to start the server.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
+        "actionText": "Learn more",
+        "actionParam": "https://docs.mattermost.com/product-overview/deprecated-features.html"
+      }
+    }
+  },
+  {
     "id": "unsupported-server-v5.37",
     "conditions": {
       "audience": "sysadmin",
