@@ -68,44 +68,6 @@
     }
   },
   {
-    "id": "server_upgrade_v10.12",
-    "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "serverVersion": ["<10.12"],
-      "instanceType": "onprem",
-      "displayDate": ">= 2025-09-16T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Mattermost 10.12 is here!",
-        "description": "Mattermost v10.12 release contains multiple new quality of life improvements. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v10-changelog.html"
-      }
-    }
-  },
-  {
-    "id": "server_upgrade_v11",
-    "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "serverVersion": ["<10.12"],
-      "instanceType": "onprem",
-      "displayDate": ">= 2025-10-16T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Mattermost 11.0 is here!",
-        "description": "Mattermost v11.0 major release contains multiple new quality of life improvements, including [Entry SKU](https://docs.mattermost.com/product-overview/editions-and-offerings.html#mattermost-entry), [Admin-managed properties for Custom Profile Attributes](https://docs.mattermost.com/administration-guide/manage/admin/user-attributes.html#admin-managed-vs-user-editable-attributes), [FIPS v1](https://docs.mattermost.com/deployment-guide/server/deploy-containers.html), [Channel Admin Policy Controls](https://docs.mattermost.com/administration-guide/manage/admin/abac-channel-access-rules.html), as well as [several breaking changes and deprecations](https://docs.mattermost.com/upgrade/important-upgrade-notes.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
-        "image": "https://github.com/mattermost/notices/blob/master/images/server_upgrade.png",
-        "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v11-changelog.html"
-      }
-    }
-  },
-  {
     "id": "server_upgrade_v7.10-1",
     "conditions": {
       "audience": "sysadmin",
