@@ -91,14 +91,14 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": [">= 10.5.0 <=10.5.11"],
+      "serverVersion": [">= 10.5.0 <=10.5.12"],
       "instanceType": "onprem",
-      "displayDate": ">= 2025-10-16T00:00:00Z"
+      "displayDate": ">= 2025-10-28T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.5.12 is now available",
-        "description": "Mattermost v10.5.12 Extended Support Release contains low to high severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) is recommended.",
+        "title": "Mattermost 10.5.13 is now available",
+        "description": "Mattermost v10.5.13 Extended Support Release contains Critical severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release as soon as possible is highly recommended.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
@@ -110,14 +110,14 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": [">= 10.11.0 <=10.11.3"],
+      "serverVersion": [">= 10.11.0 <=10.11.4"],
       "instanceType": "onprem",
-      "displayDate": ">= 2025-10-16T00:00:00Z"
+      "displayDate": ">= 2025-10-28T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.11.4 is now available",
-        "description": "Mattermost v10.11.4 Extended Support Release contains low to high severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) is recommended.",
+        "title": "Mattermost 10.11.5 is now available",
+        "description": "Mattermost v10.11.5 Extended Support Release contains Critical severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release as soon as possible is highly recommended.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
