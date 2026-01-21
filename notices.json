@@ -87,18 +87,18 @@
     }
     },
     {
-    "id": "server_upgrade_v11.2",
+    "id": "server_upgrade_v11.3",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<11.2"],
+      "serverVersion": ["<11.3"],
       "instanceType": "onprem",
-      "displayDate": ">= 2025-12-30T00:00:00Z"
+      "displayDate": ">= 2026-01-20T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 11.2 is here!",
-        "description": "Mattermost v11.2 release contains multiple new quality of life improvements, including [Multi-Window Threads](https://docs.mattermost.com/end-user-guide/collaborate/organize-conversations.html#start-or-reply-to-threads) and Channel Checklists. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 11.3 is here!",
+        "description": "Mattermost v11.3 release contains multiple new quality of life improvements, including  burn-on-read messages, [easy login](https://docs.mattermost.com/end-user-guide/access/access-your-workspace.html#magic-link-login-for-guests), Agents MCP universal connector, web search (OpenAI, Anthropic), Korean language support, and multi-windows plugins right-hand side. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v11-changelog.html"
@@ -129,14 +129,14 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": [">= 10.11.0 <=10.11.8"],
+      "serverVersion": [">= 10.11.0 <=10.11.9"],
       "instanceType": "onprem",
-      "displayDate": ">= 2025-12-30T00:00:00Z"
+      "displayDate": ">= 2026-01-21T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.11.9 is now available",
-        "description": "Mattermost v10.11.9 Extended Support Release contains low to medium severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
+        "title": "Mattermost 10.11.10 is now available",
+        "description": "Mattermost v10.11.10 Extended Support Release contains low to medium severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
