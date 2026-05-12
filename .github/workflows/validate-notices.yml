@@ -1,0 +1,46 @@
+name: Validate Notices PR
+ 
+on:
+  pull_request:
+    branches:
+      - master
+    paths:
+      - 'notices.json'
+      - 'notices.schema.json'
+      - 'scripts/**'
+ 
+jobs:
+  validate:
+    name: Validate notices.json
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+ 
+    steps:
+      - name: Checkout PR branch (with base branch history for diffing)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Full history so scripts can diff against base
+ 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+ 
+      - name: Install dependencies
+        run: npm install ajv ajv-formats
+ 
+      # ── 1. JSON schema validation ────────────────────────────────────────────
+      - name: Schema validation
+        run: node scripts/validate-schema.js
+ 
+      # ── 2. Duplicate ID check ────────────────────────────────────────────────
+      - name: Duplicate ID check
+        run: node scripts/check-duplicate-ids.js --base origin/master
+ 
+      # ── 3. URL reachability ──────────────────────────────────────────────────
+      - name: URL reachability check
+        run: node scripts/check-urls.js
+        
