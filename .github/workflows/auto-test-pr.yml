@@ -1,0 +1,49 @@
+name: Auto-create test PR on master
+ 
+on:
+  pull_request:
+    types: [opened, reopened]
+    branches:
+      - release
+ 
+jobs:
+  create-test-pr:
+    name: Mirror PR against master
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+ 
+    steps:
+      - name: Create test PR against master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE:  ${{ github.event.pull_request.title }}
+          HEAD_BRANCH: ${{ github.event.pull_request.head.ref }}
+          PR_URL:    ${{ github.event.pull_request.html_url }}
+          REPO:      ${{ github.repository }}
+        run: |
+          gh pr create \
+            --repo "$REPO" \
+            --head "$HEAD_BRANCH" \
+            --base master \
+            --title "[Test] $PR_TITLE" \
+            --body "$(cat <<EOF
+          Automated test PR for #$PR_NUMBER.
+ 
+          Merging this into \`master\` will mirror the notices to:
+          https://notices.mattermost.com/pre-release/notices.json
+ 
+          **Original release PR:** $PR_URL
+ 
+          ---
+          To test on a server, run:
+          \`\`\`
+          /cloud upgrade <your-server> \\
+            --env MM_AnnouncementSettings_NoticesURL=https://notices.mattermost.com/pre-release/notices.json \\
+            --env MM_AnnouncementSettings_NoticesFetchFrequency=60
+          \`\`\`
+          EOF
+          )"
+          
