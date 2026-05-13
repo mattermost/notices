@@ -110,14 +110,14 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": [">= 10.11.0 <=10.11.14"],
+      "serverVersion": [">= 10.11.0 <=10.11.16"],
       "instanceType": "onprem",
-      "displayDate": ">= 2026-04-22T00:00:00Z"
+      "displayDate": ">= 2026-05-13T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.11.15 is now available",
-        "description": "Mattermost v10.11.15 Extended Support Release contains medium to high severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
+        "title": "Mattermost 10.11.17 is now available",
+        "description": "Mattermost v10.11.17 Extended Support Release contains medium to high severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
