@@ -68,18 +68,18 @@
     }
   },
   {
-    "id": "server_upgrade_v11.6",
+    "id": "server_upgrade_v11.7",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<11.6"],
+      "serverVersion": ["<11.7"],
       "instanceType": "onprem",
-      "displayDate": ">= 2026-04-16T00:00:00Z"
+      "displayDate": ">= 2026-05-15T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 11.6 is here!",
-        "description": "Mattermost v11.6 release contains multiple new quality of life improvements, including [ID-Based URLs](https://docs.mattermost.com/end-user-guide/collaborate/rename-channels.html), [Multi-Window Right-Hand Side Search](https://docs.mattermost.com/end-user-guide/collaborate/search-for-messages.html#search-for-message), and [Single-Channel Guests Reporting](https://docs.mattermost.com/administration-guide/onboard/guest-accounts.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 11.7 is here!",
+        "description": "Mattermost v11.7 Extended Support Release contains multiple new quality of life improvements, including [ABAC for Team Admins](https://docs.mattermost.com/administration-guide/manage/admin/attribute-based-access-control.html), [ABAC: File Permissions](https://docs.mattermost.com/administration-guide/manage/admin/attribute-based-access-control.html), [Agents v2.0](https://docs.mattermost.com/end-user-guide/agents.html), Multi-Window Pop-outs: Channels, [Streamlined Channel Sharing](https://docs.mattermost.com/administration-guide/onboard/connected-workspaces.html), and [Elasticsearch 9.0 Support](https://docs.mattermost.com/administration-guide/scale/enterprise-search.html#elasticsearch). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v11-changelog.html"
