@@ -20,7 +20,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_TITLE:  ${{ github.event.pull_request.title }}
-          HEAD_BRANCH: ${{ github.event.pull_request.head.ref }}
+          HEAD_BRANCH: ${{ github.event.pull_request.head.label }}
           PR_URL:    ${{ github.event.pull_request.html_url }}
           REPO:      ${{ github.repository }}
         run: |
@@ -46,4 +46,3 @@ jobs:
           \`\`\`
           EOF
           )"
-          
