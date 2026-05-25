@@ -62,15 +62,9 @@ if (baseResult.status === 0) {
   const current  = new Set(notices.map(n => n.id));
   const newIds   = [...current].filter(id => !baseIds.has(id));
  
-  // Detect IDs that appear in BOTH base and current but were not on base
-  // (shouldn't normally happen after the dedup check above, but catches
-  // concurrent PR merges where two PRs independently add the same ID)
-  const addedOnBase = baseNotices
-    .filter(n => !current.has(n.id))  // removed in this PR
-    .map(n => n.id);
-  const conflicts = newIds.filter(id =>
-    baseNotices.some(n => n.id === id)
-  );
+  // Detect IDs added in this PR that already exist on the base branch
+  // (catches concurrent PR merges where two PRs independently add the same ID)
+  const conflicts = newIds.filter(id => baseIds.has(id));
   if (conflicts.length > 0) {
     console.warn(`⚠️  ID(s) added in this PR already exist on ${BASE_REF}: ${conflicts.join(', ')}`);
     console.warn('   This may indicate a merge conflict. Please review.');
@@ -80,4 +74,3 @@ if (baseResult.status === 0) {
     console.log(`ℹ️  New notice ID(s) introduced: ${newIds.join(', ')}`);
   }
 }
- 
