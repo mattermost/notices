@@ -35,6 +35,11 @@ const ajv = new Ajv({ allErrors: true });
 addFormats(ajv);
 const validate = ajv.compile(schema);
  
+if (!Array.isArray(notices)) {
+  console.error('❌ notices.json must be a JSON array at the top level.');
+  process.exit(1);
+}
+ 
 if (validate(notices)) {
   console.log(`✅ notices.json is valid (${notices.length} notice(s) checked).`);
   process.exit(0);
