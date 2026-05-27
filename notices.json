@@ -101,7 +101,7 @@
         "description": "Mattermost v11.7.2 Extended Support Release contains Medium severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
+        "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v11-changelog.html"
       }
     }
   },
@@ -120,7 +120,7 @@
         "description": "Mattermost v10.11.19 Extended Support Release contains Medium severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
+        "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v10-changelog.html"
       }
     }
   },
