@@ -10,14 +10,17 @@ jobs:
   create-test-pr:
     name: Mirror PR against master
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
+    # No 'permissions' block — GITHUB_TOKEN is not used here.
+    # A PAT is required because the org policy prevents Actions from
+    # creating PRs via the default GITHUB_TOKEN identity.
  
     steps:
       - name: Create test PR against master
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # NOTICES_BOT_PAT must be set in repo Settings → Secrets and variables → Actions.
+          # The PAT needs: repo scope (or pull_requests:write + contents:read for fine-grained).
+          # It must belong to a user/account that has write access to this repo.
+          GH_TOKEN: ${{ secrets.NOTICES_BOT_PAT }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_TITLE:  ${{ github.event.pull_request.title }}
           HEAD_BRANCH: ${{ github.event.pull_request.head.label }}
