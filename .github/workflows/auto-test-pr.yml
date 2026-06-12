@@ -1,0 +1,81 @@
+name: Auto-create test PR on master
+ 
+on:
+  pull_request:
+    types: [opened, reopened]
+    branches:
+      - release
+ 
+jobs:
+  create-test-pr:
+    name: Prepare test branch for master
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # push the cherry-pick branch
+      pull-requests: write  # comment on the release PR
+ 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          fetch-depth: 0              # full history needed for cherry-pick
+          persist-credentials: false  # credentials set explicitly in the run step below
+ 
+      - name: Cherry-pick PR commits onto a fresh master branch
+        env:
+          GH_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE:  ${{ github.event.pull_request.title }}
+          PR_URL:    ${{ github.event.pull_request.html_url }}
+          HEAD_REF:  ${{ github.event.pull_request.head.ref }}
+          BASE_REF:  ${{ github.event.pull_request.base.ref }}
+          REPO:      ${{ github.repository }}
+        run: |
+          set -e
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+ 
+          # Authenticate git for push (credentials not persisted by checkout above)
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git"
+ 
+          # Commits unique to this PR (oldest-first, not already on release)
+          COMMITS=$(git log --reverse --format="%H" "origin/${BASE_REF}..origin/${HEAD_REF}")
+ 
+          if [ -z "$COMMITS" ]; then
+            echo "ℹ️  No commits to cherry-pick — skipping."
+            exit 0
+          fi
+ 
+          # Create a clean branch off master (delete first if it exists from a prior run)
+          TEST_BRANCH="test-pr-${PR_NUMBER}"
+          git push origin --delete "$TEST_BRANCH" 2>/dev/null || true
+          git checkout -b "$TEST_BRANCH" origin/master
+ 
+          # Cherry-pick each PR commit onto the clean master-based branch
+          for COMMIT in $COMMITS; do
+            echo "Cherry-picking ${COMMIT}…"
+            if ! git cherry-pick "$COMMIT"; then
+              git cherry-pick --abort 2>/dev/null || true
+              gh pr comment "$PR_NUMBER" --repo "$REPO" \
+                --body "⚠️ Could not prepare a test branch: cherry-picking commit \`${COMMIT}\` onto \`master\` produced conflicts. Please create the test PR manually."
+              exit 1
+            fi
+          done
+ 
+          # Push the cherry-picked branch
+          git push origin "$TEST_BRANCH"
+ 
+          # Comment on the release PR with a one-click link to open the test PR
+          gh pr comment "$PR_NUMBER" --repo "$REPO" \
+            --body "✅ Test branch \`${TEST_BRANCH}\` is ready against \`master\`.
+ 
+          **[Click here to open the test PR →](https://github.com/${REPO}/compare/master...${TEST_BRANCH}?expand=1)**
+ 
+          Once the test PR is merged, run:
+          \`\`\`
+          /cloud upgrade <your-server> \\
+            --env MM_AnnouncementSettings_NoticesURL=https://notices.mattermost.com/pre-release/notices.json \\
+            --env MM_AnnouncementSettings_NoticesFetchFrequency=60
+          \`\`\`
+ 
+          Original release PR: ${PR_URL}"
