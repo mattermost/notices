@@ -16,9 +16,10 @@ jobs:
  
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
         with:
-          fetch-depth: 0   # full history needed for cherry-pick
+          fetch-depth: 0              # full history needed for cherry-pick
+          persist-credentials: false  # credentials set explicitly in the run step below
  
       - name: Cherry-pick PR commits onto a fresh master branch
         env:
@@ -33,6 +34,9 @@ jobs:
           set -e
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
+ 
+          # Authenticate git for push (credentials not persisted by checkout above)
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git"
  
           # Commits unique to this PR (oldest-first, not already on release)
           COMMITS=$(git log --reverse --format="%H" "origin/${BASE_REF}..origin/${HEAD_REF}")
