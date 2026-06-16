@@ -68,18 +68,18 @@
     }
   },
   {
-    "id": "server_upgrade_v11.7",
+    "id": "server_upgrade_v11.8",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<11.7"],
+      "serverVersion": ["<11.8"],
       "instanceType": "onprem",
-      "displayDate": ">= 2026-05-15T00:00:00Z"
+      "displayDate": ">= 2026-06-16T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 11.7 is here!",
-        "description": "Mattermost v11.7 Extended Support Release contains multiple new quality of life improvements, including [ABAC for Team Admins](https://docs.mattermost.com/administration-guide/manage/admin/attribute-based-access-control.html), [ABAC File Permissions](https://docs.mattermost.com/administration-guide/manage/admin/attribute-based-access-control.html), [Agents v2.0](https://docs.mattermost.com/end-user-guide/agents.html), Multi-Window Pop-outs for Channels, [Streamlined Channel Sharing](https://docs.mattermost.com/administration-guide/onboard/connected-workspaces.html), and [Elasticsearch 9.0 Support](https://docs.mattermost.com/administration-guide/scale/enterprise-search.html#elasticsearch). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 11.8 is here!",
+        "description": "Mattermost v11.8 contains multiple new quality of life improvements, including [Classification Markings: Channel Banners](https://docs.mattermost.com/end-user-guide/collaborate/display-channel-banners.html), [Data Spillage: Report](https://docs.mattermost.com/administration-guide/manage/admin/content-flagging.html), [Managed Sidebar Categories](https://docs.mattermost.com/end-user-guide/preferences/customize-your-channel-sidebar.html), and [Mobile Ephemeral Mode: Milestone 1 (Offline Purge)](https://docs.mattermost.com/security-guide/mobile-security.html#app-sandboxing-and-secure-data-storage) [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v11-changelog.html"
