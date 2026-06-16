@@ -68,25 +68,6 @@
     }
   },
   {
-    "id": "server_upgrade_v11.8",
-    "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "serverVersion": ["<11.8"],
-      "instanceType": "onprem",
-      "displayDate": ">= 2026-06-16T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Mattermost 11.8 is here!",
-        "description": "Mattermost v11.8 contains multiple new quality of life improvements, including [Classification Markings: Channel Banners](https://docs.mattermost.com/end-user-guide/collaborate/display-channel-banners.html), [Data Spillage: Report](https://docs.mattermost.com/administration-guide/manage/admin/content-flagging.html), [Managed Sidebar Categories](https://docs.mattermost.com/end-user-guide/preferences/customize-your-channel-sidebar.html), and [Mobile Ephemeral Mode: Milestone 1 (Offline Purge)](https://docs.mattermost.com/security-guide/mobile-security.html#app-sandboxing-and-secure-data-storage) [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v11-changelog.html"
-      }
-    }
-  },
-  {
     "id": "patch_upgrade",
     "conditions": {
       "audience": "sysadmin",
@@ -121,6 +102,25 @@
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v10-changelog.html"
+        }
+    }
+  },
+  {
+    "id": "server_upgrade_v11.8",
+    "conditions": {
+      "audience": "sysadmin",
+      "clientType": "all",
+      "serverVersion": ["<11.8"],
+      "instanceType": "onprem",
+      "displayDate": ">= 2026-06-16T00:00:00Z"
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "Mattermost 11.8 is here!",
+        "description": "Mattermost v11.8 contains multiple new quality of life improvements, including [Classification Markings: Channel Banners](https://docs.mattermost.com/end-user-guide/collaborate/display-channel-banners.html), [Data Spillage: Report](https://docs.mattermost.com/administration-guide/manage/admin/content-flagging.html), [Managed Sidebar Categories](https://docs.mattermost.com/end-user-guide/preferences/customize-your-channel-sidebar.html), and [Mobile Ephemeral Mode: Milestone 1 (Offline Purge)](https://docs.mattermost.com/security-guide/mobile-security.html#app-sandboxing-and-secure-data-storage) [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
+        "actionText": "Learn more",
+        "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v11-changelog.html"
       }
     }
   },
