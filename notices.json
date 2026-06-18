@@ -72,14 +72,14 @@
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": [">= 11.7.0 <=11.7.3"],
+      "serverVersion": [">= 11.7.0 <=11.7.4"],
       "instanceType": "onprem",
-      "displayDate": ">= 2026-06-17T00:00:00Z"
+      "displayDate": ">= 2026-06-18T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 11.7.4 is now available",
-        "description": "Mattermost v11.7.4 Extended Support Release contains Medium severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
+        "title": "Mattermost 11.7.5 is now available",
+        "description": "Mattermost v11.7.5 Extended Support Release contains various fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v11-changelog.html"
