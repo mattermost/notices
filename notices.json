@@ -251,5 +251,26 @@
         "actionParam": "https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=notification-upgrade&utm_id=nov-notifications&utm_content=notification-upgrade"
       }
     }
+  },
+  {
+    "id": "atmoscamo-deprecation-v12",
+    "conditions": {
+      "audience": "sysadmin",
+      "instanceType": "onprem",
+      "serverVersion": ["<12.0"],
+      "serverConfig": {
+        "ImageProxySettings.ImageProxyType": "atmos/camo"
+      }
+    },
+    "localizedMessages": {
+      "en": {
+        "title": "atmos/camo image proxy support ending in v12.0",
+        "description": "Starting with **Mattermost v12.0 (October 2026)**, `atmos/camo` will no longer be supported as an image proxy. The `atmos/camo` project will be archived and will no longer be maintained.\n\nIf your `config.json` still has `ImageProxySettings.ImageProxyType` set to `atmos/camo`, your server will log a configuration error on startup and fail to start once you upgrade to v12.0. The `RemoteImageProxyURL` and `RemoteImageProxyOptions` settings will also be removed and ignored.\n\n**Before upgrading**, update your configuration:\n- Switch to the built-in **local** image proxy (set `ImageProxySettings.ImageProxyType` to `local`) — no external service required, and it includes SVG content blocking and security response headers.\n- Or disable the image proxy entirely (set `ImageProxySettings.Enable` to `false`) if you don't need it.",
+        "image": "",
+        "action": "url",
+        "actionText": "Read the migration guide",
+        "actionParam": "https://forum.mattermost.com/t/starting-with-mattermost-v12-0-october-2026-atmos-camo-is-no-longer-supported-as-an-image-proxy/25980"
+      }
+    }
   }
 ]
