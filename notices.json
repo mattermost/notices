@@ -68,7 +68,7 @@
     }
   },
   {
-    "id": "patch_upgrade",
+    "id": "patch_upgrade_11_7_7",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
@@ -106,7 +106,7 @@
     }
   },
   {
-    "id": "patch_upgrade2",
+    "id": "patch_upgrade_10_11_22",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
