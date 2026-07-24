@@ -9,9 +9,12 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
+      uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0
       with:
-        node-version: '14'
+        persist-credentials: false
+
+    - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020  # v7.0.0
+      with:
+        node-version: '20'
     - run: npm install -g ajv-cli
     - run: ajv validate -s notices.schema.json -d notices.json | tee ajv-out.txt
