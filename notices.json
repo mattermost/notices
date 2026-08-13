@@ -106,18 +106,18 @@
     }
   },
   {
-    "id": "patch_upgrade_10_11_22",
+    "id": "patch_upgrade_10_11_23",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": [">= 10.11.0 <=10.11.21"],
+      "serverVersion": [">= 10.11.0 <=10.11.22"],
       "instanceType": "onprem",
-      "displayDate": ">= 2026-07-17T00:00:00Z"
+      "displayDate": ">= 2026-08-13T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.11.22 is now available",
-        "description": "Mattermost v10.11.22 Extended Support Release contains Low to High severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
+        "title": "Mattermost 10.11.23 is now available",
+        "description": "Mattermost v10.11.23 Extended Support Release contains Low to High severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v10-changelog.html"
