@@ -106,25 +106,6 @@
     }
   },
   {
-    "id": "patch_upgrade_10_11_23",
-    "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "serverVersion": [">= 10.11.0 <=10.11.22"],
-      "instanceType": "onprem",
-      "displayDate": ">= 2026-08-13T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Mattermost 10.11.23 is now available",
-        "description": "Mattermost v10.11.23 Extended Support Release contains Low to High severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v10-changelog.html"
-      }
-    }
-  },
-  {
     "id": "crt-admin-disabled",
     "conditions": {
       "audience": "sysadmin",
@@ -197,58 +178,6 @@
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/crt.gif",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/channels/organize-conversations.html"
-      }
-    }
-  },
-  {
-    "id": "bleve_deprecation",
-    "conditions": {
-      "audience": "sysadmin",
-      "serverVersion": ["<11.0"],
-      "serverConfig": { "BleveSettings.EnableSearching": true, "SqlSettings.DisableDatabaseSearch": true }
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Transitioning from Bleve Search in Mattermost v11",
-        "description": "Experimental search functionality using [Bleve](https://docs.mattermost.com/administration-guide/configure/bleve-search.html) will be deprecated in Mattermost v11.0. We recommend configuring ``DisableDatabaseSearch`` to ``false`` before upgrading to avoid search issues. See more details in this [forum post](https://forum.mattermost.com/t/transitioning-from-bleve-search-in-mattermost-v11/22982).",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Learn more",
-        "actionParam": "https://forum.mattermost.com/t/transitioning-from-bleve-search-in-mattermost-v11/22982"
-      }
-    }
-  },
-  {
-    "id": "certificate_deprecation",
-    "conditions": {
-      "audience": "sysadmin",
-      "serverVersion": ["<11.0"],
-      "serverConfig": { "ExperimentalSettings.ClientSideCertEnable": true }
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Transitioning from certificate-based authentication in Mattermost v11",
-        "description": "Experimental [certificate-based authentication](https://docs.mattermost.com/administration-guide/onboard/certificate-based-authentication.html) will be deprecated in Mattermost v11.0. We recommend configuring ``ExperimentalSettings.ClientSideCertEnable`` to ``false`` before upgrading to be able to start the server.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/product-overview/deprecated-features.html"
-      }
-    }
-  },
-  {
-    "id": "unsupported-server-v5.37",
-    "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "instanceType": "onprem",
-      "serverVersion": ["<7.1"]
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Your Mattermost server version is unsupported. Upgrading is required",
-        "description": "You are on an unsupported Mattermost server version and it’s time to upgrade! [Read here](https://mattermost.com/blog/why-to-upgrade-mattermost-server/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=notification-why-upgrade-blog&utm_id=nov-notifications&utm_content=notification-why-upgrade-blog) on how we have improved server performance for Mattermost users, as well as why upgrading your Mattermost server ensures that you’re getting the latest new features, security fixes, and bug fixes.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Upgrade Now",
-        "actionParam": "https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=notification-upgrade&utm_id=nov-notifications&utm_content=notification-upgrade"
       }
     }
   },
