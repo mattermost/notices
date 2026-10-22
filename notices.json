@@ -68,130 +68,61 @@
     }
   },
   {
-    "id": "server_upgrade_v7.10-1",
+    "id": "patch_upgrade_11_7_14",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<7.10"],
+      "serverVersion": [">= 11.7.0 <=11.7.13"],
       "instanceType": "onprem",
-      "displayDate": ">= 2023-04-16T00:00:00Z"
+      "displayDate": ">= 2026-10-22T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 7.10 is here!",
-        "description": "Mattermost v7.10 includes medium severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/install/self-managed-changelog.html/?utm_source=inapp-self-hosted&utm_medium=popup&utm_campaign=mattermost-7-5-&utm_id=nov-notifications&utm_content=7-5-available"
-      }
-    }
-    },
-    {
-    "id": "server_upgrade_v11.6",
-    "conditions": {
-      "audience": "sysadmin",
-      "clientType": "all",
-      "serverVersion": ["<11.6"],
-      "instanceType": "onprem",
-      "displayDate": ">= 2026-04-28T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Mattermost 11.6 is here!",
-        "description": "Mattermost v11.6 release contains multiple new quality of life improvements, including [ID-Based URLs](https://docs.mattermost.com/end-user-guide/collaborate/rename-channels.html), [Multi-Window Right-Hand Side Search](https://docs.mattermost.com/end-user-guide/collaborate/search-for-messages.html#search-for-message), and [Single-Channel Guests Reporting](https://docs.mattermost.com/administration-guide/onboard/guest-accounts.html). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 11.7.14 is now available",
+        "description": "Mattermost v11.7.14 Extended Support Release contains Low to Medium severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v11-changelog.html"
       }
     }
-    },
-    {
-    "id": "patch_upgrade",
+  },
+  {
+    "id": "server_upgrade_v12.0",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": [">= 10.5.0 <=10.5.13"],
+      "serverVersion": ["<12.0"],
       "instanceType": "onprem",
-      "displayDate": ">= 2025-10-28T00:00:00Z"
+      "displayDate": ">= 2026-10-16T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 10.5.14 is now available",
-        "description": "Mattermost v10.5.14 Extended Support Release contains Critical severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release as soon as possible is highly recommended.",
+        "title": "Mattermost 12.0 is here!",
+        "description": "Mattermost v12.0 contains multiple new quality of life improvements, including [Attribute Management](https://docs.mattermost.com/administration-guide/manage/admin/attribute-management), [Ranked and Hierarchical Attributes](https://docs.mattermost.com/administration-guide/manage/admin/attribute-management#create-an-attribute), [Channel Attributes and Labels](https://docs.mattermost.com/administration-guide/manage/admin/channel-attributes), [Session Attributes](https://docs.mattermost.com/administration-guide/manage/admin/session-attributes), and [Improved DM Calls Experience](https://docs.mattermost.com/end-user-guide/collaborate/make-calls). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
+        "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v12-changelog.html"
       }
     }
   },
   {
-    "id": "patch_upgrade2",
+    "id": "atmoscamo-deprecation-v12",
     "conditions": {
       "audience": "sysadmin",
-      "clientType": "all",
-      "serverVersion": [">= 10.11.0 <=10.11.14"],
       "instanceType": "onprem",
-      "displayDate": ">= 2026-04-28T00:00:00Z"
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Mattermost 10.11.15 is now available",
-        "description": "Mattermost v10.11.15 Extended Support Release contains medium to high severity level security fixes. [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) to this release is recommended.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/about/mattermost-v10-changelog.html"
+      "serverVersion": ["<12.0"],
+      "serverConfig": {
+        "ImageProxySettings.ImageProxyType": "atmos/camo"
       }
-    }
-  },
-  {
-    "id": "desktop_upgrade_v5.7",
-    "conditions": {
-      "audience": "all",
-      "clientType": "desktop",
-      "desktopVersion": ["<5.7"],
-      "serverVersion": [">=6.0"]
     },
     "localizedMessages": {
       "en": {
-        "title": "New desktop version available",
-        "description": "Desktop App v5.7 includes various new improvements and bug fixes. See [the changelog](https://docs.mattermost.com/install/desktop-app-changelog.html) for more details.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/desktop_v5.0.gif",
-        "actionText": "Download",
-        "actionParam": "https://mattermost.com/download?inapp-notice=true#mattermostApps"
-      }
-    }
-  },
-    {
-    "id": "bleve_deprecation",
-    "conditions": {
-      "audience": "sysadmin",
-      "serverVersion": ["<11.0"],
-      "serverConfig": { "BleveSettings.EnableSearching": true, "SqlSettings.DisableDatabaseSearch": true }
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Transitioning from Bleve Search in Mattermost v11",
-        "description": "Experimental search functionality using [Bleve](https://docs.mattermost.com/administration-guide/configure/bleve-search.html) will be deprecated in Mattermost v11.0. We recommend configuring ``DisableDatabaseSearch`` to ``false`` before upgrading to avoid search issues. See more details in this [forum post](https://forum.mattermost.com/t/transitioning-from-bleve-search-in-mattermost-v11/22982).",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Learn more",
-        "actionParam": "https://forum.mattermost.com/t/transitioning-from-bleve-search-in-mattermost-v11/22982"
-      }
-    }
-  },
-  {
-    "id": "certificate_deprecation",
-    "conditions": {
-      "audience": "sysadmin",
-      "serverVersion": ["<11.0"],
-      "serverConfig": { "ExperimentalSettings.ClientSideCertEnable": true }
-    },
-    "localizedMessages": {
-      "en": {
-        "title": "Transitioning from certificate-based authentication in Mattermost v11",
-        "description": "Experimental [certificate-based authentication](https://docs.mattermost.com/administration-guide/onboard/certificate-based-authentication.html) will be deprecated in Mattermost v11.0. We recommend configuring ``ExperimentalSettings.ClientSideCertEnable`` to ``false`` before upgrading to be able to start the server.",
-        "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
-        "actionText": "Learn more",
-        "actionParam": "https://docs.mattermost.com/product-overview/deprecated-features.html"
+        "title": "atmos/camo image proxy support ending in v12.0",
+        "description": "Starting with **Mattermost v12.0 (October 2026)**, `atmos/camo` will no longer be supported as an image proxy. The `atmos/camo` project will be archived and will no longer be maintained.\n\nIf your `config.json` still has `ImageProxySettings.ImageProxyType` set to `atmos/camo`, your server will log a configuration error on startup and fail to start once you upgrade to v12.0. The `RemoteImageProxyURL` and `RemoteImageProxyOptions` settings will also be removed and ignored.\n\n**Before upgrading**, update your configuration:\n- Switch to the built-in **local** image proxy (set `ImageProxySettings.ImageProxyType` to `local`) — no external service required, and it includes SVG content blocking and security response headers.\n- Or disable the image proxy entirely (set `ImageProxySettings.Enable` to `false`) if you don't need it.",
+        "image": "",
+        "action": "url",
+        "actionText": "Read the migration guide",
+        "actionParam": "https://forum.mattermost.com/t/starting-with-mattermost-v12-0-october-2026-atmos-camo-is-no-longer-supported-as-an-image-proxy/25980"
       }
     }
   }
