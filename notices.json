@@ -213,7 +213,7 @@
     "localizedMessages": {
       "en": {
         "title": "Keep your Mattermost server secure: upgrade now",
-        "description": "Mattermost v10.11 ESR support ended on August 15, 2026, and v10 servers no longer receive security patches. Attackers are exploiting vulnerabilities faster than ever, and staying current is the best protection. Upgrade to v11.7.4 ESR or later.",
+        "description": "Mattermost v10.11 ESR support ended on August 15, 2026, and v10 servers no longer receive security patches. Attackers are exploiting vulnerabilities faster than ever, and staying current is the best protection. Upgrade to v11.7.15 ESR or later.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "action": "url",
         "actionText": "Read why upgrades matter",
