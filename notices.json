@@ -87,18 +87,18 @@
     }
   },
   {
-    "id": "server_upgrade_v12.0",
+    "id": "server_upgrade_v12.1",
     "conditions": {
       "audience": "sysadmin",
       "clientType": "all",
-      "serverVersion": ["<12.0"],
+      "serverVersion": ["<12.1"],
       "instanceType": "onprem",
-      "displayDate": ">= 2026-10-16T00:00:00Z"
+      "displayDate": ">= 2026-11-16T00:00:00Z"
     },
     "localizedMessages": {
       "en": {
-        "title": "Mattermost 12.0 is here!",
-        "description": "Mattermost v12.0 contains multiple new quality of life improvements, including [Attribute Management](https://docs.mattermost.com/administration-guide/manage/admin/attribute-management), [Ranked and Hierarchical Attributes](https://docs.mattermost.com/administration-guide/manage/admin/attribute-management#create-an-attribute), [Channel Attributes and Labels](https://docs.mattermost.com/administration-guide/manage/admin/channel-attributes), [Session Attributes](https://docs.mattermost.com/administration-guide/manage/admin/session-attributes), and [Improved DM Calls Experience](https://docs.mattermost.com/end-user-guide/collaborate/make-calls). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
+        "title": "Mattermost 12.1 is here!",
+        "description": "Mattermost v12.1 contains multiple new quality of life improvements, including [Bot Attributes](https://docs.mattermost.com/developers/integrate/reference/bot-accounts#bot-attributes) and [Burn-on-Read Permission Policies](https://docs.mattermost.com/administration-guide/manage/admin/abac-system-wide-policies#permission-policies). [Upgrading](https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html) only takes a few minutes.",
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "actionText": "Learn more",
         "actionParam": "https://docs.mattermost.com/product-overview/mattermost-v12-changelog.html"
