@@ -217,7 +217,7 @@
         "image": "https://raw.githubusercontent.com/mattermost/notices/master/images/server_upgrade.png",
         "action": "url",
         "actionText": "Read why upgrades matter",
-        "actionParam": "[blog URL]?utm_source=in_product&utm_medium=notice&utm_campaign=upgrade_advisory"
+        "actionParam": "https://mattermost.com/blog/why-keeping-up-with-mattermost-upgrades-matters-more-than-ever/?utm_source=in_product&utm_medium=notice&utm_campaign=upgrade_advisory"
       }
     }
   }
